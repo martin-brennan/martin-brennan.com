@@ -30,7 +30,7 @@ tags:
   - Tools
   - Web Development
 ---
-This article has been around for some time now, but I only recently discovered it. In [A Baseline For Frontend Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/), Rebecca outlines some essential skills that one requires to be successful as a frontend web developer in the current climate. What&#8217;s particularly interesting is how Rebecca highlights how much things have changed for frontend developers in recent years.
+This article has been around for some time now, but I only recently discovered it. In [A Baseline For Frontend Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/), Rebecca outlines some essential skills that one requires to be successful as a frontend web developer in the current climate. What&#8217;s particularly interesting is how Rebecca highlights how much things have changed for frontend developers in recent years.<!--more-->
 
 No longer is it enough to be able to use CSS and HTML and when it comes down to it, a little bit of JavaScript and jQuery. Now, to stay up to speed a developer is expected to have extensive knowledge of JavaScript, test-driven development, Git and GitHub, modularity and dependency management, production builds, the command line, preprocessors for CSS and process automation. Frontend development has evolved way beyond making simple websites; it has become its own form of software development, requiring much more specialised expertise and tools.
 

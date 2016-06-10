@@ -23,7 +23,7 @@ categories:
 
 {% include deprecated.html message="With the advent of ES6, Promises and the upcoming async/await, callback hell is nowhere near the big deal that it used to be." cssclass="deprecated" %}
 
-If you&#8217;ve ever written any Javascript that contacts or lives on the server, you&#8217;ve probably experienced [Callback Hell](http://callbackhell.com/) by now. It is a horrible affliction that Javascript can suffer from as a result of many nested callback functions that are triggered once a request has been completed. Often times, this results in a whole bunch of anonymous functions that make your Javascript nested 2^84 levels deep which causes a  lot of messiness and unreadability. There are a few simple ways you can avoid callback hell; you can read about them more in-depth with code examples by following the link but here is a good gist:
+If you&#8217;ve ever written any Javascript that contacts or lives on the server, you&#8217;ve probably experienced [Callback Hell](http://callbackhell.com/) by now. It is a horrible affliction that Javascript can suffer from as a result of many nested callback functions that are triggered once a request has been completed. Often times, this results in a whole bunch of anonymous functions that make your Javascript nested 2^84 levels deep which causes a lot of messiness and unreadability. There are a few simple ways you can avoid callback hell; you can read about them more in-depth with code examples by following the link but here is a good gist<!--more-->:
 
 **Name your functions!** &#8211;Having named functions makes your code much easier to read and keep track of, especially when debugging or making changes!</span>
 

@@ -28,7 +28,7 @@ tags:
 ---
 I just read this great article by Matt Sencenbaugh that details his experiences as a Junior Developer, and a list of what he wishes someone told him when he was first starting out. You can find the article here:
 
-[On Being A Junior Developer at mattsencenbaugh.com](http://mattsencenbaugh.com/on-being-a-junior-developer/)
+[On Being A Junior Developer at mattsencenbaugh.com](http://mattsencenbaugh.com/on-being-a-junior-developer/)<!--more-->
 
 I like reading stuff like this because I find it interesting to see other developer&#8217;s perspectives on being Junior, as I myself am one, having about 2 years of industry software development experience. I think the main point that Matt has written about is the necessity of planning. I&#8217;ve found that above all else, if you don&#8217;t take the time to plan out your application and how the different parts interact with one another, you are doomed to fail.
 
