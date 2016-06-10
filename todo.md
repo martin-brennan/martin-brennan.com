@@ -1,0 +1,7 @@
+- create new style
+- create layout document
+- set up SEO
+- set up google analytics
+- set up adsense
+- make sure permalinks are working
+- make sure images work correctly

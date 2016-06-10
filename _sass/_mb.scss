@@ -1,0 +1,179 @@
+/**
+ * Overrides for jekyll default styles and custom styling.
+ */
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+a {
+  font-weight: 700;
+  border-bottom: 2px solid $brand-color;
+
+  &:hover {
+    color: $brand-color;
+    text-decoration: none;
+  }
+
+  &:visited {
+    color: #176115;
+    border-color: #fff;
+  }
+
+  &.no-underline {
+    border-bottom: 0px !important;
+  }
+}
+
+
+h1.post-title {
+  font-family: $header-font-family;
+  font-weight: 700;
+  font-size: 180%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+h1.post-list-heading {
+  margin-bottom: 0;
+}
+
+img, video {
+  margin: 15px auto;
+  display: block;
+}
+
+.post-meta {
+  font-weight: 300;
+  text-align: center;
+  font-size: 86%;
+}
+
+blockquote {
+  font-style: normal;
+  padding-left: 30px;
+  font-size: 20px;
+  border-left: 0;
+  position: relative;
+  &:before {
+    content: "λ";
+    position: absolute;
+    left: 0px;
+    font-size: 16px;
+  }
+}
+
+h2, .post-content h2, h3, .post-content h3 {
+  position: relative;
+  font-size: 160%;
+  font-family: $header-font-family;
+  padding-left: 24px;
+
+  &:before {
+    content: ">";
+    position: absolute;
+    font-size: 120%;
+    color: $grey-color;
+    left: 0;
+  }
+}
+
+h3, .post-content h3 {
+  font-size: 130%;
+
+  &:before {
+    font-size: 100%;
+  }
+}
+
+.site-header {
+  border: 0;
+  img {
+    margin-bottom: 0;
+  }
+  margin-top: 45px;
+}
+
+.site-title {
+  font-family: $header-font-family;
+  font-size: 150%;
+}
+
+.alert {
+  padding: 10px 15px;
+  margin-bottom: 15px;
+
+  &.deprecated {
+    border: 1px solid peachpuff;
+    color: #ff9100;
+    background-color: rgba(255, 227, 156, 0.31);
+  }
+  &.danger {
+    border: 1px solid #ca1717;
+    color: #d60000;
+    background-color: rgba(255, 143, 143, 0.31);
+  }
+  &.info {
+    border: 1px solid #0f80ab;
+    color: #0f80ab;
+    background-color: rgba(143, 172, 255, 0.31);
+  }
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('/fonts/icomoon.eot?14jmb3');
+    src:    url('/fonts/icomoon.eot?14jmb3#iefix') format('embedded-opentype'),
+        url('/fonts/icomoon.ttf?14jmb3') format('truetype'),
+        url('/fonts/icomoon.woff?14jmb3') format('woff'),
+        url('/fonts/icomoon.svg?14jmb3#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-email:before {
+    content: "\e945";
+}
+.icon-facebook:before {
+    content: "\ea90";
+}
+.icon-twitter:before {
+    content: "\ea96";
+}
+.icon-comment:before {
+    content: "\e96b";
+}
+.icon-info:before {
+    content: "\ea0c";
+}
+
+.share, .share:visited {
+  border-bottom: 0px !important;
+  color: $text-color;
+
+  &.fb {
+    color: #3b5998;
+  }
+  &.tw {
+    color: #00aced;
+  }
+  &.cm {
+    color: #ef71dd;
+  }
+}
