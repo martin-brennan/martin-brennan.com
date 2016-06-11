@@ -17,7 +17,7 @@ layout: default
           <a class="share" href="mailto:?subject={{ post.title }} at martin-brennan.com"><span class="icon-email"></span></a>
         </span>
         <p>
-          {{ post.excerpt | remove: '<p>' | remove: '</p>' }} {% if post.excerpt != post.content %}<a href="{{ post.url | prepend: site.baseurl }}">read more...</a>{% endif %}
+          {{ post.excerpt }} {% if post.excerpt != post.content %}<a href="{{ post.url | prepend: site.baseurl }}">read more...</a>{% endif %}
         </p>
       </li>
     {% endfor %}

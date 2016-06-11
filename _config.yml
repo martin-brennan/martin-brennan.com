@@ -31,3 +31,4 @@ author: mjrbrennan
 comments: true
 excerpt_separator: <!--more-->
 paginate: 10
+future: true
