@@ -39,4 +39,4 @@ The problem, it turns out, lays with Microsoft&#8217;s ODBC Drivers:
 
 And the solution is to select the [FreeTDS](http://www.freetds.org/) ODBC Drivers in the first step of the migration wizard of MySQL Workbench. The migration then works perfectly with no further encoding complaints. I hope this helps someone else out with this frustrating problem!
 
-[<img src="http://www.martin-brennan.com/wp-content/uploads/2014/06/freetds-1024x574.png" alt="FreeTDS ODBC Drivers" width="1024" height="574" class="aligncenter size-large wp-image-481" />](http://www.martin-brennan.com/wp-content/uploads/2014/06/freetds.png)
+![FreeTDS](/images/freetds.png)

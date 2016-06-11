@@ -82,11 +82,11 @@ The easiest way to start an instance is to select one of the AMIs in the Quick S
 
 Anyway, go ahead and choose the Amazon Linux AMI, which will most likely be at the top of the list. You can either run a 64-bit or 32-bit instance; choose either one, it doesn’t really matter for our purposes right now.
 
-[<img class="aligncenter size-medium wp-image-42" title="Amazon Instance AMIs" alt="Amazon Instance AMIs" src="http://www.martin-brennan.com/wp-content/uploads/2012/07/amis-300x195.png" width="300" height="195" />](http://www.martin-brennan.com/wp-content/uploads/2012/07/amis.png)
+![amis](/images/amis-300x195.png)
 
 On the Instance Details step you can leave the settings as they are, just make that the instance type selected is “Micro”. On the next screen just leave the options at their defaults as well, then click continue.
 
-[<img class="aligncenter size-medium wp-image-43" title="Amazon Instance Options" alt="Amazon Instance Options" src="http://www.martin-brennan.com/wp-content/uploads/2012/07/instance_options-300x204.png" width="300" height="204" />](http://www.martin-brennan.com/wp-content/uploads/2012/07/instance_options.png)
+![instance options](/images/instance_options.png)
 
 In the next step, you can define 10 tags as key-value pairs that help you identify this instance which will help set it apart from any other instances you may be running. Since we only have one instance, just use the default Name key and give it a value of whatever you want. For this guide I will enter Tutorial as the Name of my instance.
 
@@ -114,7 +114,7 @@ If you’re anything like me you’ll want to know what this does. Basically, th
 
 You will then be required to define a security group for your instance to be a part of. Security groups are used to tell the instance which ports to open, which will determine the protocols and traffic that your instance can accept. We’re going to create a new security group for this example. The first step is to give the group a name and a description.
 
-[<img class="aligncenter size-medium wp-image-44" title="Instance Security Groups" alt="Instance Security Groups" src="http://www.martin-brennan.com/wp-content/uploads/2012/07/security_group-300x204.png" width="300" height="204" />](http://www.martin-brennan.com/wp-content/uploads/2012/07/security_group.png)
+![security group](/images/security_group.png)
 
 You can then add inbound rules to your security group. We are going to add port 80 and 8080 for HTTP, 21 and 12000–12100 for SFTP and 22 for SSH. If you required SMTP, you would also add port 25, and for HTTPS you would add port 443. For each of these ports, all you need to do is create a new rule and select Custom TCP Rule, enter the port number or range, and leave the source as 0.0.0.0/0, which is “All Internet”. Once you have added the required access rules, click Continue.
 

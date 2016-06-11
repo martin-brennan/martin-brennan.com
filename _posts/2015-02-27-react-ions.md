@@ -35,11 +35,11 @@ I’d been seeing lots of mentions of [React](http://facebook.github.io/react/in
 
 React, it seems, comes out of a recognition by the engineers at Facebook that at a large scale, the traditional MVC model starts to break down and become extremely complex and hard to change. This is because data is flowing between the Model, Controller and View from many different directions, so when something is changed or needs to be added to any one of them it can cause a lot of unexpected problems down the line. This is exacerbated by global event systems where views can communicate with and change other views without informing the controller or the model. Facebook made a diagram of this, which can be seen below.
 
-[<img src="http://www.martin-brennan.com/wp-content/uploads/2015/02/reactmvc.png" alt="reactmvc" class="alignnone size-full wp-image-615" style="width:100%;" srcset="http://www.martin-brennan.com/wp-content/uploads/2015/02/reactmvc.png 1587w, http://www.martin-brennan.com/wp-content/uploads/2015/02/reactmvc-300x170.png 300w, http://www.martin-brennan.com/wp-content/uploads/2015/02/reactmvc-1024x581.png 1024w" sizes="(max-width: 1587px) 100vw, 1587px" />](http://www.martin-brennan.com/wp-content/uploads/2015/02/reactmvc.png)
+![react mvc](/images/reactmvc.png)
 
 The engineers at Facebook decided to extract the View portion out of this equation and transform it into a system where you only need to know what part of your application looks like at any point in time, rather than always considering the myriad other ways it can be changed. In React, this is achieved by implementing a one-way data flow where each component is a black box with its own state, which cannot be modified by other components. This one-way flow from the controller down to the views makes keeping track of the data flowing through your application a lot easier, and lets you locate sources of bugs a lot easier. Facebook’s diagram of how this works is below:
 
-[<img src="http://www.martin-brennan.com/wp-content/uploads/2015/02/reactd3.png" alt="reactd3" class="alignnone size-full wp-image-618" style="width:100%;" srcset="http://www.martin-brennan.com/wp-content/uploads/2015/02/reactd3.png 696w, http://www.martin-brennan.com/wp-content/uploads/2015/02/reactd3-300x155.png 300w" sizes="(max-width: 696px) 100vw, 696px" />](http://www.martin-brennan.com/wp-content/uploads/2015/02/reactd3.png)
+![react diagram](/images/reactd3.png)
 
 ## Change
 

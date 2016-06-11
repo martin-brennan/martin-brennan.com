@@ -8,7 +8,7 @@ permalink: /from-wordpress-to-jekyll/
 
 This blog is now run on [Jekyll](https://jekyllrb.com/), and here’s why.
 
-<img src="/images/jekyll-and-hyde.jpg" title="Jekyll" />
+![Jekyll](/images/jekyll-and-hyde.jpg)
 
 I got real tired of WordPress for the following reasons:
 

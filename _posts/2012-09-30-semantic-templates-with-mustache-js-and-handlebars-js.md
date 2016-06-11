@@ -131,7 +131,7 @@ This method may not be ideal when templates are heavily required in your applica
 For example, let’s say we have our contact card scenario again, and a new template is required to load the user’s [Gravatar](https://en.gravatar.com/) image as well as the details we already have. For this, we will define both templates inside a file, within script tags like so. Note that for the Gravatar section I have used three curly brackets `{{{}}}` instead of two. This is so I can insert HTML into the template without it being [escaped](http://en.wikipedia.org/wiki/HTML#Character_and_entity_references), which is what Mustache and Handlebars do by default:
 
 ```html
-<script id="template_1" type="text/html">
+{%raw%}<script id="template_1" type="text/html">
 <div class="contactCard">
 	{{{gravatar}}}
 	<p><strong>{{name}}</strong></p>
@@ -141,8 +141,8 @@ For example, let’s say we have our contact card scenario again, and a new temp
 </div>
 </script>
 <script id="template_2" type="text/html">
-	<img src="http://www.gravatar.com/avatar/{{hash}}"></img>
-</script>
+	<img src="http://www.gravatar.com/avatar/{{ hash }}"></img>
+</script>{%endraw%}
 ```
 
 If you are using Handlebars, feel free to use `type="text/x-handlebars-template"` rather than `type="text.html"`. From here, instead of using AJAX to retrieve the templates one by one when they are required, we will retrieve all of the templates at once so they can easily be used later. Note that it may not be ideal for you to retrieve all of them at once in your application if you have a lot of templates, but it should be easy enough to modify the code below to accept an array or something similar to define which templates to load on `document.ready`. The code below is not ideal however, and could be improved upon by using [Namespaces](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailnamespacing), but this will do for now.

@@ -36,9 +36,7 @@ So much better, in fact, that I have also started using Disqus for comments on t
 
 One of the main advantages I found with using Disqus for comments is that it is incredibly easy to set up. After registering an account on Disqus, all you have to do is create a &#8220;site&#8221; by entering the domain you would like to run Disqus on, a name for the site and also a shortname for the site which will appear when moderating comments in your Disqus dashboard. From there, it was as simple as installing the Disqus plugin in my WordPress site and selecting the site that I set up as the place to store comments. There is also an option to export your old comments to Disqus so they are still seen and preserved when you migrate.
 
-<p style="text-align: center;">
-  <a href="http://www.martin-brennan.com/wp-content/uploads/2012/12/disqussite.png"><img class="aligncenter size-full wp-image-216" title="Disqus Site Setup" src="http://www.martin-brennan.com/wp-content/uploads/2012/12/disqussite.png" alt="Disqus Site Setup" width="974" height="437" /></a>
-</p>
+![disqus site](/images/disqussite.png)
 
 Disqus also has a lot of customisation in the site settings that you can use to regulate how your community comments on your site. You can set rules for Guest commenting, pre-moderation, attachments, flagging, automatic closing and rules for links in comments. You can also add word filters to remove nasty words from comments, and Disqus even provides Akismet integration, so you can use your existing API key. You can further manage your comments by adding other moderators and more trusted domains can be added to access the same comments on other websites that you have.
 
@@ -48,7 +46,7 @@ Also, Disqus has social media integration out of the box in the form of sharing 
 
 Embedded in your blog, Disqus looks amazing. It spans the entire width of the container that your content resides in, and the colour scheme and typeface automatically adapt to your website&#8217;s style. The user interface is beautiful and easy to use, and I love the font that they use, which by the looks of it is Helvetica Neue. From the comment box, users can also share or favourite the discussion, and see other discussions on the same site. I was a bit worried when I was about to start using Disqus for comments on this site that code formatting would not be natively supported. Boy was I wrong! [Disqus natively supports code syntax highlighting](http://help.disqus.com/customer/portal/articles/665057 "Disqus Syntax Highlighting"), and allows the use of certain HTML tags to style elements.
 
-[<img class="aligncenter size-full wp-image-219" title="Disqus Site Customisation" src="http://www.martin-brennan.com/wp-content/uploads/2012/12/disquscomment.png" alt="Disqus Site Customisation" width="869" height="349" />](http://www.martin-brennan.com/wp-content/uploads/2012/12/disquscomment.png)
+![disqus comment](/images/disquscomment.png)
 
 ## Closing Thoughts
 

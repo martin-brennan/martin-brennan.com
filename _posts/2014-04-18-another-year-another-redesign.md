@@ -24,16 +24,28 @@ We are in the future of 2014 and since it&#8217;s been about a year since I&#821
 
 I&#8217;ve based this design on themes I&#8217;ve seen for [Octopress](http://octopress.org/), with a large area to place more importance on the content of the blog. I&#8217;ve also added a sidebar back in because the site is now 100% width, with a focus on search. I&#8217;ve been using a great search plugin called [Relevanssi](https://wordpress.org/plugins/relevanssi/ "relevanssi") that replaces the default WordPress search, and adds features like indexing, result weighting and search hit highlighting.
 
-For the sidebar icons I used the Simple Icons at <a href="http://simpleicons.org/" target="_blank">http://simpleicons.org/</a> and once again I&#8217;ve used the excellent [highlightjs](http://highlightjs.org/) for syntax highlighting of code snippets, for example on the JavaScript I used to highlight the currently selected page!
+For the sidebar icons I used [Simple Icons](http://simpleicons.org/) and once again I&#8217;ve used the excellent [highlightjs](http://highlightjs.org/) for syntax highlighting of code snippets, for example on the JavaScript I used to highlight the currently selected page!
 
-
+```javascript
+var page = window.location.href;
+if (page.indexOf('archive') != -1) {
+  var link = document.getElementById('nav_archive');
+  link.className = 'selected';
+} else if (page.indexOf('about') != -1) {
+  var link = document.getElementById('nav_about');
+  link.className = 'selected';
+} else {
+  var link = document.getElementById('nav_articles');
+  link.className = 'selected';
+}
+```
 
 Let me know what you think! Here is a comparison of old vs. new!
 
 **New**
 
-[<img class="aligncenter size-large wp-image-444" src="http://www.martin-brennan.com/wp-content/uploads/2014/04/new-1024x516.jpg" alt="New Design" width="1024" height="516" />](http://www.martin-brennan.com/wp-content/uploads/2014/04/new.jpg)
+![new design](/images/new.jpg)
 
 **Old**
 
-[<img class="aligncenter size-large wp-image-445" src="http://www.martin-brennan.com/wp-content/uploads/2014/04/old-1024x516.jpg" alt="Old Design" width="1024" height="516" />](http://www.martin-brennan.com/wp-content/uploads/2014/04/old.jpg)
+![old design](/images/old.jpg)

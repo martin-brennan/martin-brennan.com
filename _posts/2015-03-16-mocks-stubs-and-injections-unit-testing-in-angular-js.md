@@ -406,7 +406,7 @@ Finally, you may want to have separate Karma configs that can run with and witho
 
 ## Conclusion
 
-[<img src="http://www.martin-brennan.com/wp-content/uploads/2015/03/Screen-Shot-2015-03-14-at-11.13.44-am.png" alt="Unit Testing in Angular" width="746" height="175" class="alignnone size-full wp-image-633" srcset="http://www.martin-brennan.com/wp-content/uploads/2015/03/Screen-Shot-2015-03-14-at-11.13.44-am.png 746w, http://www.martin-brennan.com/wp-content/uploads/2015/03/Screen-Shot-2015-03-14-at-11.13.44-am-300x70.png 300w" sizes="(max-width: 746px) 100vw, 746px" />](http://www.martin-brennan.com/wp-content/uploads/2015/03/Screen-Shot-2015-03-14-at-11.13.44-am.png)
+![unit tests passing](/images/Screen-Shot-2015-03-14-at-11.13.44-am.png)
 
 I hope this gives you a good overview of where to get started with unit testing in Angular applications with Karma. I&#8217;ve covered how you can compile your ES6 modules using Karma, mocking your own dependencies and injecting Angular dependencies, and spying and stubbing with Sinon.
 

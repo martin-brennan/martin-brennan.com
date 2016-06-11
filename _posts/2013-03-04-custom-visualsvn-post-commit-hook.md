@@ -176,10 +176,8 @@ Make sure you also `return 0;` on the last line to indicate the code completed s
 
 Now that the code is complete, you just need to build the project and copy the .exe file from the `bin/debug` folder in your project to the bin folder in your VisualSVN server installation folder, which in my case was `C:/Program Files (x86)/VisualSVN Server/bin`. Then, open up VisualSVN server and right click on the repository that you want to add the post-commit hook to and click properties.
 
-<p style="text-align: center;">
-  <img class="aligncenter  wp-image-310" style="float: left;" alt="VisualSVN Post-Commit Hook" src="http://www.martin-brennan.com/wp-content/uploads/2013/03/post-commit-1.png" width="305" height="392" />
-  <img class="aligncenter  wp-image-311" alt="VisualSVN Repo Properties" src="http://www.martin-brennan.com/wp-content/uploads/2013/03/post-commit-2.png" width="512" height="392" />
-</p>
+![post commit 1](/images/post-commit-1.png)
+![post commit 2](/images/post-commit-2.png)
 
 Open the hooks tab and double click on **Post-commit hook**. It will open a window that you need to paste the following code into. All it does is tell VisualSVN to run the .exe when a commit happens and passes in the required arguments:
 

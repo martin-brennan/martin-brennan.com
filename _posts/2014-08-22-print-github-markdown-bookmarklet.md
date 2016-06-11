@@ -29,8 +29,7 @@ All you need to do is add the following bookmarklet to your browser:
 javascript:(function(e,a,g,h,f,c,b,d)%7Bif(!(f=e.jQuery)%7C%7Cg>f.fn.jquery%7C%7Ch(f))%7Bc=a.createElement("script");c.type="text/javascript";c.src="http://ajax.googleapis.com/ajax/libs/jquery/"+g+"/jquery.min.js";c.onload=c.onreadystatechange=function()%7Bif(!b&&(!(d=this.readyState)%7C%7Cd=="loaded"%7C%7Cd=="complete"))%7Bh((f=e.jQuery).noConflict(1),b=1);f(c).remove()%7D%7D;a.documentElement.childNodes%5B0%5D.appendChild(c)%7D%7D)(window,document,"1.3.2",function($,L)%7B$('%23header, .pagehead, .breadcrumb, .commit, .meta, %23footer, %23footer-push, .wiki-actions, %23last-edit, .actions, .header, .file-navigation, .sunken-menu-contents, .site-footer').remove(); $('%23files, .file').css(%7B"background":"none", "border":"none"%7D); $('link').removeAttr('media');%7D);
 ```
 
-Here is a demonstration of what it does with the <a href="https://github.com/intridea/grape/blob/master/README.md" title="Grape Readme" target="_blank">intridea/grape</a> repo&#8217;s README.md file (before and after):
+Here is a demonstration of what it does with the [intridea/grape](https://github.com/intridea/grape/blob/master/README.md) repo&#8217;s README.md file (before and after):
 
-[<img src="http://www.martin-brennan.com/wp-content/uploads/2014/08/github_print_before-1024x723.png" alt="Print Github Before" width="1024" height="723" class="aligncenter size-large wp-image-488" />](http://www.martin-brennan.com/wp-content/uploads/2014/08/github_print_before.png)
-
-[<img src="http://www.martin-brennan.com/wp-content/uploads/2014/08/github_print_after.png" alt="Print Github After" width="925" height="724" class="aligncenter size-full wp-image-487" />](http://www.martin-brennan.com/wp-content/uploads/2014/08/github_print_after.png)
+![github print before](/images/github_print_before.png)
+![github print before](/images/github_print_after.png)
