@@ -1,15 +1,19 @@
 <header class="site-header">
 
   <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">
-      {{ site.title }}
-      <!-- <a href="/about">about</a> | <a href="https://www.github.com/martin-brennan">github</a> | <a href="/archive">archive</a> -->
-    </a>
-
-    <nav class="site-nav">
-      <img src="https://en.gravatar.com/userimage/25149179/c029154c473438a50f59f71471d731d7.jpeg" style="width: 65px; margin-top: 0;" />
-    </nav>
+    <table class="navigation">
+      <tr>
+        <td>
+          <a href="{{ site.baseurl }}/">
+            <h1 class="main-site-title">{{ site.title }}</h1>
+          </a>
+          <span><a href="/about">about</a> | <a href="/archive">archive</a> | <a href="https://github.com/martin-brennan">github</a></span>
+        </td>
+        <td>
+          <img src="https://en.gravatar.com/userimage/25149179/c029154c473438a50f59f71471d731d7.jpeg" style="width: 65px; margin-top: 0;" />
+        </td>
+      </tr>
+    </table>
 
   </div>
 

@@ -78,7 +78,7 @@ paginate: 10
 
 ## Outcome & Useful Links
 
-You'll have noticed that I've stripped the design of this site back to a very simple format for better clarity as well. Overall the experience of moving to Jekyll from Wordpress was really smooth and I wish I'd done it sooner! You can see the code and posts for this blog over at GitHub.
+You'll have noticed that I've stripped the design of this site back to a very simple format for better clarity as well. Overall the experience of moving to Jekyll from Wordpress was really smooth and I wish I'd done it sooner! You can see the code and posts for this blog [over at GitHub](https://github.com/martin-brennan/martin-brennan.com).
 
 I found these articles useful along the way (I set up Jekyll on a DigitalOcean Ubuntu droplet):
 
