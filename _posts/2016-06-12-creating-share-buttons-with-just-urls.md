@@ -3,7 +3,7 @@ title: Creating Share Buttons With Just URLs
 date: 2016-06-12T13:00:00+00:00
 author: Martin Brennan
 layout: post
-permalink: /creating-share-buttons-with-just-urls
+permalink: /creating-share-buttons-with-just-urls/
 ---
 
 I came across this Gist on how to create share buttons with just URLs while converting my blog to Jekyll, which is what I use at the start of each post:
