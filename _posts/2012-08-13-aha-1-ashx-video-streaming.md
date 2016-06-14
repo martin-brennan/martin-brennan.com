@@ -79,6 +79,8 @@ context.Response.OutputStream.Write(bytearr, startbyte, bytearr.Length - startby
 
 This is where I stalled for a long time, I tried to find answers without success which was really a downer because I wanted to keep working on the project but I couldn’t until I got this going. The video just flat out refused to seek forward in HTML5 mode, even though it did in Flash mode. Then, finally, this weekend I found the solution.
 
+{% include in-post-ad.html %}
+
 ## The Solution
 
 It turns out, the answer had nothing to do with JWPlayer as I had thought. The issue was with Google Chrome and how it handles Range headers in HTTP requests. Although my handler accepted Range headers in the request, there was one tiny piece of code that made it not work. It accepted any range except `0-`, which I didn’t think would be a requirement because that range is the entire video.

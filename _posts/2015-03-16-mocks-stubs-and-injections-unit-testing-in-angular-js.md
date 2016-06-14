@@ -53,6 +53,8 @@ The test runner that we are going to use is [Karma](http://karma-runner.github.i
 
 Karma is just the test runner, we still need a testing framework to write our unit tests in. The main JavaScript testing libraries are a combination of [Mocha](http://mochajs.org/) and [Chai](http://chaijs.com/), [Jasmine](http://jasmine.github.io/), and [QUnit](http://qunitjs.com/). It doesn&#8217;t really matter which library you choose to work with, as their syntaxes and assertions are very similar and all of them can be extended in similar ways. However, I&#8217;ve found Mocha paired with Chai, which is an [assertion](http://chaijs.com/api/) library, to be great to work with, and that combination is what I&#8217;ll be using in this article.
 
+{% include in-post-ad.html %}
+
 ## 2. Karma Config
 
 To use Karma, you need a configuration file to handle source and test file loading, which port to run Karma on, and any pre-compilation that needs to happen before the tests are run. The way my Karma configuration works has been cribbed from multiple sources, the most important being the configuration [found in the angular GitHub repo](https://github.com/angular/angular/blob/master/karma-js.conf.js). Here is the test file as a whole:

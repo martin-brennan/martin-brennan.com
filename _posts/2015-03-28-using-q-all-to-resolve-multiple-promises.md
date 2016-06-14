@@ -58,6 +58,8 @@ promiseAlpha().then((val1) => {
 
 This, as you can see, is not very pretty at all, and will make it difficult to a) get the resolved value of each promise and use it and b) chain more than a few promises without pulling your hair right out of its sockets. Thankfully there is an alternative in the form of [$q.all()](https://docs.angularjs.org/api/ng/service/$q#all).
 
+{% include in-post-ad.html %}
+
 The `$q.all()` method takes either an object or an array of promises and waits for all of them to `resolve()` or one of them to `reject()` and then executes the provided callback function. The values returned from the resolve function are provided depending on the way you give the promises to `all()`.
 
 If you provide them as an array, then the values will be available as an array with the same corresponding order of the promises array. For example:

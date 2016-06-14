@@ -58,6 +58,8 @@ And then the JSON POST body would look something like this:
 }
 ```
 
+{% include in-post-ad.html %}
+
 You would expect that the model would be bound correctly and that all the properties would be filled in correctly right? Right?! WRONG! Because I&#8217;ve named the parameter for the `Send` method the same thing as one of the model&#8217;s properties, `Message`. This really confuses the model binder because it&#8217;s trying to just use the message **property** and binding it to the **model**, instead of just counting as a property of the model.
 
 There are two things you can do to get around this:

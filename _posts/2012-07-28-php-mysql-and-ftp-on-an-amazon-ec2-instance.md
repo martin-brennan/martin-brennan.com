@@ -38,6 +38,8 @@ tags:
 
 {% include deprecated.html message="Since this post it has become insanely easy to spin up EC2 instances with PHP, mySQL and FTP, especially if all you want is a Wordpress install. Do not follow the advice here." cssclass="danger" %}
 
+{% include in-post-ad.html %}
+
 In the past couple of months I’ve been diving into developing with PHP, to broaden my skills by learning a new language, initially as part of [Fred Boyle’s code challenge](http://fredboyle.com/codechallenge/). This also gave me an excuse to mess around with Amazon’s myriad cloud services, something that I’ve wanted to try for a while. Specifically Amazon’s Elastic Compute Cloud, or EC2, a component of [Amazon’s Web Services](http://aws.amazon.com/) which you can use to set up and manage a cloud-based web server instance using Amazon’s extensive network and computational power.<!--more-->
 
 To my surprise, it was more difficult than I expected to manually install and configure all of the individual components that comprise a web server. I put it down to a lack of experience on my part, especially with using SSH to issue commands to the server and setting up PHP and mySQL manually instead of using an excellent tool such as [MAMP](http://www.mamp.info/en/index.html), [WAMP](http://www.wampserver.com/en/) or [XAMPP](http://www.apachefriends.org/en/xampp.html) to simplify the process.

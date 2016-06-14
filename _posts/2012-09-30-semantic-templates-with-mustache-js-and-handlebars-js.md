@@ -128,6 +128,8 @@ $.get( 'template_dir/template.html' , function (temp) {
 
 This method may not be ideal when templates are heavily required in your application, and may create a messy nest of callbacks if you need to retrieve the templates asynchronously. The final, and what I think is the best way, is to store all of your templates in a single external file under script tags, and load them all at once so they can be used when required.
 
+{% include in-post-ad.html %}
+
 For example, let’s say we have our contact card scenario again, and a new template is required to load the user’s [Gravatar](https://en.gravatar.com/) image as well as the details we already have. For this, we will define both templates inside a file, within script tags like so. Note that for the Gravatar section I have used three curly brackets `{{{}}}` instead of two. This is so I can insert HTML into the template without it being [escaped](http://en.wikipedia.org/wiki/HTML#Character_and_entity_references), which is what Mustache and Handlebars do by default:
 
 ```html

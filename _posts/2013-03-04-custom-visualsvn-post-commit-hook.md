@@ -46,6 +46,8 @@ VisualSVN requires an `.exe` file for any customised post-commit hooks, and the 
 
 In Visual Studio, go to File > New Project and select the Windows sub-menu of your desired language. Then, select Console Application and call it whatever you want. And that’s it! A `Program.cs` class file will be created with a `Main` method inside, which is what will be executed when your `.exe` file is run.
 
+{% include in-post-ad.html %}
+
 ## Initialisation and error checking
 
 First of all, we’re going to need the VisualSVN server path from the environment, which we can get from the following:
