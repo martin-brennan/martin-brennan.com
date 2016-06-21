@@ -47,13 +47,13 @@ The structure of this article is as follows:
   7. [Stubbing Promises Using sinon-as-promised](#7-stubbing-promises-using-sinon)
   8. [Bonus: Code Coverage Using Karma-Coverage](#8-code-coverage-using-karma-coverage)
 
+{% include in-post-ad.html %}
+
 ## 1. Test Runner & Syntax
 
 The test runner that we are going to use is [Karma](http://karma-runner.github.io/), which was built by Google to improve test running times and which is specifically suited to testing Angular applications. It also makes it a lot easier for you to run tests on many different browsers at once. Karma is responsible for loading all of your source files, test files, and dependencies and running them in a browser-based test client. There are several different framework plugins that can be used with Karma, that do things like vary the test output, load modules differently, use different test libraries, use different browsers or compile ES6 source files.
 
 Karma is just the test runner, we still need a testing framework to write our unit tests in. The main JavaScript testing libraries are a combination of [Mocha](http://mochajs.org/) and [Chai](http://chaijs.com/), [Jasmine](http://jasmine.github.io/), and [QUnit](http://qunitjs.com/). It doesn&#8217;t really matter which library you choose to work with, as their syntaxes and assertions are very similar and all of them can be extended in similar ways. However, I&#8217;ve found Mocha paired with Chai, which is an [assertion](http://chaijs.com/api/) library, to be great to work with, and that combination is what I&#8217;ll be using in this article.
-
-{% include in-post-ad.html %}
 
 ## 2. Karma Config
 
