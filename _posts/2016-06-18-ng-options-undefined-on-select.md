@@ -1,6 +1,6 @@
 ---
 title: ng-options Undefined On Select
-date: 2016-06-28T08:15:00+00:00
+date: 2016-06-18T08:15:00+00:00
 author: Martin Brennan
 layout: post
 permalink: /ng-options-undefined-on-select/
