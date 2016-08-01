@@ -192,3 +192,10 @@ h3, .post-content h3 {
 .navigation {
   width: 100%;
 }
+
+.inline-image-wrap {
+  text-align: center;
+  img {
+    display: inline-block;
+  }
+}
