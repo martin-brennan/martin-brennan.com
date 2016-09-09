@@ -1,7 +1,7 @@
 ---
 id: 441
 title: Another Year, Another Redesign
-date: 2014-04-18T16:25:45+00:00
+date: 2014-04-18T16:25:45+10:00
 author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=441

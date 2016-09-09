@@ -1,7 +1,7 @@
 ---
 id: 486
 title: Print GitHub Markdown Bookmarklet
-date: 2014-08-22T11:50:04+00:00
+date: 2014-08-22T11:50:04+10:00
 author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=486

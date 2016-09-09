@@ -1,7 +1,7 @@
 ---
 id: 392
 title: Visual Studio 2013 Avoid Copying Blank Lines by Dirk Strauss
-date: 2013-11-08T07:07:32+00:00
+date: 2013-11-08T07:07:32+10:00
 author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=392

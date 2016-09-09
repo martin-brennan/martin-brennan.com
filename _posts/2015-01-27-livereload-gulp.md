@@ -1,7 +1,7 @@
 ---
 id: 562
 title: LiveReload With Gulp
-date: 2015-01-27T19:39:04+00:00
+date: 2015-01-27T19:39:04+10:00
 author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=562

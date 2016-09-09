@@ -1,7 +1,7 @@
 ---
 id: 371
 title: EC2 Instance Metadata
-date: 2013-10-02T19:14:23+00:00
+date: 2013-10-02T19:14:23+10:00
 author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=371

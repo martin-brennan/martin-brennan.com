@@ -1,7 +1,7 @@
 ---
 id: 435
 title: Add Open With Sublime Text 2 to Windows Context Menu
-date: 2014-03-04T07:47:30+00:00
+date: 2014-03-04T07:47:30+10:00
 author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=435

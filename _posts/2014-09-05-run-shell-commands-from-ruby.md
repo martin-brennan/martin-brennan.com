@@ -1,7 +1,7 @@
 ---
 id: 502
 title: Run shell commands from Ruby
-date: 2014-09-05T22:00:09+00:00
+date: 2014-09-05T22:00:09+10:00
 author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=502

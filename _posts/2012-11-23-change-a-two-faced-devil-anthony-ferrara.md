@@ -1,7 +1,7 @@
 ---
 id: 198
 title: 'Change: A Two-Faced Devil by Anthony Ferrara'
-date: 2012-11-23T21:32:16+00:00
+date: 2012-11-23T21:32:16+10:00
 author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=198

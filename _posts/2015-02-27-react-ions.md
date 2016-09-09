@@ -1,7 +1,7 @@
 ---
 id: 611
 title: React-ions
-date: 2015-02-27T20:39:12+00:00
+date: 2015-02-27T20:39:12+10:00
 author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=611

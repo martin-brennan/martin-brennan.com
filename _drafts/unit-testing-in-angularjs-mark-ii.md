@@ -1,6 +1,6 @@
 ---
 title: Unit testing in AngularJS Mark. II
-date: 2016-09-01T20:00:00+00:00
+date: 2016-09-01T20:00:00+10:00
 author: Martin Brennan
 layout: post
 permalink: /unit-testing-in-angular-js-mk-ii/

@@ -1,7 +1,7 @@
 ---
 id: 533
 title: Goodbye RequireJS, Hello Browserify
-date: 2014-11-16T19:06:44+00:00
+date: 2014-11-16T19:06:44+10:00
 author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=533

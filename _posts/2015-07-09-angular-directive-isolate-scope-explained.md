@@ -1,7 +1,7 @@
 ---
 id: 649
 title: Angular Directive Isolate Scope Explained
-date: 2015-07-09T22:15:11+00:00
+date: 2015-07-09T22:15:11+10:00
 author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=649

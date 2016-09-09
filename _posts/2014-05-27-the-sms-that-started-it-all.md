@@ -1,7 +1,7 @@
 ---
 id: 461
 title: The SMS That Started It All
-date: 2014-05-27T05:43:12+00:00
+date: 2014-05-27T05:43:12+10:00
 author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=461

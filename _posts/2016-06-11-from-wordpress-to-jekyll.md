@@ -1,6 +1,6 @@
 ---
 title: From Wordpress to Jekyll
-date: 2016-06-11T11:02:26+00:00
+date: 2016-06-11T11:02:26+10:00
 author: Martin Brennan
 layout: post
 permalink: /from-wordpress-to-jekyll/

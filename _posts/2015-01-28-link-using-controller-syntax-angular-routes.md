@@ -1,7 +1,7 @@
 ---
 id: 570
 title: 'LINK: Using &#8220;Controller as&#8221; Syntax in Angular Routes'
-date: 2015-01-28T14:39:23+00:00
+date: 2015-01-28T14:39:23+10:00
 author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=570

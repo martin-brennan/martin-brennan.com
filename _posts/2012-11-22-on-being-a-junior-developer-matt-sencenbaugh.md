@@ -1,7 +1,7 @@
 ---
 id: 193
 title: On Being a Junior Developer by Matt Sencenbaugh
-date: 2012-11-22T07:12:14+00:00
+date: 2012-11-22T07:12:14+10:00
 author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=193

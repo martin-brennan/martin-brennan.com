@@ -1,6 +1,6 @@
 ---
 title: Why xUnit?
-date: 2016-09-01T20:00:00+00:00
+date: 2016-09-01T20:00:00+10:00
 author: Martin Brennan
 layout: post
 permalink: /why-xunit/

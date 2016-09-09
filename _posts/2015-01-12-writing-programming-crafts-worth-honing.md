@@ -1,7 +1,7 @@
 ---
 id: 554
 title: Writing and Programming, Crafts Worth Honing
-date: 2015-01-12T20:52:21+00:00
+date: 2015-01-12T20:52:21+10:00
 author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=554
