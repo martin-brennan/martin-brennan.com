@@ -8,7 +8,7 @@ permalink: /json-schema/
 
 When writing a common data transfer format, you will need a strong schema or specification so each client that uses that format knows how to parse, validate, and construct data using it. In XML you can use [XSD](https://en.wikipedia.org/wiki/XML_Schema_(W3C)), which is used to specify validation rules and elements expected in an XML file, as well as specifying the type of data expected (strings, integers, dates etc.). When using JSON, the best way to achieve this is with [JSON Schema](http://json-schema.org/), and I'll give a quick run through of how to use it and the things you can do with it in this article.
 
-<!-- more -->
+<!--more-->
 
 First of all we will start with the structure of the data we are expecting via JSON. We have numbers, strings, datetimes, and even complex objects.
 
