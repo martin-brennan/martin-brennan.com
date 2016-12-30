@@ -68,10 +68,11 @@ blockquote {
   position: relative;
   overflow: auto;
   &:before {
-    content: "λ";
+    content: "\03bb";
     position: absolute;
-    left: 0px;
-    font-size: 16px;
+    left: 5px;
+    font-size: 120%;
+    top: 5px;
   }
 }
 
@@ -82,10 +83,10 @@ h2, .post-content h2, h3, .post-content h3 {
   padding-left: 24px;
 
   &:before {
-    content: ">";
+    content: "\03bb";
     position: absolute;
-    font-size: 120%;
-    color: $grey-color;
+    font-size: 100%;
+    color: #d14;
     left: 0;
   }
 }
