@@ -20,7 +20,7 @@ categories:
 
 {% include deprecated.html message="I've redesigned again since this article, though you may find some of the links helpful." cssclass="deprecated" %}
 
-We are in the future of 2014 and since it&#8217;s been about a year since I&#8217;ve changed this blog&#8217;s design, I thought time would be ripe to do it again! It&#8217;s taken me quite while longer than I would have like this time, but I have a good excuse for that in the form of the birth of my son Patrick Noel Allen Brennan!<!--more-->
+We are in the future of 2014 and since it&#8217;s been about a year since I&#8217;ve changed this blog&#8217;s design, I thought time would be ripe to do it again! It&#8217;s taken me quite while longer than I would have like this time, but I have a good excuse for that in the form of the birth of my first son!<!--more-->
 
 I&#8217;ve based this design on themes I&#8217;ve seen for [Octopress](http://octopress.org/), with a large area to place more importance on the content of the blog. I&#8217;ve also added a sidebar back in because the site is now 100% width, with a focus on search. I&#8217;ve been using a great search plugin called [Relevanssi](https://wordpress.org/plugins/relevanssi/ "relevanssi") that replaces the default WordPress search, and adds features like indexing, result weighting and search hit highlighting.
 
