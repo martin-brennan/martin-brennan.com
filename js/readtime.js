@@ -12,7 +12,11 @@ function calculateReadTime() {
   readTime = readTime * 60 + (numCodeBlocks * 15);
   readTime = Math.floor(readTime / 60);
 
-  document.querySelector('.readtime').innerHTML = 'approx ' + readTime + ' min read';
+  if (readTime === 0) {
+    document.querySelector('.readtime').innerHTML = 'less than ' + 1 + ' min read';
+  } else {
+    document.querySelector('.readtime').innerHTML = 'approx ' + readTime + ' min read';
+  }
 }
 
 document.addEventListener('DOMContentLoaded', calculateReadTime);
