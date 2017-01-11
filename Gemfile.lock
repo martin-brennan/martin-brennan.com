@@ -47,3 +47,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll-paginate
   jekyll-seo-tag
+
+BUNDLED WITH
+   1.12.5
