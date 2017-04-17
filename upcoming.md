@@ -1,0 +1,5 @@
+- link to jim weirich rails abstraction video
+- link to jim weirich advanced ruby classes
+- me starting to work with ruby and rails again, moving to melbourne
+- adding custom rails time formats in config/initializers/time_formats `Time::DATE_FORMATS[:au_datetime] = '%e/%m/%Y %I:%M%P'`
+- running only failed rspec tests If you want to rerun only failed tests run `rspec --only-failures`. To rerun only failed tests and fail fast run `rspec --next-failure`.
