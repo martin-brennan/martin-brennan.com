@@ -1,7 +1,7 @@
 ---
 id: 129
 title: Semantic templates with Mustache.js and Handlebars.js
-date: 2012-09-30T19:03:14+10:00
+date: 2012-09-30T19:03:14+g:00
 author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=129
@@ -130,7 +130,7 @@ This method may not be ideal when templates are heavily required in your applica
 
 {% include in-post-ad.html %}
 
-For example, let’s say we have our contact card scenario again, and a new template is required to load the user’s [Gravatar](https://en.gravatar.com/) image as well as the details we already have. For this, we will define both templates inside a file, within script tags like so. Note that for the Gravatar section I have used three curly brackets `{{{}}}` instead of two. This is so I can insert HTML into the template without it being [escaped](http://en.wikipedia.org/wiki/HTML#Character_and_entity_references), which is what Mustache and Handlebars do by default:
+For example, let’s say we have our contact card scenario again, and a new template is required to load the user’s [Gravatar](https://en.gravatar.com/) image as well as the details we already have. For this, we will define both templates inside a file, within script tags like so. Note that for the Gravatar section I have used three curly brackets {% raw %}`{{{}}}`{% endraw %} instead of two. This is so I can insert HTML into the template without it being [escaped](http://en.wikipedia.org/wiki/HTML#Character_and_entity_references), which is what Mustache and Handlebars do by default:
 
 ```html
 {%raw%}<script id="template_1" type="text/html">
@@ -256,7 +256,7 @@ var view = {
 };
 ```
 
-You would iterate through them in your Mustache template like so, using the `{{.}}` notation:
+You would iterate through them in your Mustache template like so, using the {% raw %}`{{.}}`{% endraw %} notation:
 
 ```html
 {%raw%}<ul>
