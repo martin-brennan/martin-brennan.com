@@ -7,9 +7,9 @@
 
 # Site settings
 title: Martin Brennan
-email: mjrbrennan@gmail.com
+email: martin_brennan@fastmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I’m Martin Brennan, and I’m a full stack software engineer based in Melbourne, Australia.
+  I’m Martin Brennan, and I’m a full stack software engineer based in Australia.
   I primarily enjoy working with Ruby, Rails, C#, and JavaScript but I’m always seeking ways
   to expand my knowledge and learn about new tools, languages and frameworks.
 baseurl: "" # the subpath of your site, e.g. /blog
