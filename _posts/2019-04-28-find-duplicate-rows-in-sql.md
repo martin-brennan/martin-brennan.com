@@ -3,7 +3,7 @@ title: Find duplicate rows in SQL
 date: 2019-04-28T20:09:57+1000
 author: Martin Brennan
 layout: post
-permalink: /find-duplicate-rows-in-sql
+permalink: /find-duplicate-rows-in-sql/
 ---
 
 Sometimes you need to find and count duplicate data rows in SQL. For example, in my use case I needed to find records in a table where there was more than one usage of the same email address. This would help me figure out how widespread and severe the duplicate issue was; the table in question should not have had duplicate rows based on that column in the first place! (A missing `UNIQUE` index was the culprit).

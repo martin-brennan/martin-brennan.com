@@ -3,7 +3,7 @@ title: Subset Sum Problem in Ruby
 date: 2019-04-28T20:14:33+1000
 author: Martin Brennan
 layout: post
-permalink: /subset-sum-problem-ruby
+permalink: /subset-sum-problem-ruby/
 ---
 
 I came across a bizarre data storage decision in a recent data migration. For context, in Australia there is a kind of government demographic survey that must be reported to by certain organisations. One of the data points is “Qualifications Achieved” or something to that affect, which accepts a comma-separated list of values. For example, the qualifications and their values are similar to:

@@ -3,7 +3,7 @@ title: Rails Forms with Virtus and ActiveModel
 date: 2019-05-12T07:52:00+1000
 author: Martin Brennan
 layout: post
-permalink: /rails-forms-with-virtus-and-active-model
+permalink: /rails-forms-with-virtus-and-active-model/
 ---
 
 I absolutely HATED doing forms in Rails, until we came across this method of doing them at work. Our goal was to make forms simple to set up and to have clear logic and separation of concerns. We were using [Reform](https://github.com/trailblazer/reform) at first, and although it worked well for simple one-to-one form-to-model relationships, it quickly fell apart with more complex model relationships were involved. As well as this, if there were complex validations or different logic paths when saving the forms, things quickly fell apart. And there was no way to control the internal data structure of the form. Enter [Virtus](https://github.com/solnic/virtus) and [ActiveModel](https://github.com/rails/rails/tree/master/activemodel).

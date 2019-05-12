@@ -3,7 +3,7 @@ title: Global rescue_from error in Rails application_controller
 date: 2019-04-28T19:58:06+1000
 author: Martin Brennan
 layout: post
-permalink: /rails-global-rescue-from-error-application-controller
+permalink: /rails-global-rescue-from-error-application-controller/
 ---
 
 In our rails application, we needed a way to raise security access violations based on the user profile and bubble them all the way up to the application controller. We looked into it and found you can use `rescue_from` in your application controller, which allows you to specify an error class and a method inside the controller to call when that error is encountered. For example:
