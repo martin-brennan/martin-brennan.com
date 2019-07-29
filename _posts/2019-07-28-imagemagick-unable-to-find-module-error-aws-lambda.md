@@ -1,6 +1,6 @@
 ---
 title: ImageMagick unable to find module error on AWS Lambda
-date: 2018-07-29T20:20:00+1000
+date: 2019-07-29T20:20:00+1000
 author: Martin Brennan
 layout: post
 permalink: /2019-07-28-imagemagick-unable-to-find-module-error-aws-lambda/
@@ -19,7 +19,7 @@ We were at the very end of the migration window.
 
 Turns out Amazon likely removed a module referenced by `pdf.la`, which makes it so **converting PDFs to images using ImageMagick no longer works on AWS Lambda**. Now, the fix to this was essentially to use GhostScript instead to convert the PDFs to images, and then still use `ImageMagick` to resize the images. The steps I followed were (applicable to nodejs):
 
-1. Include the `bin` and `share` directories from https://github.com/sina-masnadi/lambda-ghostscript into our Lambda function, so we had a compiled version of GhostScript that worked on AWS Lambda.
+1. Include the `bin` and `share` directories from [https://github.com/sina-masnadi/lambda-ghostscript](https://github.com/sina-masnadi/lambda-ghostscript) into our Lambda function, so we had a compiled version of GhostScript that worked on AWS Lambda.
 2. Change the JS code to call the GhostScript command to convert the PDF (sample below, [command here](https://stackoverflow.com/a/33528730))
 3. Upload the new code to lambda and make sure everything still worked (it did!)
 
@@ -36,6 +36,6 @@ function gsPdfToImage(tempFile, metadata, next) {
 }
 ```
 
-After I put the fix in place all the errors went away! Lesson learned for next time...pay more attention to the AWS blog! Here is our Lambda function success/error rate chart for last Friday. It's easy to see where the fix went live:
+After I put the fix in place all the errors went away! Lesson learned for next time...pay more attention to the AWS blog! Here is our Lambda function success/error rate chart for last Friday (errors in red). It's easy to see where the fix went live:
 
 ![imagemagick lambda errors](/images/imagemagick_lambda_errors.png)
