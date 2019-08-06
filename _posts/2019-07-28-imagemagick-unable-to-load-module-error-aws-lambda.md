@@ -3,7 +3,9 @@ title: ImageMagick unable to load module error on AWS Lambda
 date: 2019-07-29T20:20:00+1000
 author: Martin Brennan
 layout: post
-permalink: /2019-07-28-imagemagick-unable-to-load-module-error-aws-lambda/
+permalink: /imagemagick-unable-to-load-module-error-aws-lambda/
+redirects:
+- /2019-07-28-imagemagick-unable-to-load-module-error-aws-lambda/
 ---
 
 Last Friday we started seeing an elevated error rate in our AWS Lambda function that converted single page PDFs into images using ImageMagick. We had been seeing the same error crop up randomly in around a two week period before Friday, but we were busy with other things and didn't look too deeply into it. This was a mistake in retrospect. Below is the error in question:
