@@ -200,3 +200,7 @@ h3, .post-content h3 {
     display: inline-block;
   }
 }
+
+li, a {
+  word-wrap: break-word;
+}
