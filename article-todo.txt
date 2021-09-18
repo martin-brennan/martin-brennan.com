@@ -1,0 +1,60 @@
+ARTICLE IDEA: Update sequences in postgres after COPY copy\ command
+
+https://til.codes/dont-forget-to-update-the-sequence-in-postgresql-after-a-copy-command/
+
+------------------
+
+ARTICLE IDEA: Push up postgresql buffer size for faster restores
+
+------------------
+
+ARTICLE IDEA: Testing workflow
+
+* test units with rspec, system tests with capybara and headless chrome
+* almost always do TDD both with units and system/feature specs
+* sometimes if I'm really under time pressure OR if I'm not actually sure the best way to write the code/what it's supposed to do, I'll code first then test
+* testing is a godsend for when you have to change something further down the line, RGR is great
+* factory bot/girl is great if used sparingly, set it up to not create associations by default in factories, be explicit. use traits and transient attributes, and :after
+* system tests do not sleep, wait for CSS/text to appear on the page for best results
+
+* good example for unit: a virtus form which saves a DB record, enqueues a resque job, and Tom calls some other service, demonstrate mocks
+* good example for unit: a service which accesses the DB and does some logic, demonstrate mocks
+* good example for system: log in, open a page, click on Create button, wait for modal, fill form fields, press submit
+
+------------------
+
+ARTICLE IDEA: Remote:true and JS.erb in rails, a godsend and better than SPA!!
+
+* add remote: true to any form, link, etc, basically anything that has a path
+* this endpoint is automatically called with AJAX by rails and default looks for action.js.erb
+* the .js.erb file can then execute any JS and also render erb
+* e.g. fill in modal wrapper with ERB html and open a modal, change text/elements on the page, etc. sky is the limit
+* can give appearance of client-side form validation when it is actually server side
+* can run code on rails AJAX error/success globally for toasts etc.
+
+ def redirect_page_js(path)
+    render js: "window.location='#{path}'"
+  end
+
+  def refresh_page_js
+    render js: "window.location.reload();"
+  end
+
+* check if request sent via AJAX
+
+def request_made_using_remote_true?
+    request.xhr? == 0
+  end
+
+------------------
+
+ARTICLE IDEA: Global rescue from in application_controller
+
+rescue_from Errors::ContractInvalid, with: :handle_invalid_contract
+
+* handle specific type of error from your application in application controller and do something
+
+———————
+
+ARTICLE IDEA: Thoughts on stripe sorbet and types in ruby
+
