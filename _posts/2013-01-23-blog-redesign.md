@@ -10,12 +10,6 @@ iconcategory:
   - design
 dsq_thread_id:
   - 1042977533
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464920086
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Design
   - Writing

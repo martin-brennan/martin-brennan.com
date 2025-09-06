@@ -10,12 +10,6 @@ iconcategory:
   - Writing
 dsq_thread_id:
   - 1181729057
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464921352
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Productivity
 ---

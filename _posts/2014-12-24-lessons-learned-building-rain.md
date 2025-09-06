@@ -10,12 +10,6 @@ wp88_mc_campaign:
   - 1
 dsq_thread_id:
   - 3355080545
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464998627
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Development
 tags:

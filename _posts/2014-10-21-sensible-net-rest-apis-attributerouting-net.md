@@ -10,12 +10,6 @@ wp88_mc_campaign:
   - 1
 dsq_thread_id:
   - 3139919063
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1465012156
-mashsb_jsonshares:
-  - '{"total":0}'
 outofdate:
   - 'true'
 outofdatenote:

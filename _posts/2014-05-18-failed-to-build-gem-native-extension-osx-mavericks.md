@@ -8,12 +8,6 @@ guid: http://www.martin-brennan.com/?p=456
 permalink: /failed-to-build-gem-native-extension-osx-mavericks/
 dsq_thread_id:
   - 2703691032
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464919982
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Development
 tags:

@@ -6,12 +6,6 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=698
 permalink: /duration-parsing-using-juration/
-mashsb_timestamp:
-  - 1464919823
-mashsb_shares:
-  - 0
-mashsb_jsonshares:
-  - '{"total":0}'
 dsq_thread_id:
   - 3948324658
 categories:

@@ -8,12 +8,6 @@ guid: http://www.martin-brennan.com/?p=570
 permalink: /link-using-controller-syntax-angular-routes/
 dsq_thread_id:
   - 3611811615
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464988608
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Development
   - Share

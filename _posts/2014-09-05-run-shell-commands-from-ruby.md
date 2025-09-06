@@ -8,12 +8,6 @@ guid: http://www.martin-brennan.com/?p=502
 permalink: /run-shell-commands-from-ruby/
 dsq_thread_id:
   - 3044736686
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464919954
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Development
 tags:

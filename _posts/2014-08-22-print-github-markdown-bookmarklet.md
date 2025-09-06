@@ -8,12 +8,6 @@ guid: http://www.martin-brennan.com/?p=486
 permalink: /print-github-markdown-bookmarklet/
 dsq_thread_id:
   - 2948494688
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464919968
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Development
   - Share

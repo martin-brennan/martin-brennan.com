@@ -8,12 +8,6 @@ guid: http://www.martin-brennan.com/?p=499
 permalink: /docusign-connect-xml-schema/
 dsq_thread_id:
   - 2974578894
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1465012159
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Development
 tags:

@@ -11,12 +11,6 @@ iconcategory:
   - tutorial
 dsq_thread_id:
   - 2355069826
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464919988
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Tutorial
 ---

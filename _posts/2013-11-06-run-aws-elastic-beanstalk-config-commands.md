@@ -12,12 +12,6 @@ dsq_thread_id:
   - 1942457448
 wp88_mc_campaign:
   - 1
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464982417
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Development
 tags:

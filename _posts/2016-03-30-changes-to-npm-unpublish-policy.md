@@ -6,12 +6,6 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=745
 permalink: /changes-to-npm-unpublish-policy/
-mashsb_timestamp:
-  - 1465019360
-mashsb_shares:
-  - 0
-mashsb_jsonshares:
-  - '{"total":0}'
 dsq_thread_id:
   - 4703852249
 categories:

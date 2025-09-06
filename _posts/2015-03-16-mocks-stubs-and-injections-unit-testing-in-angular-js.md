@@ -8,12 +8,6 @@ guid: http://www.martin-brennan.com/?p=623
 permalink: /mocks-stubs-and-injections-unit-testing-in-angular-js/
 dsq_thread_id:
   - 3599306703
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1465003760
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Development
   - Testing

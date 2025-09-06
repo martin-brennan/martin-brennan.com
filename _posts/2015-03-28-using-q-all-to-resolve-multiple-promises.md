@@ -6,12 +6,6 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=637
 permalink: /using-q-all-to-resolve-multiple-promises/
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1465021503
-mashsb_jsonshares:
-  - '{"total":0}'
 dsq_thread_id:
   - 3632983258
 dsq_needs_sync:

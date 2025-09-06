@@ -7,12 +7,6 @@ layout: post
 guid: http://www.martin-brennan.com/?p=701
 permalink: /es7-decorators/
 comments: true
-mashsb_timestamp:
-  - 1465017564
-mashsb_shares:
-  - 0
-mashsb_jsonshares:
-  - '{"total":0}'
 dsq_thread_id:
   - 3955867361
 categories:

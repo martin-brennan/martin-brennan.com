@@ -10,12 +10,6 @@ dsq_thread_id:
   - 990830653
 iconcategory:
   - algorithm
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464920102
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Algorithm
   - Development

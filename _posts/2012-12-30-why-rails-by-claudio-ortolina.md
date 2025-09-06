@@ -10,12 +10,6 @@ dsq_thread_id:
   - 
 iconcategory:
   - share
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464920097
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Aside
   - Development

@@ -10,12 +10,6 @@ dsq_thread_id:
   - 975808358
 iconcategory:
   - share
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464920113
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Aside
   - Share

@@ -10,12 +10,6 @@ dsq_thread_id:
   - 966085234
 iconcategory:
   - development
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464987362
-mashsb_jsonshares:
-  - '{"total":0}'
 outofdate:
   - 'true'
 outofdatenote:

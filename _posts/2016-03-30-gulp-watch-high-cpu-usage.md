@@ -6,12 +6,6 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=755
 permalink: /gulp-watch-high-cpu-usage/
-mashsb_timestamp:
-  - 1464977274
-mashsb_shares:
-  - 0
-mashsb_jsonshares:
-  - '{"total":0}'
 dsq_thread_id:
   - 4704449882
 categories:

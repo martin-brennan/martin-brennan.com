@@ -8,12 +8,6 @@ guid: http://www.martin-brennan.com/?p=461
 permalink: /the-sms-that-started-it-all/
 dsq_thread_id:
   - 2714461047
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464919978
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Development
   - Share

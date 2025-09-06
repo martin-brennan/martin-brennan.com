@@ -10,12 +10,6 @@ iconcategory:
   - development
 dsq_thread_id:
   - 2347758256
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1465016709
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Development
 tags:

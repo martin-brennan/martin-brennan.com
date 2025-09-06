@@ -10,12 +10,6 @@ iconcategory:
   - Tutorial
 dsq_thread_id:
   - 1116980425
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464920070
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Tutorial
 tags:

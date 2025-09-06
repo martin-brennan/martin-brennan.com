@@ -6,12 +6,6 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=641
 permalink: /this-is-not-allowed-before-super/
-mashsb_timestamp:
-  - 1464982415
-mashsb_shares:
-  - 0
-mashsb_jsonshares:
-  - '{"total":0}'
 dsq_thread_id:
   - 3894802270
 categories:

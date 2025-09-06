@@ -8,12 +8,6 @@ guid: http://www.martin-brennan.com/?p=590
 permalink: /learning-angular-qa/
 dsq_thread_id:
   - 3487824717
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464919864
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Development
 tags:

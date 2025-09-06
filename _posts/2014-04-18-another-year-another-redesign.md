@@ -8,12 +8,6 @@ guid: http://www.martin-brennan.com/?p=441
 permalink: /another-year-another-redesign/
 dsq_thread_id:
   - 2620672094
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464919985
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Design
 ---

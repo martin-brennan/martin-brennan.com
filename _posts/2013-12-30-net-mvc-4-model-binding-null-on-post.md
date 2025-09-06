@@ -12,12 +12,6 @@ dsq_thread_id:
   - 2081204107
 wp88_mc_campaign:
   - 1
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1465017396
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Aha!
   - Development

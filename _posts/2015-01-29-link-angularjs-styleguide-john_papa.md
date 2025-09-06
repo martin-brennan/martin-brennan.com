@@ -8,12 +8,6 @@ guid: http://www.martin-brennan.com/?p=573
 permalink: /link-angularjs-styleguide-john_papa/
 dsq_thread_id:
   - 3465041333
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464919891
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Development
 tags:

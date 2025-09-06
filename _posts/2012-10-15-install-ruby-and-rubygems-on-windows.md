@@ -10,12 +10,6 @@ dsq_thread_id:
   - 983114859
 iconcategory:
   - tutorial
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464946177
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Development
   - Share

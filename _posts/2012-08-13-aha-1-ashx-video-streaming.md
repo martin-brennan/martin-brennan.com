@@ -10,12 +10,6 @@ dsq_thread_id:
   - 969433537
 iconcategory:
   - aha
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1465020047
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Aha!
   - Development

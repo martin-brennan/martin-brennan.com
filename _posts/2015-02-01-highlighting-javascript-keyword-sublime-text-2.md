@@ -8,12 +8,6 @@ guid: http://www.martin-brennan.com/?p=582
 permalink: /highlighting-javascript-keyword-sublime-text-2/
 dsq_thread_id:
   - 3474766458
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464919887
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Development
 tags:

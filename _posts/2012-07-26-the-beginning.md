@@ -10,12 +10,6 @@ iconcategory:
   - writing
 dsq_thread_id:
   - 1368142237
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1465004604
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Writing
 tags:

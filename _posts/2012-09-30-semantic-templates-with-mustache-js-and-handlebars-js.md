@@ -12,12 +12,6 @@ iconcategory:
   - tutorial
 wp88_mc_campaign:
   - 1
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1465018693
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Development
 tags:

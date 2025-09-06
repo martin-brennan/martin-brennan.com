@@ -10,12 +10,6 @@ iconcategory:
   - design
 dsq_thread_id:
   - 1931230816
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464920030
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Design
   - Share

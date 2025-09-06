@@ -10,12 +10,6 @@ dsq_thread_id:
   - 965596529
 iconcategory:
   - development
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1464933347
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Development
   - Observation

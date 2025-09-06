@@ -6,12 +6,6 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=649
 permalink: /angular-directive-isolate-scope-explained/
-mashsb_timestamp:
-  - 1465007732
-mashsb_shares:
-  - 0
-mashsb_jsonshares:
-  - '{"total":0}'
 dsq_thread_id:
   - 3918419830
 categories:

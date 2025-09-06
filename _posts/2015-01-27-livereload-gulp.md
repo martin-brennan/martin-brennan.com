@@ -8,12 +8,6 @@ guid: http://www.martin-brennan.com/?p=562
 permalink: /livereload-gulp/
 dsq_thread_id:
   - 3461865805
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1465019116
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Development
 tags:

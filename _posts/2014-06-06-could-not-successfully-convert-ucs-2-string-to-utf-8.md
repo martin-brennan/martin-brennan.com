@@ -8,12 +8,6 @@ guid: http://www.martin-brennan.com/?p=479
 permalink: /could-not-successfully-convert-ucs-2-string-to-utf-8/
 dsq_thread_id:
   - 2760240867
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1465004152
-mashsb_jsonshares:
-  - '{"total":0}'
 categories:
   - Aha!
   - Development

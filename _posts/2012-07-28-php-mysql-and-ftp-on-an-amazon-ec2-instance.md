@@ -11,12 +11,6 @@ dsq_thread_id:
   - 965518167
 iconcategory:
   - tutorial
-mashsb_shares:
-  - 0
-mashsb_timestamp:
-  - 1465012729
-mashsb_jsonshares:
-  - '{"total":0}'
 outofdate:
   - 'true'
 outofdatenote:
