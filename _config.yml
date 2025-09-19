@@ -7,7 +7,6 @@ description: >
   my knowledge and learn about new tools, languages and frameworks.
 baseurl: ""
 url: "http://www.martin-brennan.com"
-twitter_username: mjrbrennan
 github_username: martin-brennan
 markdown: kramdown
 permalink: /:title
