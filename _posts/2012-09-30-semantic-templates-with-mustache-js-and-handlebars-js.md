@@ -10,8 +10,6 @@ dsq_thread_id:
   - 966254376
 iconcategory:
   - tutorial
-wp88_mc_campaign:
-  - 1
 categories:
   - Development
 tags:

@@ -7,8 +7,6 @@ layout: post
 permalink: /what-makes-a-bad-software-developer/
 exclude_from_feed: true
 exclude_from_archive: true
-wp88_mc_campaign:
-  - 1
 dsq_thread_id:
   - 3168524564
 categories:

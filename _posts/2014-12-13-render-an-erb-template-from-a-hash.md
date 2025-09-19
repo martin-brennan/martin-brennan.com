@@ -7,8 +7,6 @@ layout: post
 permalink: /render-an-erb-template-from-a-hash/
 exclude_from_feed: true
 exclude_from_archive: true
-wp88_mc_campaign:
-  - 1
 dsq_thread_id:
   - 3319175788
 categories:

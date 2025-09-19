@@ -7,8 +7,6 @@ layout: post
 permalink: /goodbye-requirejs-hello-browserify/
 exclude_from_feed: true
 exclude_from_archive: true
-wp88_mc_campaign:
-  - 1
 dsq_thread_id:
   - 3229970464
 categories:

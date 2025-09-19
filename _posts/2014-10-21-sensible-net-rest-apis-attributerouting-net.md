@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /sensible-net-rest-apis-attributerouting-net/
 exclude_from_feed: true
-wp88_mc_campaign:
-  - 1
 dsq_thread_id:
   - 3139919063
 categories:

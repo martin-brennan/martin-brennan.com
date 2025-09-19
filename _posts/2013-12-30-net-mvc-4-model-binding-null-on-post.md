@@ -10,8 +10,6 @@ iconcategory:
   - aha
 dsq_thread_id:
   - 2081204107
-wp88_mc_campaign:
-  - 1
 categories:
   - Aha!
   - Development

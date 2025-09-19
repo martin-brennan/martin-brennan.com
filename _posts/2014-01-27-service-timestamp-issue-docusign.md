@@ -10,8 +10,6 @@ iconcategory:
   - development
 dsq_thread_id:
   - 2197178305
-wp88_mc_campaign:
-  - 1
 categories:
   - Development
 tags:
