@@ -1,6 +1,6 @@
 ---
 id: 159
-title: Install Ruby and Rubygems on Windows
+title: Install Ruby and rubygems on Windows
 date: 2012-10-15T15:38:59+10:00
 author: Martin Brennan
 layout: post

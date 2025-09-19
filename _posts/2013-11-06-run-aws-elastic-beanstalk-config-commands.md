@@ -1,6 +1,6 @@
 ---
 id: 385
-title: Run AWS Elastic Beanstalk Config Commands Only Once
+title: Run AWS elastic beanstalk config commands only once
 date: 2013-11-06T20:35:03+10:00
 author: Martin Brennan
 layout: post

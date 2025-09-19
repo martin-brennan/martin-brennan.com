@@ -1,6 +1,6 @@
 ---
 id: 6
-title: The Beginning
+title: The beginning
 date: 2012-07-26T22:58:21+10:00
 author: Martin Brennan
 layout: post

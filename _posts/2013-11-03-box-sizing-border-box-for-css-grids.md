@@ -1,6 +1,6 @@
 ---
 id: 382
-title: Box-Sizing Border-Box for CSS Grids
+title: Box-sizing border-box for CSS grids
 date: 2013-11-03T12:18:13+10:00
 author: Martin Brennan
 layout: post

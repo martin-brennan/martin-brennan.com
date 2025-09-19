@@ -1,5 +1,5 @@
 ---
-title: Per-page background images using Prawn and Ruby
+title: Per-page background images using prawn and Ruby
 date: 2019-08-06T12:02:00+1000
 author: Martin Brennan
 layout: post

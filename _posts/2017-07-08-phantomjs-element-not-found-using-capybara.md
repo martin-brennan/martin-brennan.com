@@ -1,5 +1,5 @@
 ---
-title: PhantomJS Element Not Found Using Capybara
+title: PhantomJS element not found using Capybara
 date: 2017-07-08T12:30:00+10:00
 author: Martin Brennan
 layout: post

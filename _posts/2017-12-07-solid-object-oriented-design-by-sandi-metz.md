@@ -1,5 +1,5 @@
 ---
-title: SOLID Object Oriented Design by Sandi Metz
+title: SOLID object oriented design by Sandi Metz
 date: 2017-12-07T19:20:00+10:00
 author: Martin Brennan
 layout: post

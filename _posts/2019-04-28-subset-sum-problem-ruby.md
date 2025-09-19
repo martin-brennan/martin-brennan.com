@@ -1,5 +1,5 @@
 ---
-title: Subset Sum Problem in Ruby 
+title: Subset sum problem in Ruby
 date: 2019-04-28T20:14:33+1000
 author: Martin Brennan
 layout: post

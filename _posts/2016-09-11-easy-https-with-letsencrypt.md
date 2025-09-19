@@ -1,5 +1,5 @@
 ---
-title: Easy HTTPS With Let's Encrypt
+title: Easy HTTPS with Let's Encrypt
 date: 2016-09-11T20:30:00+10:00
 author: Martin Brennan
 layout: post

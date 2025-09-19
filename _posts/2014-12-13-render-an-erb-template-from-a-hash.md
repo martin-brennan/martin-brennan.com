@@ -1,6 +1,6 @@
 ---
 id: 544
-title: Render an ERB Template from a Hash
+title: Render an ERB template from a Hash
 date: 2014-12-13T19:00:01+10:00
 author: Martin Brennan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 108
-title: ASP.NET ASHX Video Streaming for HTML5 Video
+title: ASP.NET ASHX video streaming for HTML5 video
 date: 2012-08-13T11:24:53+10:00
 author: Martin Brennan
 layout: post

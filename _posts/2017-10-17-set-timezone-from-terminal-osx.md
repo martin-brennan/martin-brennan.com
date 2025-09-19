@@ -1,5 +1,5 @@
 ---
-title: Set Timezone from Terminal OSX
+title: Set timezone from terminal OSX
 date: 2017-10-17T20:35:00+10:00
 author: Martin Brennan
 layout: post

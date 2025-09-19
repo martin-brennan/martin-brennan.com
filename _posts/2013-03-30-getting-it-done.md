@@ -1,6 +1,6 @@
 ---
 id: 328
-title: Getting It Done
+title: Getting it done
 date: 2013-03-30T12:16:52+10:00
 author: Martin Brennan
 layout: post

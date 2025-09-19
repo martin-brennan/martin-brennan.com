@@ -1,5 +1,5 @@
 ---
-title: Creating Share Buttons With Just URLs
+title: Creating share buttons with just URLs
 date: 2016-06-12T13:00:00+10:00
 author: Martin Brennan
 layout: post

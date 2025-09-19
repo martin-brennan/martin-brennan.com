@@ -1,6 +1,6 @@
 ---
 id: 649
-title: Angular Directive Isolate Scope Explained
+title: Angular directive isolate scope explained
 date: 2015-07-09T22:15:11+10:00
 author: Martin Brennan
 layout: post

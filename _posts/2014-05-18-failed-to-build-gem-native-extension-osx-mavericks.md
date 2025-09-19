@@ -1,6 +1,6 @@
 ---
 id: 456
-title: Failed to build gem native extension on OSX Mavericks
+title: Failed to build gem native extension on OSX mavericks
 date: 2014-05-18T08:54:00+10:00
 author: Martin Brennan
 layout: post

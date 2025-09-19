@@ -1,6 +1,6 @@
 ---
 id: 398
-title: .NET MVC 4 Model Binding Null on Post
+title: .NET MVC 4 model binding null on POST
 date: 2013-12-30T17:26:44+10:00
 author: Martin Brennan
 layout: post

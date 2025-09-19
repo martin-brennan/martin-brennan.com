@@ -1,6 +1,6 @@
 ---
 id: 637
-title: Using $q.all() to Resolve Multiple Promises
+title: Using $q.all() to resolve multiple promises
 date: 2015-03-28T09:55:12+10:00
 author: Martin Brennan
 layout: post

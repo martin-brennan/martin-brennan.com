@@ -1,6 +1,6 @@
 ---
 id: 745
-title: 'Changes to NPM’s Unpublish Policy'
+title: 'Changes to NPM’s unpublish policy'
 date: 2016-03-30T08:02:10+10:00
 author: Martin Brennan
 layout: post

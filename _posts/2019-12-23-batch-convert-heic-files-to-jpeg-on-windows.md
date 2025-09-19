@@ -1,5 +1,5 @@
 ---
-title: Batch Convert HEIC Files to JPEG on Windows
+title: Batch convert HEIC files to JPEG on Windows
 date: 2019-12-23T14:17:12+10:00
 author: Martin Brennan
 layout: post

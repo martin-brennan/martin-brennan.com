@@ -1,6 +1,6 @@
 ---
 id: 461
-title: The SMS That Started It All
+title: The SMS that started it all
 date: 2014-05-27T05:43:12+10:00
 author: Martin Brennan
 layout: post

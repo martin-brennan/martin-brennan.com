@@ -1,5 +1,5 @@
 ---
-title: Git Shortcuts with FZF
+title: Git shortcuts with FZF
 date: 2017-04-20T19:30:00+10:00
 author: Martin Brennan
 layout: post

@@ -1,5 +1,5 @@
 ---
-title: Terminal Shortcuts
+title: Terminal shortcuts
 date: 2016-12-10T09:30:00+10:00
 author: Martin Brennan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 562
-title: LiveReload With Gulp
+title: LiveReload with gulp
 date: 2015-01-27T19:39:04+10:00
 author: Martin Brennan
 layout: post

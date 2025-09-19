@@ -1,6 +1,6 @@
 ---
 id: 698
-title: Duration Parsing Using Juration
+title: Duration parsing using juration
 date: 2015-07-19T14:15:59+10:00
 author: Martin Brennan
 layout: post

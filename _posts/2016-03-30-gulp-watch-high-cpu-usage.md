@@ -1,6 +1,6 @@
 ---
 id: 755
-title: gulp.watch High CPU Usage
+title: gulp.watch high CPU usage
 date: 2016-03-30T13:55:26+10:00
 author: Martin Brennan
 layout: post

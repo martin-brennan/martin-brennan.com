@@ -1,5 +1,5 @@
 ---
-title: Invalid Byte Sequence in US-ASCII
+title: Invalid byte sequence in US-ASCII
 date: 2017-08-17T23:45:00+10:00
 author: Martin Brennan
 layout: post

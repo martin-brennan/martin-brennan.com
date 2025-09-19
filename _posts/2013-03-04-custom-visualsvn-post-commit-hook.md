@@ -1,6 +1,6 @@
 ---
 id: 302
-title: Custom VisualSVN Post-Commit Hook Using Visual Studio
+title: Custom VisualSVN post-commit hook using Visual Studio
 date: 2013-03-04T20:03:54+10:00
 author: Martin Brennan
 layout: post

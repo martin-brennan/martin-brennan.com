@@ -1,6 +1,6 @@
 ---
 id: 623
-title: 'Mocks, Stubs, and Injections: Unit Testing in Angular.JS'
+title: 'Mocks, stubs, and injections: unit testing in Angular.JS'
 date: 2015-03-16T20:35:22+10:00
 author: Martin Brennan
 layout: post

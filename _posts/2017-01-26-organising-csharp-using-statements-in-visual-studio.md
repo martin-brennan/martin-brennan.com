@@ -1,5 +1,5 @@
 ---
-title: Organising C# using Statements in Visual Studio
+title: Organising C# using statements in Visual Studio
 date: 2017-01-26T14:30:00+10:00
 author: Martin Brennan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 573
-title: 'AngularJS Styleguide by @john_papa'
+title: 'AngularJS styleguide by @john_papa'
 date: 2015-01-29T07:07:13+10:00
 author: Martin Brennan
 layout: post

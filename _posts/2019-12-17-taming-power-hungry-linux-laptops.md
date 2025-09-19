@@ -1,5 +1,5 @@
 ---
-title: "Taming power-hungry Linux laptops"
+title: "Taming power-hungry linux laptops"
 date: 2019-12-17T21:00:00+1000
 author: Martin Brennan
 layout: post

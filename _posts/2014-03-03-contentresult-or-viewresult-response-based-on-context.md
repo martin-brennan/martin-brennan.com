@@ -1,6 +1,6 @@
 ---
 id: 416
-title: ContentResult or ViewResult Response Based on Context
+title: ContentResult or ViewResult response based on context
 date: 2014-03-03T07:38:44+10:00
 author: Martin Brennan
 layout: post

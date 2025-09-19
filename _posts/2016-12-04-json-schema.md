@@ -1,5 +1,5 @@
 ---
-title: JSON Schema
+title: JSON schema
 date: 2016-12-04T13:30:00+10:00
 author: Martin Brennan
 layout: post

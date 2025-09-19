@@ -1,5 +1,5 @@
 ---
-title: Simulating the Mouse Click Event in JavaScript
+title: Simulating the mouse click event in JavaScript
 date: 2017-04-20T19:30:00+10:00
 author: Martin Brennan
 layout: post

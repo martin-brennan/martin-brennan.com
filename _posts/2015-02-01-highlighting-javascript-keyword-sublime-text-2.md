@@ -1,6 +1,6 @@
 ---
 id: 582
-title: Highlighting JavaScript this Keyword in Sublime Text 2
+title: Highlighting JavaScript this keyword in Sublime Text 2
 date: 2015-02-01T19:32:04+10:00
 author: Martin Brennan
 layout: post

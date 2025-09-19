@@ -1,5 +1,5 @@
 ---
-title: Google Chrome to Start Marking HTTP Connections Insecure
+title: Google Chrome to start marking HTTP connections insecure
 date: 2016-09-09T21:15:00+10:00
 author: Martin Brennan
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 77
-title: Development Habitats
+title: Development habitats
 date: 2012-08-08T22:36:08+10:00
 author: Martin Brennan
 layout: post

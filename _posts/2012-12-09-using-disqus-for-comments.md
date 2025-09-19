@@ -1,6 +1,6 @@
 ---
 id: 203
-title: Using Disqus For Comments
+title: Using Disqus for comments
 date: 2012-12-09T21:52:31+10:00
 author: Martin Brennan
 layout: post

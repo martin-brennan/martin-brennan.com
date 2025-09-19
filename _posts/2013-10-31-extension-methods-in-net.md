@@ -1,6 +1,6 @@
 ---
 id: 379
-title: Extension Methods in .NET
+title: Extension methods in .NET
 date: 2013-10-31T07:37:21+10:00
 author: Martin Brennan
 layout: post

@@ -1,5 +1,5 @@
 ---
-title: Expanded Output Format for PSQL
+title: Expanded output format for PSQL
 date: 2017-07-30T20:15:00+10:00
 author: Martin Brennan
 layout: post

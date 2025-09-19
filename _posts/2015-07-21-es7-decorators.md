@@ -1,6 +1,6 @@
 ---
 id: 701
-title: ES7 Decorators
+title: ES7 decorators
 date: 2015-07-21T22:18:06+10:00
 author: Martin Brennan
 layout: post
