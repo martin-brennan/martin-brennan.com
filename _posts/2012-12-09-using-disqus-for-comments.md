@@ -4,7 +4,6 @@ title: Using Disqus For Comments
 date: 2012-12-09T21:52:31+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=203
 permalink: /using-disqus-for-comments/
 exclude_from_feed: true
 exclude_from_archive: true

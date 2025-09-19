@@ -4,7 +4,6 @@ title: Why Rails by Claudio Ortolina
 date: 2012-12-30T13:06:03+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=234
 permalink: /why-rails-by-claudio-ortolina/
 dsq_thread_id:
   - 

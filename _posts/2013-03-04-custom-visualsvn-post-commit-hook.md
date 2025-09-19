@@ -4,7 +4,6 @@ title: Custom VisualSVN Post-Commit Hook Using Visual Studio
 date: 2013-03-04T20:03:54+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=302
 permalink: /custom-visualsvn-post-commit-hook/
 exclude_from_feed: true
 iconcategory:

@@ -4,7 +4,6 @@ title: gulp.watch High CPU Usage
 date: 2016-03-30T13:55:26+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=755
 permalink: /gulp-watch-high-cpu-usage/
 exclude_from_feed: true
 dsq_thread_id:

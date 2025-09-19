@@ -4,7 +4,6 @@ title: this is not allowed before super
 date: 2015-07-01T21:14:26+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=641
 permalink: /this-is-not-allowed-before-super/
 exclude_from_feed: true
 dsq_thread_id:

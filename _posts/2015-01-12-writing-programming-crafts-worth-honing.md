@@ -4,7 +4,6 @@ title: Writing and Programming, Crafts Worth Honing
 date: 2015-01-12T20:52:21+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=554
 permalink: /writing-programming-crafts-worth-honing/
 dsq_thread_id:
   - 3413079859

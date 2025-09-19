@@ -4,7 +4,6 @@ title: Using $q.all() to Resolve Multiple Promises
 date: 2015-03-28T09:55:12+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=637
 permalink: /using-q-all-to-resolve-multiple-promises/
 exclude_from_feed: true
 dsq_thread_id:

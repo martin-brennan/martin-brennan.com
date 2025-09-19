@@ -4,7 +4,6 @@ title: Service Timestamp Issue for DocuSign
 date: 2014-01-27T14:34:37+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=403
 permalink: /service-timestamp-issue-docusign/
 exclude_from_feed: true
 iconcategory:

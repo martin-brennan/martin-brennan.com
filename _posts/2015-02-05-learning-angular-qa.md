@@ -4,7 +4,6 @@ title: 'Learning Angular Q&A'
 date: 2015-02-05T22:41:50+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=590
 permalink: /learning-angular-qa/
 dsq_thread_id:
   - 3487824717

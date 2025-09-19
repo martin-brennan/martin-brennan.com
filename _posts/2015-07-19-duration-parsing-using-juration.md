@@ -4,7 +4,6 @@ title: Duration Parsing Using Juration
 date: 2015-07-19T14:15:59+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=698
 permalink: /duration-parsing-using-juration/
 exclude_from_feed: true
 dsq_thread_id:

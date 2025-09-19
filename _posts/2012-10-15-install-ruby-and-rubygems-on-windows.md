@@ -4,7 +4,6 @@ title: Install Ruby and Rubygems on Windows
 date: 2012-10-15T15:38:59+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=159
 permalink: /install-ruby-and-rubygems-on-windows/
 exclude_from_feed: true
 exclude_from_archive: true

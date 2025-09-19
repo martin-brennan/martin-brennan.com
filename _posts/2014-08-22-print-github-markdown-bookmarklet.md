@@ -4,7 +4,6 @@ title: Print GitHub Markdown Bookmarklet
 date: 2014-08-22T11:50:04+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=486
 permalink: /print-github-markdown-bookmarklet/
 exclude_from_feed: true
 dsq_thread_id:

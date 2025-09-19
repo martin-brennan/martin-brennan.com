@@ -4,7 +4,6 @@ title: ASP.NET ASHX Video Streaming for HTML5 Video
 date: 2012-08-13T11:24:53+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=108
 permalink: /aha-1-ashx-video-streaming/
 dsq_thread_id:
   - 969433537

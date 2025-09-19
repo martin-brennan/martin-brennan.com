@@ -4,7 +4,6 @@ title: Highlighting JavaScript this Keyword in Sublime Text 2
 date: 2015-02-01T19:32:04+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=582
 permalink: /highlighting-javascript-keyword-sublime-text-2/
 dsq_thread_id:
   - 3474766458

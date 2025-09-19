@@ -4,7 +4,6 @@ title: Render an ERB Template from a Hash
 date: 2014-12-13T19:00:01+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=544
 permalink: /render-an-erb-template-from-a-hash/
 exclude_from_feed: true
 exclude_from_archive: true

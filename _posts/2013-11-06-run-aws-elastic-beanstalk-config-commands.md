@@ -4,7 +4,6 @@ title: Run AWS Elastic Beanstalk Config Commands Only Once
 date: 2013-11-06T20:35:03+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=385
 permalink: /run-aws-elastic-beanstalk-config-commands/
 exclude_from_feed: true
 iconcategory:

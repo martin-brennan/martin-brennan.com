@@ -4,7 +4,6 @@ title: Enable Gzip Compression in IIS
 date: 2014-01-29T07:16:07+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=411
 permalink: /enable-gzip-compression-in-iis/
 exclude_from_feed: true
 iconcategory:

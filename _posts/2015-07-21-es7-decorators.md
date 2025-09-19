@@ -4,7 +4,6 @@ title: ES7 Decorators
 date: 2015-07-21T22:18:06+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=701
 permalink: /es7-decorators/
 exclude_from_feed: true
 comments: true

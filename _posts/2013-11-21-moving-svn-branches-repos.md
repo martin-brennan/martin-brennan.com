@@ -4,7 +4,6 @@ title: Moving SVN Branches and Repos
 date: 2013-11-21T08:02:51+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=394
 permalink: /moving-svn-branches-repos/
 exclude_from_feed: true
 iconcategory:

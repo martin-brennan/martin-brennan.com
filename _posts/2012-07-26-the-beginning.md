@@ -4,7 +4,6 @@ title: The Beginning
 date: 2012-07-26T22:58:21+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=5
 permalink: /the-beginning/
 iconcategory:
   - writing

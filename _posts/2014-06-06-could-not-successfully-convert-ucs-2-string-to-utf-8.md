@@ -4,7 +4,6 @@ title: Could not successfully convert UCS-2 string to UTF-8
 date: 2014-06-06T07:17:24+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=479
 permalink: /could-not-successfully-convert-ucs-2-string-to-utf-8/
 exclude_from_feed: true
 dsq_thread_id:

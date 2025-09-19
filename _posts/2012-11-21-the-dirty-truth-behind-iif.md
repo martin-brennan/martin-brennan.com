@@ -4,7 +4,6 @@ title: The Dirty Truth Behind IIF()
 date: 2012-11-21T22:14:49+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=171
 permalink: /the-dirty-truth-behind-iif/
 exclude_from_feed: true
 exclude_from_archive: true

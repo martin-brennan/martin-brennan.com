@@ -4,7 +4,6 @@ title: Goodbye RequireJS, Hello Browserify
 date: 2014-11-16T19:06:44+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=533
 permalink: /goodbye-requirejs-hello-browserify/
 exclude_from_feed: true
 exclude_from_archive: true

@@ -4,7 +4,6 @@ title: Box-Sizing Border-Box for CSS Grids
 date: 2013-11-03T12:18:13+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=382
 permalink: /box-sizing-border-box-for-css-grids/
 exclude_from_feed: true
 iconcategory:

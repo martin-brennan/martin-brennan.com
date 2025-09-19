@@ -4,7 +4,6 @@ title: Progressively Fade Elements Using jQuery
 date: 2012-12-23T22:06:49+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=224
 permalink: /progressively-fade-elements-using-jquery/
 exclude_from_feed: true
 exclude_from_archive: true

@@ -4,7 +4,6 @@ title: Sensible .NET REST APIs with AttributeRouting.NET
 date: 2014-10-21T21:01:26+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=451
 permalink: /sensible-net-rest-apis-attributerouting-net/
 exclude_from_feed: true
 wp88_mc_campaign:

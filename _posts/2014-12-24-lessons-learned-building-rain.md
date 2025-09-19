@@ -4,7 +4,6 @@ title: Lessons Learned From Building Rain
 date: 2014-12-24T17:49:38+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=548
 permalink: /lessons-learned-building-rain/
 wp88_mc_campaign:
   - 1

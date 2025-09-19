@@ -4,7 +4,6 @@ title: DocuSign Connect XML Schema
 date: 2014-08-31T19:15:06+10:00
 author: Martin Brennan
 layout: post
-guid: http://www.martin-brennan.com/?p=499
 permalink: /docusign-connect-xml-schema/
 dsq_thread_id:
   - 2974578894
