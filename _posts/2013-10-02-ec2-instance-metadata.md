@@ -20,6 +20,10 @@ tags:
   - EC2
   - metadata
 ---
+
+{% include deprecated.html message="In 2025 this article is quite outdated. Today, AWS recommends IMDSv2 and many new instance types default to IMDSv2 only. Also, avoid using metadata as an app-level “am I on EC2?” security check -- treat instances as cattle, not pets. I would mostly consider this article a historical curiosity." cssclass="danger" %}
+
+
 As a user of [Amazon Web Services](http://aws.amazon.com), I am still constantly finding new tools, APIs and features to use within their mammoth system. Because of the huge amount of documentation available, it is difficult to find useful information until I need it for a specific reason. I was looking for a way to make sure that an .exe that I was building could only be run on an EC2 instance, and that’s when I came across [EC2 Instance Metadata](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AESDG-chapter-instancedata.html).
 
 <!--more-->

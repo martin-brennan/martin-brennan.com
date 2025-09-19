@@ -6,14 +6,12 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=53
 permalink: /sass-vs-less-the-css-preprocessor-debate/
+exclude_from_feed: true
+exclude_from_archive: true
 dsq_thread_id:
   - 966085234
 iconcategory:
   - development
-outofdate:
-  - 'true'
-outofdatenote:
-  - I recommend just using SASS, with the SCSS syntax, which has plugins for just about every build system imaginable these days.
 categories:
   - Design
   - Development
@@ -62,7 +60,7 @@ What Compass does is handle all of the processing of your SASS/SCSS files into r
 
 The easiest way to set up Compass and SASS is by heading over to the [Install](http://compass-style.org/install/) page of the Compass website, where they have a tool that gets you to input some details about your project and then spits out some Terminal commands for you to run.
 
-Note that you must have Ruby already installed to set up Compass. Ruby comes preinstalled on OSX, so if you are using a Mac don’t even worry about it. If you&#8217;re on Windows, take a look at [my article](http://www.martin-brennan.com/install-ruby-and-rubygems-on-windows/) on installing Ruby and Rubygems on Windows. First you will need to run these commands, which updates Ruby and then installs compass:
+Note that you must have Ruby already installed to set up Compass. Ruby comes preinstalled on OSX, so if you are using a Mac don’t even worry about it. If you’re on Windows, take a look at [my article](http://www.martin-brennan.com/install-ruby-and-rubygems-on-windows/) on installing Ruby and Rubygems on Windows. First you will need to run these commands, which updates Ruby and then installs compass:
 
 ```shell
 gem update --system

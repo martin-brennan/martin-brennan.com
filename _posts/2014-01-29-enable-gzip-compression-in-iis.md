@@ -6,6 +6,7 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=411
 permalink: /enable-gzip-compression-in-iis/
+exclude_from_feed: true
 iconcategory:
   - development
 dsq_thread_id:
@@ -22,7 +23,7 @@ tags:
   - Windows
 ---
 
-{% include deprecated.html message="This article is likely no longer relevent, follow the instructions at your own risk!" cssclass="deprecated" %}
+{% include deprecated.html message="In 2025 this article is over ten years old and is likely out of date. Leaving it as a historical curiosity." cssclass="danger" %}
 
 For an API I am building, I needed to enable Gzip compression in IIS Express for JSON and came across [GZip response on IIS Express](http://stackoverflow.com/questions/10102743/gzip-response-on-iis-express).
 

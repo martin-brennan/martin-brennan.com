@@ -6,6 +6,7 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=456
 permalink: /failed-to-build-gem-native-extension-osx-mavericks/
+exclude_from_feed: true
 dsq_thread_id:
   - 2703691032
 categories:
@@ -22,15 +23,15 @@ tags:
   - xcode
 ---
 
-{% include deprecated.html message="This article is likely no longer relevent, follow the instructions at your own risk!" cssclass="deprecated" %}
+{% include deprecated.html message="In 2025 this article is likely no longer relevant, follow the instructions at your own risk!" cssclass="deprecated" %}
 
-When installing certain gems on Max OSX Mavericks you may run into some issues where either the `gem install` or `bundle install` command throws the error &#8220;Failed to build gem native extension&#8221;, usually in `extconf.rb`. This has happened specifically to me with the `json` and `mysql2` gems. Some gems may work exactly as expected.
+When installing certain gems on Max OSX Mavericks you may run into some issues where either the `gem install` or `bundle install` command throws the error “Failed to build gem native extension”, usually in `extconf.rb`. This has happened specifically to me with the `json` and `mysql2` gems. Some gems may work exactly as expected.
 
 The reason for this odd behaviour is because in the latest release of XCode 5.1, Apple are treating any unknown command line options as errors.<!--more--> The XCode 5.1 release notes read:
 
-> &#8220;The Apple LLVM compiler in Xcode 5.1 treats unrecognized command-line options as errors. This issue has been seen when building both Python native extensions and Ruby Gems, where some invalid compiler options are currently specified. Projects using invalid compiler options will need to be changed to remove those options. To help ease that transition, the compiler will temporarily accept an option to downgrade the error to a warning: -Wno-error=unused-command-line-argument-hard-error-in-future&#8221;
+> “The Apple LLVM compiler in Xcode 5.1 treats unrecognized command-line options as errors. This issue has been seen when building both Python native extensions and Ruby Gems, where some invalid compiler options are currently specified. Projects using invalid compiler options will need to be changed to remove those options. To help ease that transition, the compiler will temporarily accept an option to downgrade the error to a warning: -Wno-error=unused-command-line-argument-hard-error-in-future”
 
-What this means that if any gems use invalid command line arguments in their build or install process, the error &#8220;Failed to build gem native extension&#8221; will be thrown. As a **temporary** fix, you can try running either `bundle install` or `gem install` with the following argument, which downgrades the error to a warning:
+What this means that if any gems use invalid command line arguments in their build or install process, the error “Failed to build gem native extension” will be thrown. As a **temporary** fix, you can try running either `bundle install` or `gem install` with the following argument, which downgrades the error to a warning:
 
 ```
 ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future gem install {gem_name_here}

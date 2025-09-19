@@ -16,7 +16,10 @@ tags:
   - Theme
   - this
 ---
-I&#8217;ve looked for something like this before but I&#8217;ve only recently found it. Sublime Text 2 uses textmate themes which can use regular expressions and scopes to highlight certain keywords that are only relevant in certain languages. I got a new theme which I love called [itg.flat](https://github.com/itsthatguy/theme-itg-flat "itg.flat") and while the colors are great, it was lacking a highlight for the `this` keyword in JavaScript, which makes in harder to spot and locate scope issues.
+
+{% include deprecated.html message="In 2025 I haven't used Sublime Text 2 in years, leaving it up for historical curiosity only." cssclass="deprecated" %}
+
+I’ve looked for something like this before but I’ve only recently found it. Sublime Text 2 uses textmate themes which can use regular expressions and scopes to highlight certain keywords that are only relevant in certain languages. I got a new theme which I love called [itg.flat](https://github.com/itsthatguy/theme-itg-flat "itg.flat") and while the colors are great, it was lacking a highlight for the `this` keyword in JavaScript, which makes in harder to spot and locate scope issues.
 
 I found this on a Sublime Text 2 forum post, which highlights the keyword. You just need to add this to the `.tmtheme` file for your theme, which will usually be located in `{user}/Library/Application Support/Sublime Text 2/Packages/Theme - Name/` for Mac and `%APPDATA%\Sublime Text 2\Packages\Theme - Name\` in Windows:
 

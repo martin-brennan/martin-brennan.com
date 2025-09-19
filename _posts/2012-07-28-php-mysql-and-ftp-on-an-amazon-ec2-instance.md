@@ -6,15 +6,12 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=26
 permalink: /php-mysql-and-ftp-on-an-amazon-ec2-instance/
+exclude_from_feed: true
 comments: true
 dsq_thread_id:
   - 965518167
 iconcategory:
   - tutorial
-outofdate:
-  - 'true'
-outofdatenote:
-  - Since this post it has become insanely easy to spin up EC2 instances with PHP, mySQL and FTP, especially if all you want is a Wordpress install. Do not follow the advice here.
 categories:
   - Development
   - Tutorial
@@ -164,11 +161,11 @@ At this point I’d like to give a brief overview of some of the SSH commands an
 
 **Commands**
 
-**sudo** &#8211; Adding sudo before any commands allows you to run the command as the Unix root or superuser instead of the ec2 user. We will be using this in front of most commands as the ec2 user doesn’t have many install or other security privileges.
+**sudo** – Adding sudo before any commands allows you to run the command as the Unix root or superuser instead of the ec2 user. We will be using this in front of most commands as the ec2 user doesn’t have many install or other security privileges.
 
-**yum** &#8211; Yum is a software installation tool for Red Hat/Fedora Linux, which is what Amazon’s Linux AMI uses. We will be using yum to install any packages, such as PHP and mySQL, on our server.
+**yum** – Yum is a software installation tool for Red Hat/Fedora Linux, which is what Amazon’s Linux AMI uses. We will be using yum to install any packages, such as PHP and mySQL, on our server.
 
-**vi** &#8211; Vi is the visual editor that comes with Unix systems, and it allows you to edit files on the instance using the Terminal window. Vi operates in both a command mode and an insert/edit mode, and I will go over a few of the commands later when we start editing files with it.
+**vi** – Vi is the visual editor that comes with Unix systems, and it allows you to edit files on the instance using the Terminal window. Vi operates in both a command mode and an insert/edit mode, and I will go over a few of the commands later when we start editing files with it.
 
 Now that we’re connected, we’ll set up Apache so we have a web server on which we can run our website.
 
@@ -184,17 +181,17 @@ After Apache has been installed, we will need to make some changes to the `httpd
 
 #### VI Editor Commands
 
-**i** &#8211; Enter insert mode. This will allow you to edit the contents of the file.
+**i** – Enter insert mode. This will allow you to edit the contents of the file.
 
-**Esc** &#8211; Enter command mode. This will allow you to run commands on the vi editor, such as saving and quitting.
+**Esc** – Enter command mode. This will allow you to run commands on the vi editor, such as saving and quitting.
 
 **While in command mode**
 
-**:q!** &#8211; Quit the editor without saving changes.
+**:q!** – Quit the editor without saving changes.
 
-**:wq** &#8211; Save changes and quit the editor.
+**:wq** – Save changes and quit the editor.
 
-**G** &#8211; Hold down shift and press g to move the cursor to the last line of the open file.
+**G** – Hold down shift and press g to move the cursor to the last line of the open file.
 
 You can find a larger list of commands to use [here](http://www.cs.colostate.edu/helpdocs/vi.html).
 
@@ -462,10 +459,10 @@ I recommend that before you use the instance for production purposes that you do
 
 ### Further Reading
 
-[Tips for Securing Your EC2 Instance](http://aws.amazon.com/articles/1233) &#8211; Some tips from Amazon about securing your instance to avoid security vulnerabilities.
+[Tips for Securing Your EC2 Instance](http://aws.amazon.com/articles/1233) – Some tips from Amazon about securing your instance to avoid security vulnerabilities.
 
-[Remotely Connect to Your EC2 Server Using Coda FTP](http://www.evanconkle.com/2011/11/remotely-connect-ec2-server-coda-ftp/) &#8211; I use Coda primarily for development, and this handy guide tells you how to connect to your instance using key files and Coda’s FTP functionality.
+[Remotely Connect to Your EC2 Server Using Coda FTP](http://www.evanconkle.com/2011/11/remotely-connect-ec2-server-coda-ftp/) – I use Coda primarily for development, and this handy guide tells you how to connect to your instance using key files and Coda’s FTP functionality.
 
-[Setting Up WordPress on Amazon EC2 in 5 Minutes](http://coenraets.org/blog/2012/01/setting-up-wordpress-on-amazon-ec2-in-5-minutes/) &#8211; You could probably skip to step 7 on this one, it tells you how to download, install and set up the latest WordPress installation on your instance.
+[Setting Up WordPress on Amazon EC2 in 5 Minutes](http://coenraets.org/blog/2012/01/setting-up-wordpress-on-amazon-ec2-in-5-minutes/) – You could probably skip to step 7 on this one, it tells you how to download, install and set up the latest WordPress installation on your instance.
 
-[Amazon EC2 Cloud Installation and Setup](http://onlinewebapplication.com/2011/09/amazon-ec2-cloud-installation-setup.html) &#8211; This article covers many of the same steps as my article, but using Windows instead of Mac. It covers using PuTTY for SSH and Filezilla for SFTP.
+[Amazon EC2 Cloud Installation and Setup](http://onlinewebapplication.com/2011/09/amazon-ec2-cloud-installation-setup.html) – This article covers many of the same steps as my article, but using Windows instead of Mac. It covers using PuTTY for SSH and Filezilla for SFTP.

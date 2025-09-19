@@ -6,6 +6,7 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=623
 permalink: /mocks-stubs-and-injections-unit-testing-in-angular-js/
+exclude_from_feed: true
 dsq_thread_id:
   - 3599306703
 categories:
@@ -22,9 +23,12 @@ tags:
   - traceur
   - unit testing
 ---
-Unit testing in [Angular](https://www.angularjs.org) is one of the framework&#8217;s biggest draws, and the framework&#8217;s huge focus on [dependency injection](https://docs.angularjs.org/guide/di) makes it an ideal candidate for unit tests. This is very powerful when writing tests because any dependencies that your units or modules have can be easily mocked or injected, whether they are Angular modules or your own defined controllers, factories and directives.
 
-I found that although this sounds good on paper, it can be quite difficult to achieve in a project whose build workflow involves about 12&#8211;15 gulp tasks, ~30 bower dependencies, and all of the modules written in ES6. Finding a way to compile the source files using [Traceur](https://github.com/google/traceur-compiler) and then loading them alongside the bower dependencies was a challenging endeavour, and this article aims to cover what I have found to be an ideal setup for unit testing a dependency-heavy Angular application using ES6 modules. This article will be quite lengthy, so feel free to skip ahead at any point.
+{% include deprecated.html message="In 2025 this article is irrelevant, it was written for Angular 1.6. Leaving it up as a historical curiosity," cssclass="danger" %}
+
+Unit testing in [Angular](https://www.angularjs.org) is one of the framework’s biggest draws, and the framework’s huge focus on [dependency injection](https://docs.angularjs.org/guide/di) makes it an ideal candidate for unit tests. This is very powerful when writing tests because any dependencies that your units or modules have can be easily mocked or injected, whether they are Angular modules or your own defined controllers, factories and directives.
+
+I found that although this sounds good on paper, it can be quite difficult to achieve in a project whose build workflow involves about 12–15 gulp tasks, ~30 bower dependencies, and all of the modules written in ES6. Finding a way to compile the source files using [Traceur](https://github.com/google/traceur-compiler) and then loading them alongside the bower dependencies was a challenging endeavour, and this article aims to cover what I have found to be an ideal setup for unit testing a dependency-heavy Angular application using ES6 modules. This article will be quite lengthy, so feel free to skip ahead at any point.
 
 <!--more-->
 
@@ -47,7 +51,7 @@ The structure of this article is as follows:
 
 The test runner that we are going to use is [Karma](http://karma-runner.github.io/), which was built by Google to improve test running times and which is specifically suited to testing Angular applications. It also makes it a lot easier for you to run tests on many different browsers at once. Karma is responsible for loading all of your source files, test files, and dependencies and running them in a browser-based test client. There are several different framework plugins that can be used with Karma, that do things like vary the test output, load modules differently, use different test libraries, use different browsers or compile ES6 source files.
 
-Karma is just the test runner, we still need a testing framework to write our unit tests in. The main JavaScript testing libraries are a combination of [Mocha](http://mochajs.org/) and [Chai](http://chaijs.com/), [Jasmine](http://jasmine.github.io/), and [QUnit](http://qunitjs.com/). It doesn&#8217;t really matter which library you choose to work with, as their syntaxes and assertions are very similar and all of them can be extended in similar ways. However, I&#8217;ve found Mocha paired with Chai, which is an [assertion](http://chaijs.com/api/) library, to be great to work with, and that combination is what I&#8217;ll be using in this article.
+Karma is just the test runner, we still need a testing framework to write our unit tests in. The main JavaScript testing libraries are a combination of [Mocha](http://mochajs.org/) and [Chai](http://chaijs.com/), [Jasmine](http://jasmine.github.io/), and [QUnit](http://qunitjs.com/). It doesn’t really matter which library you choose to work with, as their syntaxes and assertions are very similar and all of them can be extended in similar ways. However, I’ve found Mocha paired with Chai, which is an [assertion](http://chaijs.com/api/) library, to be great to work with, and that combination is what I’ll be using in this article.
 
 ## 2. Karma Config
 
@@ -122,7 +126,7 @@ module.exports = function (config) {
 }
 ```
 
-As you can see, first of all we are telling Karma that we want to use Mocha and Chai as testing frameworks, and Sinon as the stubbing and spying framework (more on that later). The Karma tests are run on port 9867 and we&#8217;ve set `runOnce` to false, to avoid having to restart the tests every time a change is made. We&#8217;ve also set up `autoWatch` to true, which will monitor test and source files for changes then re-run the tests every time.
+As you can see, first of all we are telling Karma that we want to use Mocha and Chai as testing frameworks, and Sinon as the stubbing and spying framework (more on that later). The Karma tests are run on port 9867 and we’ve set `runOnce` to false, to avoid having to restart the tests every time a change is made. We’ve also set up `autoWatch` to true, which will monitor test and source files for changes then re-run the tests every time.
 
 Finally, we have the files array, and the Traceur configuration (see the [ES6 Compiling With Karma section](#3-es6-compiling-with-karma) below for more details). The files array tells Karma which files to load as tests, which files to load in the browser window, and which files to copy to the output directory but not load in the browser. This section is quite tricky to get right at first, because you want some files to be loaded by the browser and some, in the case of ES6 files, to be loaded by a module loader like [SystemJS](https://github.com/systemjs/systemjs) or [RequireJS](http://requirejs.org/).
 
@@ -138,7 +142,7 @@ For this project, and for my real-world project, I have source and spec files lo
 
 [SystemJS](https://github.com/systemjs/systemjs) is another module loader that can be used with ES6 modules, and is a great solution The description from GitHub for SystemJS is:
 
-> Universal dynamic module loader &#8211; loads ES6 modules, AMD, CommonJS and global scripts in the browser and NodeJS. Works with both Traceur and Babel.
+> Universal dynamic module loader – loads ES6 modules, AMD, CommonJS and global scripts in the browser and NodeJS. Works with both Traceur and Babel.
 
 As I wrote earlier, all of the spec files that have been run through the ES6 compiler by Karma should be loaded using SystemJS in the `karma-main.js` file. This way, the source files are loaded correctly, the spec files are loaded with SystemJS and the other dependencies can be loaded as normal.
 
@@ -166,7 +170,7 @@ Now that you have your specs loading, lets look at what the spec files themselve
 
 ## 5. Setting Up Specs, Dependency Injection & Angular Mocks
 
-Let&#8217;s look at what testing a simple controller looks like, where we will inject the required dependencies, mock some of our own dependencies and mock out a factory specifically for the test. We will use the example of a `PersonController`. Here is what the controller looks like:
+Let’s look at what testing a simple controller looks like, where we will inject the required dependencies, mock some of our own dependencies and mock out a factory specifically for the test. We will use the example of a `PersonController`. Here is what the controller looks like:
 
 ```javascript
 class PersonController {
@@ -201,7 +205,7 @@ export default PersonController;
 ```
 
 
-Here you can see that we need to mock out the PersonFactory so we don&#8217;t have API calls firing during our tests, and also because that component needs to be independently tested anyway. We also need Angular&#8217;s `$q` module for promises. Here is what the dependency injection and pre-test setup might look like. As you can see I&#8217;m using ES6 syntax in my tests.
+Here you can see that we need to mock out the PersonFactory so we don’t have API calls firing during our tests, and also because that component needs to be independently tested anyway. We also need Angular’s `$q` module for promises. Here is what the dependency injection and pre-test setup might look like. As you can see I’m using ES6 syntax in my tests.
 
 ```javascript
 import PersonController from 'person/personController';
@@ -310,7 +314,7 @@ it('.loadPerson() - should load a person', () => {
 });
 ```
 
-You may be wondering about a couple of things in this whole test suite. First of all, how am I testing promises, without AJAX calls? Secondly, what&#8217;s all this `spy`ing and `stub`ing going on? Read on!
+You may be wondering about a couple of things in this whole test suite. First of all, how am I testing promises, without AJAX calls? Secondly, what’s all this `spy`ing and `stub`ing going on? Read on!
 
 ## 6. Stubbing and Spying with Sinon
 
@@ -341,7 +345,7 @@ These stubs are a little different from usual, because they are stubbing functio
 
 Next up, we have spys. They are probably exactly what you think they are. They allow you to spy on different functions, which basically wraps the function in another function and provides [a whole lot of helper properties](http://sinonjs.org/docs/#spies) that makes it easy to see whether a function has been called, how many times it has been called, the arguments it has been called with and a myriad of other data.
 
-This is particularly useful if there are a lot of private methods in your controller that are called within the method you are testing, where you don&#8217;t care about their result in the context of the method you are testing but you still want to know that they have been called. Or, if you have a `switch` statement or a lot of `if...else` statements that can all call different functions, it is helpful to spy on those functions to see which one is called. The syntax is easy:
+This is particularly useful if there are a lot of private methods in your controller that are called within the method you are testing, where you don’t care about their result in the context of the method you are testing but you still want to know that they have been called. Or, if you have a `switch` statement or a lot of `if...else` statements that can all call different functions, it is helpful to spy on those functions to see which one is called. The syntax is easy:
 
 ```javascript
 // spy on setfullname
@@ -361,7 +365,7 @@ controller.setFullName.restore();
 
 ## 7. Stubbing Promises Using sinon-as-promised
 
-To simulate promises in your tests, you&#8217;ll want to use a combination of [sinon-as-promised](https://www.npmjs.com/package/sinon-as-promised) and the [$timeout](https://docs.angularjs.org/api/ng/service/$timeout) service in AngularJS. Sinon-as-promised just provides more functionality to sinon in order to stub out functions that return promises. The syntax looks like this, you can tell it what to return when the promise is resolved:
+To simulate promises in your tests, you’ll want to use a combination of [sinon-as-promised](https://www.npmjs.com/package/sinon-as-promised) and the [$timeout](https://docs.angularjs.org/api/ng/service/$timeout) service in AngularJS. Sinon-as-promised just provides more functionality to sinon in order to stub out functions that return promises. The syntax looks like this, you can tell it what to return when the promise is resolved:
 
 ```javascript
 get: sinon.stub().resolves(() => {
@@ -370,7 +374,7 @@ get: sinon.stub().resolves(() => {
 });
 ```
 
-There are a couple of things to keep in mind when using sinon-as-promised. First of all, you need to set up the extra functions for sinon in each different test file. You do this by passing the Angular service `$q` to the `sinonAsPromised()` method, which is exposed by sinon-as-promised. If you don&#8217;t do this the promise functionality provided will not work correctly, and your test assertions inside the `then()` method will not work correctly!
+There are a couple of things to keep in mind when using sinon-as-promised. First of all, you need to set up the extra functions for sinon in each different test file. You do this by passing the Angular service `$q` to the `sinonAsPromised()` method, which is exposed by sinon-as-promised. If you don’t do this the promise functionality provided will not work correctly, and your test assertions inside the `then()` method will not work correctly!
 
 Next, when you are testing the promise resolution, you need to use the Angular `$timeout` service to actually complete the promise. For example:
 
@@ -386,7 +390,7 @@ expect(controller.setFullName.called).to.eq(true);
 controller.setFullName.restore();
 ```
 
-If you don&#8217;t do this, your tests will likely finish before the promise resolves, so `$timeout.flush()` completes all `setTimeouts` to resolve the promises set up by sinon-as-promised.
+If you don’t do this, your tests will likely finish before the promise resolves, so `$timeout.flush()` completes all `setTimeouts` to resolve the promises set up by sinon-as-promised.
 
 ## 8. Bonus: Code Coverage Using Karma-Coverage
 
@@ -404,6 +408,6 @@ Finally, you may want to have separate Karma configs that can run with and witho
 
 ![unit tests passing](/images/Screen-Shot-2015-03-14-at-11.13.44-am.png)
 
-I hope this gives you a good overview of where to get started with unit testing in Angular applications with Karma. I&#8217;ve covered how you can compile your ES6 modules using Karma, mocking your own dependencies and injecting Angular dependencies, and spying and stubbing with Sinon.
+I hope this gives you a good overview of where to get started with unit testing in Angular applications with Karma. I’ve covered how you can compile your ES6 modules using Karma, mocking your own dependencies and injecting Angular dependencies, and spying and stubbing with Sinon.
 
-In the next article I hope to write an explanation of how you can unit test directives. This is a little trickier because it involves the compilation of HTML and creating your own injected `$scope`, but once you&#8217;ve done it once it is easy to modify it for each test you need to write. Now get testing!
+In the next article I hope to write an explanation of how you can unit test directives. This is a little trickier because it involves the compilation of HTML and creating your own injected `$scope`, but once you’ve done it once it is easy to modify it for each test you need to write. Now get testing!

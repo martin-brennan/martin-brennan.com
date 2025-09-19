@@ -4,6 +4,8 @@ date: 2017-07-08T12:30:00+10:00
 author: Martin Brennan
 layout: post
 permalink: /phantomjs-element-not-found-capybara/
+exclude_from_feed: true
+exclude_from_archive: true
 ---
 
 I ran into an odd issue this week where one of our Rails feature specs using [Capybara](https://github.com/teamcapybara/capybara) was failing because the [PhantomJS driver (driven by Poltergeist)](https://github.com/teampoltergeist/poltergeist) couldn't find an element on the page. This was strange because the same element was tested on a different page and PhantomJS could find it just fine. This occurred even with `$(document).ready()`. This is kind of the layout of the page:

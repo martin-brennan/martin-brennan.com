@@ -6,6 +6,8 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=562
 permalink: /livereload-gulp/
+exclude_from_feed: true
+exclude_from_archive: true
 dsq_thread_id:
   - 3461865805
 categories:
@@ -17,7 +19,7 @@ tags:
   - Javascript
   - livereload
 ---
-I&#8217;ve started working on a project to learn and use ES6 Modules, [Angular](http://angularjs.org), and [Gulp](http://gulpjs.com/), and one of the first issues I encountered was getting LiveReload to work, refreshing my browser every time I changed a file. For those not familiar with the concept, LiveReload works in one of three ways (from the [LiveReload FAQ](http://feedback.livereload.com/knowledgebase/articles/87979-how-do-i-choose-the-best-integration-method)):
+I’ve started working on a project to learn and use ES6 Modules, [Angular](http://angularjs.org), and [Gulp](http://gulpjs.com/), and one of the first issues I encountered was getting LiveReload to work, refreshing my browser every time I changed a file. For those not familiar with the concept, LiveReload works in one of three ways (from the [LiveReload FAQ](http://feedback.livereload.com/knowledgebase/articles/87979-how-do-i-choose-the-best-integration-method)):
 
 > To communicate with your browsers, LiveReloads needs its JavaScript code to be injected into your web pages. There are 3 ways to arrange that:
 >

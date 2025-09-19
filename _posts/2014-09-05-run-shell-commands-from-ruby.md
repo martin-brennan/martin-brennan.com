@@ -6,6 +6,8 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=502
 permalink: /run-shell-commands-from-ruby/
+exclude_from_feed: true
+exclude_from_archive: true
 dsq_thread_id:
   - 3044736686
 categories:

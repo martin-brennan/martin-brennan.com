@@ -1,6 +1,6 @@
 ---
 id: 570
-title: 'LINK: Using &#8220;Controller as&#8221; Syntax in Angular Routes'
+title: 'Using “Controller as” Syntax in Angular Routes'
 date: 2015-01-28T14:39:23+10:00
 author: Martin Brennan
 layout: post
@@ -12,6 +12,10 @@ categories:
   - Development
   - Share
 ---
-I&#8217;m working with Angular routes and trying to nail down the best practices, which includes using the &#8220;Controller as&#8221; syntax with routes. See this article from Will Anderson for how to achieve this:
 
-[Using &#8220;Controller as&#8221; Syntax in Angular Routes @ Will Anderson](http://willi.am/blog/2013/12/03/using-controller-as-syntax-in-angular-routes/)
+
+{% include deprecated.html message="This was written for Angular 1.6 which is no longer relevant, leaving it up for historical curiosity only." cssclass="danger" %}
+
+I’m working with Angular routes and trying to nail down the best practices, which includes using the “Controller as” syntax with routes. See this article from Will Anderson for how to achieve this:
+
+[Using “Controller as” Syntax in Angular Routes @ Will Anderson](http://willi.am/blog/2013/12/03/using-controller-as-syntax-in-angular-routes/)

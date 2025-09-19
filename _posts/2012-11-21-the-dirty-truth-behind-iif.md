@@ -6,6 +6,8 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=171
 permalink: /the-dirty-truth-behind-iif/
+exclude_from_feed: true
+exclude_from_archive: true
 dsq_thread_id:
   - 965382822
 iconcategory:
@@ -51,7 +53,7 @@ Else
 End If
 ```
 
-And you shouldn&#8217;t have any more issues!
+And you shouldn’t have any more issues!
 
 **NOTE:** C# does not have this issue, as it uses the same Ternary Operator syntax as JavaScript i.e.
 

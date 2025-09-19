@@ -6,6 +6,8 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=611
 permalink: /react-ions/
+exclude_from_feed: true
+exclude_from_archive: true
 dsq_thread_id:
   - 3552794272
 categories:
@@ -160,4 +162,4 @@ While I haven’t looked into React & Flux in-depth, from what I’ve read so fa
 
 ## Conclusion
 
-You should definitely take a look at [React](http://facebook.github.io/react/index.html), if anything to just start thinking about different ways the same problem can be solved, and to see a fresh take on a View/Component library. I&#8217;m not saying to switch immediately and jump on the bandwagon and start using it in production today, just that it is an interesting new way of thinking about UI manipulation. Their documentation is excellent and easy to read, and the Getting Started tutorial introduces you to the core concepts really well!
+You should definitely take a look at [React](http://facebook.github.io/react/index.html), if anything to just start thinking about different ways the same problem can be solved, and to see a fresh take on a View/Component library. I’m not saying to switch immediately and jump on the bandwagon and start using it in production today, just that it is an interesting new way of thinking about UI manipulation. Their documentation is excellent and easy to read, and the Getting Started tutorial introduces you to the core concepts really well!

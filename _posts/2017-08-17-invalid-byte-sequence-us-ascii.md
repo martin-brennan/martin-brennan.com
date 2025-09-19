@@ -6,7 +6,7 @@ layout: post
 permalink: /invalid-byte-sequence-us-ascii/
 ---
 
-After some new code was checked in at work we encountered this issue in our CI as part of the build step to run [RubyCritic](https://github.com/whitesmith/rubycritic) over our code. I'd never seen it before, and the source of the error was in `buffer.rb` of the `parser` gem library:
+After some new code was checked in at work (in 2017 this was Webbernet) we encountered this issue in our CI as part of the build step to run [RubyCritic](https://github.com/whitesmith/rubycritic) over our code. I'd never seen it before, and the source of the error was in `buffer.rb` of the `parser` gem library:
 
 ```
 'source=': invalid byte sequence in US-ASCII (EncodingError)

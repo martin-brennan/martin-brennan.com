@@ -6,7 +6,7 @@ layout: post
 permalink: /csv-header-converters-in-ruby/
 ---
 
-The [CSV library in the Ruby stdlib](https://ruby-doc.org/stdlib-2.6.1/libdoc/csv/rdoc/CSV.html) is a really great and easy to use one, and I've often used it for data migrations and imports. When importing data I often find it useful to validate the headers of the imported CSV, to ensure that valid columns are provided. Some users may provide columns in different cases to what you expect or with different punctuation (including spaces etc.). To normalize the headers when parsing a CSV, you can use an option passed to [`new`](https://ruby-doc.org/stdlib-2.6.1/libdoc/csv/rdoc/CSV.html#method-c-new) (other methods such a `parse`, `read`, and `foreach` accept the same options) called `header_converters`. Here is a simple example of how you can convert the headers of the parsed CSV to lowercase:
+The [CSV library in the Ruby stdlib](https://ruby-doc.org/3.4.1/gems/csv/CSV.html) is a really great and easy to use one, and I've often used it for data migrations and imports. When importing data I often find it useful to validate the headers of the imported CSV, to ensure that valid columns are provided. Some users may provide columns in different cases to what you expect or with different punctuation (including spaces etc.). To normalize the headers when parsing a CSV, you can use an option passed to [`new`](https://ruby-doc.org/3.4.1/gems/csv/CSV.html#method-c-new) (other methods such a `parse`, `read`, and `foreach` accept the same options) called `header_converters`. Here is a simple example of how you can convert the headers of the parsed CSV to lowercase:
 
 ```ruby
 ###

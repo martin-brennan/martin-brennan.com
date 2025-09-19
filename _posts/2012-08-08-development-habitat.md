@@ -6,6 +6,7 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=77
 permalink: /development-habitat/
+exclude_from_feed: true
 dsq_thread_id:
   - 970946862
 iconcategory:
@@ -38,7 +39,7 @@ The hardware makes what we do possible, so it makes sense that we like whatever 
 
 I used to work on a Windows PC/Laptop until around this time last year, when I decided that I would give Mac a try. I was enamoured with the Macbook Air as a web development tool, after reading Jonathan Christopher of Monday By Noon’s [article](http://mondaybynoon.com/20110712/macbook-air-web-development/).
 
-I slapped down a chunk of change on a 13&#8243; Macbook Air with all the trimmings; 1.7 GHz i7, 4GB RAM and 256GB SSD. It was definitely one of the best purchases I’ve ever made. It’s superfast, extremely lightweight and portable, stylish, and a joy to work on. I enjoy working on a Mac over Windows at home, but I have nothing against Windows, I still use it daily at work.
+I slapped down a chunk of change on a 13″ Macbook Air with all the trimmings; 1.7 GHz i7, 4GB RAM and 256GB SSD. It was definitely one of the best purchases I’ve ever made. It’s superfast, extremely lightweight and portable, stylish, and a joy to work on. I enjoy working on a Mac over Windows at home, but I have nothing against Windows, I still use it daily at work.
 
 ## Apps and Software
 
@@ -52,13 +53,13 @@ Up until recently, I used Coda as my editor of choice. It’s a great IDE and it
 
 It’s main strengths are:
 
-**It’s fast** &#8211; Sublime is extremely fast to open and load files, much quicker than any other editor I’ve used. The only thing that is comparable is opening a file in Notepad++ or a simple text editor.
+**It’s fast** – Sublime is extremely fast to open and load files, much quicker than any other editor I’ve used. The only thing that is comparable is opening a file in Notepad++ or a simple text editor.
 
-**It’s pretty** &#8211; Sublime has a very nice, minimalistic interface that I really enjoy working with, as well as a host of syntax colouring themes. I use Slush & Poppies as my theme of choice.
+**It’s pretty** – Sublime has a very nice, minimalistic interface that I really enjoy working with, as well as a host of syntax colouring themes. I use Slush & Poppies as my theme of choice.
 
-**It’s extensible** &#8211; There are a boatload of plugins available for Sublime Text 2, most of which can be installed from within the program using the Command Palette, which brings me to my next point.
+**It’s extensible** – There are a boatload of plugins available for Sublime Text 2, most of which can be installed from within the program using the Command Palette, which brings me to my next point.
 
-**It has the Command Palette** &#8211; The Command Palette is an incredibly useful tool in Sublime Text 2. It lets you run macros and commands, quickly insert snippets, manage your plugins and a whole bunch of other cool stuff.
+**It has the Command Palette** – The Command Palette is an incredibly useful tool in Sublime Text 2. It lets you run macros and commands, quickly insert snippets, manage your plugins and a whole bunch of other cool stuff.
 
 Of course I’m just scratching the surface here, head over to [their website](http://www.sublimetext.com/) to see the great features for yourself.
 

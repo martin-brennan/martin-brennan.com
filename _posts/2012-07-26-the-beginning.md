@@ -16,7 +16,7 @@ tags:
   - Introduction
   - Martin Brennan
 ---
-I suppose the best way to start off this blog is with some introductions. I’m Martin Brennan, and I’m a web developer based in Brisbane, Queensland which is in the lovely nation of Australia. I love web development, reading, writing and imbibing. But enough about me for now. Let&#8217;s get into it!
+I suppose the best way to start off this blog is with some introductions. I’m Martin Brennan, and I’m a web developer based in Brisbane, Queensland which is in the lovely nation of Australia. I love web development, reading, writing and imbibing. But enough about me for now. Let’s get into it!
 
 <!--more-->
 

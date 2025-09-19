@@ -4,7 +4,10 @@ date: 2019-12-23T14:17:12+10:00
 author: Martin Brennan
 layout: post
 permalink: /batch-convert-heic-files-to-jpeg-on-windows/
+exclude_from_feed: true
 ---
+
+{% include deprecated.html message="I doubt this is still relevant in 2025." cssclass="danger" %}
 
 I got a new iPhone recently, and getting the photos off of it onto my PC in a way in which Lightroom could import them was a painful experience to say the least. There are a few settings on the iPhone now which cause the photos to be stored in a new HEIC format from Apple, instead of plain old JPEG. When connecting my iPhone to my Windows PC I had all sorts of issues with the PC even recognizing the phone as a storage device. To do so I had to turn off the automatic conversion of photos from HEIC while copying to the PC, and also disable the automatic compression to HEIC entirely, and turn off some iCloud settings.
 

@@ -6,6 +6,8 @@ layout: post
 permalink: /from-wordpress-to-jekyll/
 ---
 
+{% include deprecated.html message="In 2025 most of this is still accurate, but some of the links may be stale. This blog is still run on Jekyll and I am still happy with it." cssclass="deprecated" %}
+
 This blog is now run on [Jekyll](https://jekyllrb.com/), and here’s why.
 
 ![Jekyll](/images/jekyll-and-hyde.jpg)

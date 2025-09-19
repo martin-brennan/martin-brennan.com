@@ -6,6 +6,9 @@ layout: post
 permalink: /git-shortcuts-with-fzf/
 ---
 
+
+{% include deprecated.html message="In 2025 fzf is a critical tool I use daily, I use it for much more than what this article shows, including heavy usage in nvim." cssclass="info" %}
+
 Today I started using [FZF](https://github.com/junegunn/fzf), which I'd heard of before but haven't found useful until now. It is a fuzzy file finder written in Go, which can be used to rapidly locate a file with the arbitrary string provided, starting with the current directory or a provided directory or STDIN.
 
 Where I have found it most useful so far is alongside git. The first command I've set up an alias for is `git add`. I wanted to be able to add an individual file using git, though I didn't want to have to type out the full path of the file every time. This command gets all of the added, deleted, and modified files in the current repo and feeds them to `fzf`, where you can then search for and select the file you want. The selected file is then given to the `git add` command.

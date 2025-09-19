@@ -4,7 +4,10 @@ date: 2019-12-17T21:00:00+1000
 author: Martin Brennan
 layout: post
 permalink: /buying-a-software-development-laptop-in-late-2019/
+exclude_from_feed: true
 ---
+
+{% include deprecated.html message="In 2025 I doubt this is helpful, leaving it up as a historical curiosity." cssclass="deprecated" %}
 
 My Discourse laptop is an XPS15 7590 with the following specs:
 

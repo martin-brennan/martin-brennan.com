@@ -6,6 +6,7 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=649
 permalink: /angular-directive-isolate-scope-explained/
+exclude_from_feed: true
 dsq_thread_id:
   - 3918419830
 categories:
@@ -18,6 +19,10 @@ tags:
   - Javascript
   - scope
 ---
+
+
+{% include deprecated.html message="In 2025 this article is irrelevant, it was written for Angular 1.6. Leaving it up as a historical curiosity," cssclass="danger" %}
+
 I’ve written a **lot** of directives this year, and one of the best ways to learn the ins and outs of Angular is to write a lot of isolated directives with lots of different options. One thing I’ve still felt myself occasionally struggling with is the isolate scope on the directive definition object. Not the concept of the isolate scope, but just what in the hell the difference between all the little symbols you can use is. I aim to explain the difference between these symbols because there are some important things to know about them.
 
 <!--more-->
@@ -71,7 +76,7 @@ export default RecordEdit;
 ```
 
 
-## @ (At…Is for Attribute)
+## @ (At...Is for Attribute)
 
 The first type of isolate scope “symbol” is the **@** symbol, which is used for a **one-way** databinding of a HTML attribute. There are several things you need to have in mind when using `@`:
 
@@ -153,7 +158,7 @@ record: '=?'
 ```
 
 
-## & (And…Is for Ampersand)
+## & (And...Is for Ampersand)
 
 Finally we have the **&** symbol which is used to bind methods between a parent and child directive. This is the symbol that has the most gotchas in its functionality because Angular does not create a straight one-to-one mapping of the function on the scope property. Instead, it does some voodoo magic and eventually uses `function.apply` with any parameters passed to it, retrieving the parent controller’s reference method along the way.
 
@@ -256,4 +261,4 @@ Now, all of this makes it sound like using `&` is a terrible idea, but this is n
 
 ## Conclusion
 
-Hopefully you understand how the isolate scope symbols work a bit better now. For further reading on the subject you can have a look at the article [AngularJS Sticky Notes Part 2 &#8211; Isolate Scope](http://onehungrymind.com/angularjs-sticky-notes-pt-2-isolated-scope/), the question on StackOverflow and of course the [AngularJS documentation for creating custom directives](https://docs.angularjs.org/guide/directive). You may want to read the [Understanding Scopes](https://github.com/angular/angular.js/wiki/Understanding-Scopes) wiki page on the Angular GitHub repo as well.
+Hopefully you understand how the isolate scope symbols work a bit better now. For further reading on the subject you can have a look at the article [AngularJS Sticky Notes Part 2 – Isolate Scope](http://onehungrymind.com/angularjs-sticky-notes-pt-2-isolated-scope/), the question on StackOverflow and of course the [AngularJS documentation for creating custom directives](https://docs.angularjs.org/guide/directive). You may want to read the [Understanding Scopes](https://github.com/angular/angular.js/wiki/Understanding-Scopes) wiki page on the Angular GitHub repo as well.

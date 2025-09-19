@@ -22,18 +22,21 @@ tags:
   - thor
   - tool
 ---
-Tackling a new project is the best way to learn about a bunch of new things and solve a lot of new problems. I&#8217;ve recently built Rain, a gem to generate beautiful API documentation from a Ruby comment syntax with markdown mixed in (check it out at [https://github.com/martin-brennan/rain](https://github.com/martin-brennan/rain)!). On the Rain project, I&#8217;ve learned a couple of things about gem development that I wanted to share because I think it might be helpful to others.<!--more-->
+
+{% include deprecated.html message="In 2025 it's been over 10 years since I wrote this project. It's interesting seeing how I write ruby evolve over time, so leaving this up as a historical curiosity." cssclass="deprecated" %}
+
+Tackling a new project is the best way to learn about a bunch of new things and solve a lot of new problems. I’ve recently built Rain, a gem to generate beautiful API documentation from a Ruby comment syntax with markdown mixed in (check it out at [https://github.com/martin-brennan/rain](https://github.com/martin-brennan/rain)!). On the Rain project, I’ve learned a couple of things about gem development that I wanted to share because I think it might be helpful to others.<!--more-->
 
 ## Gem Executables
 
 If your gem is intended to be run from the command line, then you will need to include an executable for the gem. These files are usually located in the `bin/` directory of your gem. They are simply shell scripts that are run in the context of the version of Ruby currently being run on the system.
 
-  1. Create a file under bin/ with no extension (Rain&#8217;s is raindoc). This will be how your gem is invoked from the command line.
-  2. Put `#!/usr/bin/env ruby` at the top of the file to run the code in the context of the system&#8217;s Ruby.
-  3. Add the lines below to the gemfile. Basically, all this is doing is ensuring that you can `require` files from your gem&#8217;s lib/ directory easily, no matter what context the executable is being run in (such as the development directory or installed in the user&#8217;s bin directory.)
-  4. Include the required files to run your gem using require. The files from your lib directory don&#8217;t need any path before them.
+  1. Create a file under bin/ with no extension (Rain’s is raindoc). This will be how your gem is invoked from the command line.
+  2. Put `#!/usr/bin/env ruby` at the top of the file to run the code in the context of the system’s Ruby.
+  3. Add the lines below to the gemfile. Basically, all this is doing is ensuring that you can `require` files from your gem’s lib/ directory easily, no matter what context the executable is being run in (such as the development directory or installed in the user’s bin directory.)
+  4. Include the required files to run your gem using require. The files from your lib directory don’t need any path before them.
   5. Put in the code to run your gem. For raindoc, this just involves starting the CLI using Thor.
-  6. Finally, in your `.gemspec` file, add the executable to the array of executables, in Rain&#8217;s case `spec.executables << 'raindoc'`. The file added is always in the context of the bin/ folder.
+  6. Finally, in your `.gemspec` file, add the executable to the array of executables, in Rain’s case `spec.executables << 'raindoc'`. The file added is always in the context of the bin/ folder.
 
 [See Rain's executable file here.](https://github.com/martin-brennan/rain/blob/master/bin/raindoc)
 
@@ -59,8 +62,6 @@ Thor has a lot of other powerful options as well, Rain is only currently using a
 You can bundle assets with your gem if required just as you would bundle your lib files. For example, Rain uses a few default ERB and CSS files for the template system that are installed when the gem is installed. You just need to add the extra files to the `files` option of your gemspec.
 
 To access the path of these files if you need to copy them or otherwise use them from within your gem, you can easily get the directory that the gem is installed in by getting its specification. Here is a simple example that finds Rain's location then copies the CSS files bundled with it to the output destination.
-
-
 
 ## Conclusion
 

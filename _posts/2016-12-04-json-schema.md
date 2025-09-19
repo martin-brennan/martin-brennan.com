@@ -6,6 +6,8 @@ layout: post
 permalink: /json-schema/
 ---
 
+{% include deprecated.html message="Updated this article in 2025 with fresh information." cssclass="info" %}
+
 When writing a common data transfer format, you will need a strong schema or specification so each client that uses that format knows how to parse, validate, and construct data using it. In XML you can use [XSD](https://en.wikipedia.org/wiki/XML_Schema_(W3C)), which is used to specify validation rules and elements expected in an XML file, as well as specifying the type of data expected (strings, integers, dates etc.). When using JSON, the best way to achieve this is with [JSON Schema](http://json-schema.org/), and I'll give a quick run through of how to use it and the things you can do with it in this article.
 
 <!--more-->
@@ -112,73 +114,97 @@ You can then make a `definitions` property in the main schema to hold all of the
 }
 ```
 
-I had some trouble with these rerences at first, until I realize I had misspelled the `$ref` path. Watch your spelling and case! (as always in programming, duh)
+I had some trouble with these references at first, until I realize I had misspelled the `$ref` path. Watch your spelling and case! (as always in programming, duh)
 
 ## Validation Libraries
 
 From here, you will want a way to validate your **actual** JSON data against your schema. There is a library to do this in pretty much every language, here are some of the more popular ones:
 
-- **C#** - [http://www.newtonsoft.com/jsonschema](http://www.newtonsoft.com/jsonschema)
-- **JavaScript** - [http://geraintluff.github.io/tv4/](http://geraintluff.github.io/tv4/)
-- **Ruby** - [https://github.com/ruby-json-schema/json-schema](https://github.com/ruby-json-schema/json-schema)
-- **Python** - [https://pypi.python.org/pypi/jsonschema](https://pypi.python.org/pypi/jsonschema)
-- **Java** - [https://github.com/daveclayton/json-schema-validator](https://github.com/daveclayton/json-schema-validator)
-- **Golang** - [https://github.com/xeipuuv/gojsonschema ](https://github.com/xeipuuv/gojsonschema)
-- **PHP** - [https://github.com/justinrainbow/json-schema ](https://github.com/justinrainbow/json-schema)
+- **C#** — [JsonSchema.Net (json-everything)](https://github.com/json-everything/json-everything) or [NJsonSchema](https://github.com/RicoSuter/NJsonSchema)  
+- **JavaScript** — [Ajv](https://ajv.js.org/)  
+- **Ruby** — [json_schemer](https://github.com/davishmcclurg/json_schemer)  
+- **Python** — [jsonschema](https://github.com/python-jsonschema/jsonschema)  
+- **Java** — [networknt/json-schema-validator](https://github.com/networknt/json-schema-validator)  
+- **Go** — [santhosh-tekuri/jsonschema](https://github.com/santhosh-tekuri/jsonschema)  
+- **PHP** — [opis/json-schema](https://github.com/opis/json-schema)  
 
-For reference, here is an example implementation I wrote to run JSON validation against a schema using node.js, as a static tester for an established schema:
+For reference, here is an example implementation I wrote to run JSON validation against a schema using node.js, as a static tester for an established schema. This has been updated in 2025 to use `Ajv`:
 
 ```javascript
-var validator = require('is-my-json-valid/require'),
-    fs        = require('fs'),
-    tv4       = require('tv4'),
-    argv      = require('yargs'),
-    formats   = require('tv4-formats');
+// validate.mjs
+import { readFile } from "node:fs/promises";
+import Ajv from "ajv";
+import addFormats from "ajv-formats";
+import yargs from "yargs/yargs";
+import { hideBin } from "yargs/helpers";
 
-// load the json data to test against
-var dataPath = argv.datafile || 'datafile.json';
-var data     = JSON.parse(fs.readFileSync(dataPath).toString());
-var schema   = JSON.parse(fs.readFileSync('schema.json').toString());
+const argv = yargs(hideBin(process.argv))
+  .option("datafile", {
+    alias: "d",
+    type: "string",
+    default: "datafile.json",
+    describe: "Path to JSON data file",
+  })
+  .option("schema", {
+    alias: "s",
+    type: "string",
+    default: "schema.json",
+    describe: "Path to JSON schema file",
+  })
+  .strict()
+  .help()
+  .parse();
 
-// important - this must be done otherwise the format validations are ignored
-tv4.addFormat(formats);
+const ajv = new Ajv({ allErrors: true, strict: false });
+addFormats(ajv); // enable "format" validations (email, uri, etc.)
 
-// validate the schema against the data and log the results
-var isValid = tv4.validate(data, schema);
-if (!isValid) {
-  console.log('ERROR validating ' + dataPath + ' against schema.');
-  console.log('--------------------------------------------------------\n');
-  console.log(parseError(tv4.error));
-} else {
-  console.log('SUCCESS validating ' + dataPath + ' against schema.');
+function formatErrors(errors = []) {
+  return errors
+    .map((e) => {
+      const path = e.instancePath || "/";
+      const where = path === "" ? "/" : path;
+      const schemaLoc = e.schemaPath ? ` (${e.schemaPath})` : "";
+      return `- ${where}: ${e.message}${schemaLoc}`;
+    })
+    .join("\n");
 }
 
-/**
- * Build up the T4 error message for logging to the console,
- * going through each of the sub-errors which are to do with
- * validation.
- *
- * @param {Object} error The t4 error object from parsing the schema.
- */
-function parseError(error) {
-  var message = error.message + ' (' + error.schemaPath + ')';
+async function main() {
+  const [dataRaw, schemaRaw] = await Promise.all([
+    readFile(argv.datafile, "utf8"),
+    readFile(argv.schema, "utf8"),
+  ]);
 
-  if (error.subErrors !== null) {
-    for (var i = 0; i < error.subErrors.length; i++) {
-      var err = error.subErrors[i];
-      message += '\n\t' + parseError(err);
-    }
+  const data = JSON.parse(dataRaw);
+  const schema = JSON.parse(schemaRaw);
+
+  const validate = ajv.compile(schema);
+  const valid = validate(data);
+
+  if (!valid) {
+    console.error(
+      `ERROR validating ${argv.datafile} against ${argv.schema}\n` +
+        "--------------------------------------------------------\n" +
+        formatErrors(validate.errors)
+    );
+    process.exitCode = 1;
+    return;
   }
 
-  return message;
+  console.log(`SUCCESS validating ${argv.datafile} against ${argv.schema}.`);
 }
+
+main().catch((err) => {
+  console.error("Unexpected error:", err);
+  process.exit(1);
+});
 ```
 
 ## References
 
-The JSON schema documentation is quite extensive and contains both [basic](http://json-schema.org/example1.html) and [advanced](http://json-schema.org/example2.html) examples. There is alos the following main documentation:
+The JSON schema documentation is quite extensive and contains [miscellaneous examples](https://json-schema.org/learn/miscellaneous-examples). There is also the following main documentation:
 
-- [JSON Schema Core Documentation](http://json-schema.org/latest/json-schema-core.html)
-- [JSON Schema Validation Documentation](http://json-schema.org/latest/json-schema-validation.html)
+- [JSON Schema Core Documentation](https://json-schema.org/draft/2020-12/json-schema-core)
+- [JSON Schema Validation Documentation](https://json-schema.org/draft/2020-12/json-schema-validation)
 
-I really reccomend that you go and read over these, because there are _a lot_ of different validations you can perform on your JSON schema. There is also a great resource out there called [Understanding JSON Schema](https://spacetelescope.github.io/understanding-json-schema/index.html) that is useful in explaining areas where the documentation is a bit light.
+I really recommend that you go and read over these, because there are _a lot_ of different validations you can perform on your JSON schema. There is also a great resource out there called [Understanding JSON Schema](https://json-schema.org/UnderstandingJSONSchema.pdf) that is useful in explaining areas where the documentation is a bit light.

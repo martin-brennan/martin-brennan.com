@@ -6,6 +6,8 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=544
 permalink: /render-an-erb-template-from-a-hash/
+exclude_from_feed: true
+exclude_from_archive: true
 wp88_mc_campaign:
   - 1
 dsq_thread_id:
@@ -19,6 +21,7 @@ tags:
   - Ruby
   - template
 ---
+
 I needed to render an ERB template from a hash for external email templates, and found that this is not as straightforward as you might think. I found a blog post on splatoperator.com with a way to accomplish this. Basically, the hash needs to be converted into an OpenStruct before passing it to the ERB template.
 
 [Render a template from a hash in Ruby (splatoperator.com)](http://splatoperator.com/2012/07/render-a-template-from-a-hash-in-ruby/)
@@ -29,4 +32,4 @@ The important part of the article and the code snippet demonstrating the functio
 
 
 
-This will of course result in &#8220;Hello Martin Brennan.&#8221;
+This will of course result in “Hello Martin Brennan.”

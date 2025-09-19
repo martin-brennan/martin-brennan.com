@@ -6,6 +6,7 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=637
 permalink: /using-q-all-to-resolve-multiple-promises/
+exclude_from_feed: true
 dsq_thread_id:
   - 3632983258
 dsq_needs_sync:
@@ -18,6 +19,9 @@ tags:
   - Javascript
   - promises
 ---
+
+{% include deprecated.html message="This article is no longer relevant, it was written for Angular 1.6. In modern JavaScript, you can use <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all\">Promise.all</a> to achieve the same thing." cssclass="danger" %}
+
 If you have a lot of promises in Angular that need to be run sequentially, you can go about it in one of two ways. There is the classic way of chaining callback functions together to achieve the desired result. Or there is the better way, which uses $q.all(). <!--more--> Assume that all of the functions in the example below follow this format:
 
 ```javascript

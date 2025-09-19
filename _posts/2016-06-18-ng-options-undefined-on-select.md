@@ -1,10 +1,13 @@
 ---
-title: ng-options Undefined On Select
+title: Angular ng-options Undefined On Select
 date: 2016-06-18T08:15:00+10:00
 author: Martin Brennan
 layout: post
 permalink: /ng-options-undefined-on-select/
+exclude_from_feed: true
 ---
+
+{% include deprecated.html message="Angular has transformed completely since this article was written, do not follow the advice here unless you are using Angular 1.6." cssclass="danger" %}
 
 I came across this subtle gotcha related to an [ng-options](https://docs.angularjs.org/api/ng/directive/ngOptions) option being undefined on select the other day at work. The initial problem was that out of a list of over a hundred or so options, one of them would cause the required form field validation to kick in because it was undefined on select. I eventually tracked it down to an issue deep within Angular's options code, and the problem was actually nothing to do with Angular itself. <!--more-->
 

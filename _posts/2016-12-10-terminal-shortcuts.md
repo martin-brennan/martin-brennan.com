@@ -4,6 +4,8 @@ date: 2016-12-10T09:30:00+10:00
 author: Martin Brennan
 layout: post
 permalink: /terminal-shortcuts/
+exclude_from_feed: true
+exclude_from_archive: true
 ---
 
 A friend sent me this list of useful terminal shortcuts:

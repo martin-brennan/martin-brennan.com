@@ -6,6 +6,7 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=129
 permalink: /semantic-templates-with-mustache-js-and-handlebars-js/
+exclude_from_feed: true
 dsq_thread_id:
   - 966254376
 iconcategory:
@@ -23,6 +24,9 @@ tags:
   - Semantic Templates
   - SOC
 ---
+
+{% include deprecated.html message="In 2025, the concepts here (separating templates from logic, using Mustache/Handlebars for simple UIs) are still valid. However, loading templates via script tags or AJAX is outdated — most projects today use precompiled templates or component-based frameworks (React, Vue, Svelte, etc.). For new projects, prefer modern frameworks or at least precompiled/bundled templates. I would mostly consider this article a historical curiosity." cssclass="danger" %}
+
 Have you ever found yourself mixing in HTML markup with your Javascript logic in increasingly elaborate and difficult ways and crying dramatically to the heavens “There must surely be a better way!”? Well I’m here to tell you that there is, and it comes in the form of logic-less, semantic templates using two different facial hair inspired systems; [Mustache.js](https://github.com/janl/mustache.js) and [Handlebars.js](http://handlebarsjs.com/).
 
 <!--more-->

@@ -6,7 +6,7 @@ layout: post
 permalink: /jim-weirich-ruby-talks/
 ---
 
-I was linked to these two videos by Jim Weirich when I started working with Ruby and Rails again by my friend/colleague/boss and they really helped get into the mindset of working with Ruby in a good, SOLID OOP way. They also gave me a path to not use Rails magic too often, and to decouple logic and classes from the framework as much as possible.
+I was linked to these two videos by Jim Weirich when I started working with Ruby and Rails again by my friend/colleague/boss (in 2017 at Webbernet) and they really helped get into the mindset of working with Ruby in a good, SOLID OOP way. They also gave me a path to not use Rails magic too often, and to decouple logic and classes from the framework as much as possible.
 
 ## Advanced Ruby Class Design by Jim Weirich
 

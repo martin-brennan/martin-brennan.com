@@ -6,6 +6,8 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=224
 permalink: /progressively-fade-elements-using-jquery/
+exclude_from_feed: true
+exclude_from_archive: true
 dsq_thread_id:
   - 990830653
 iconcategory:
@@ -24,7 +26,7 @@ tags:
   - Ruby
   - underscore.js
 ---
-I&#8217;m currently working on a [Rails](http://rubyonrails.org/) app to learn the framework and [Ruby](http://www.ruby-lang.org/en/) as a language a bit better. The app displays a list of elements in order of date created on the main page, and I decided that I would progressively fade the elements using [jQuery](http://jquery.com/) depending on how old they were. I decided to share the algorithm I came up with to help anyone else who is trying to do the same thing.<!--more-->
+I’m currently working on a [Rails](http://rubyonrails.org/) app to learn the framework and [Ruby](http://www.ruby-lang.org/en/) as a language a bit better. The app displays a list of elements in order of date created on the main page, and I decided that I would progressively fade the elements using [jQuery](http://jquery.com/) depending on how old they were. I decided to share the algorithm I came up with to help anyone else who is trying to do the same thing.<!--more-->
 
 ## Required
 

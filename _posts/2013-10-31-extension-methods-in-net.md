@@ -13,6 +13,9 @@ dsq_thread_id:
 categories:
   - Development
 ---
+
+{% include deprecated.html message="In 2025 this is still mostly accurate, but modern C# offers simpler options for some examples like pattern matching. Leaving this article as a historical curiosity." cssclass="deprecated" %}
+
 Extending the functionality of existing types and classes in .NET is very straightforward with extension methods in .NET. These methods allow you to modify the functionality of a type without modifying the existing type, and are called as if they were a method on the original type. This functionality allows you to add a wide range of comparisons or operations to a method instead of creating functions or externalising methods inside a model or class library.
 
 <!--more-->

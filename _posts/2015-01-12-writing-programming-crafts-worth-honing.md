@@ -18,13 +18,14 @@ tags:
   - software
   - writing
 ---
-I&#8217;ve been doing quite a lot of writing lately, and quite a lot of thinking about writing, and a fair bit of reading too. This of course was one of my [goals for 2015](https://medium.com/@mjrbrennan/2015-goals-and-sub-goals-d6841607404d), and I&#8217;ve been keeping a consistent journal for the first time ever (fourteen days straight and counting). From all of this writing there is one thing I&#8217;ve come to realize and it&#8217;s that writing begets writing. The more you write, the better you become at clearly expressing your thoughts and ideas through writing and translating them from the jumble in your head to the written word. Your fingers fly across the keyboard with very little barrier between your mind and the keys.<!--more-->
+
+I’ve been doing quite a lot of writing lately, and quite a lot of thinking about writing, and a fair bit of reading too. This of course was one of my goals for 2015, and I’ve been keeping a consistent journal for the first time ever (fourteen days straight and counting). From all of this writing there is one thing I’ve come to realize and it’s that writing begets writing. The more you write, the better you become at clearly expressing your thoughts and ideas through writing and translating them from the jumble in your head to the written word. Your fingers fly across the keyboard with very little barrier between your mind and the keys.<!--more-->
 
 As Joel Spolsky once said,
 
-> Writing is a muscle. The more you write, the more you&#8217;ll be able to write.
+> Writing is a muscle. The more you write, the more you’ll be able to write.
 
-I&#8217;ve found that this is a truth in software engineering as well. When you are working with the same language every day you quickly get a lot better at expressing concepts and building elegant implementations through a lot of practice and Rote learning.
+I’ve found that this is a truth in software engineering as well. When you are working with the same language every day you quickly get a lot better at expressing concepts and building elegant implementations through a lot of practice and Rote learning.
 
 However, as is the case with writing, this can only get you so far. To truly hone each craft, and yes I consider programming and writing very similar _crafts_, you need to start to focus on different things if you are to further improve your craft.
 
@@ -34,7 +35,7 @@ For a writer, this can mean writing in different genres or from different points
 
 I compare these two crafts because the 10,000 hour rule is applicable to both. Each craft requires careful, _deliberate_ practice for the engineer or writer to improve and become and expert at what they do. And if you really have a passion for something, you will bend every ounce of your will to perfecting that craft because you always get joy out of learning more from it.
 
-Developing a craft is about dreaming big, and thinking deliberately about how you can improve. But you can&#8217;t let either of these things stop you from honing your craft. Dreams can stay as just that, dreams, or they can turn into a bestselling novel or highly successful company. Thoughts can stop you from ever accomplishing anything, from ever writing a line of code or setting pen to page. I think Rudyard Kipling had the right idea in his poem _If_:
+Developing a craft is about dreaming big, and thinking deliberately about how you can improve. But you can’t let either of these things stop you from honing your craft. Dreams can stay as just that, dreams, or they can turn into a bestselling novel or highly successful company. Thoughts can stop you from ever accomplishing anything, from ever writing a line of code or setting pen to page. I think Rudyard Kipling had the right idea in his poem _If_:
 
 > If you can dream — and not make dreams your master;
   If you can think — and not make thoughts your aim;

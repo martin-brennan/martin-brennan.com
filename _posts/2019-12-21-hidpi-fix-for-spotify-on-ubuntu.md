@@ -3,8 +3,11 @@ title: HiDPI Fix for Spotify on Ubuntu
 date: 2019-12-21T11:24:53+10:00
 author: Martin Brennan
 layout: post
+exclude_from_feed: true
 permalink: /hidpi-fix-for-spotify-on-ubuntu/
 ---
+
+{% include deprecated.html message="In 2025 this is likely irrelevant, leaving it up for historical curiosity only." cssclass="deprecated" %}
 
 There are many HiDPI/4K scaling issues on Ubuntu and Linux in general, and one of the most annoying is that Spotify becomes a music player for ants. To fix the tiny UI, you can first find where Spotify is installed on Ubuntu by searching for it in Applications, right clicking on the application and clicking properties. A couple of examples of what the file location could be:
 

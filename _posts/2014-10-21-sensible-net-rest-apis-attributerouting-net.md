@@ -6,14 +6,11 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=451
 permalink: /sensible-net-rest-apis-attributerouting-net/
+exclude_from_feed: true
 wp88_mc_campaign:
   - 1
 dsq_thread_id:
   - 3139919063
-outofdate:
-  - 'true'
-outofdatenote:
-  - AttributeRouting.net is no longer actively maintained and is no longer required. The Web API now has attribute routing by default, and Microsoft have made it fantastic and insanely flexible.
 categories:
   - Development
 tags:
@@ -88,11 +85,11 @@ public class PersonController
 
 As you can see, these routes define the usual CRUD actions that you would have on a REST API resource along with another GET route that gets a contact record for the person. There are several handy route declaration Attributes that AttributeRouting makes use of.
 
-1. **RoutePrefix** &#8211; A route prefix is appended to all routes in the controller. In this case, I&#8217;ve just used the API version in the route but you could use them for whatever you want really.
+1. **RoutePrefix** – A route prefix is appended to all routes in the controller. In this case, I’ve just used the API version in the route but you could use them for whatever you want really.
 
-2. **Route Constraints** &#8211; For each route that involves an ID, I&#8217;ve appended `:int` to the parameter in the route definition. There are heaps of default built in constraints.
+2. **Route Constraints** – For each route that involves an ID, I’ve appended `:int` to the parameter in the route definition. There are heaps of default built in constraints.
 
-3. **Route Definitions** &#8211; The best part of AttributeRouting, routes are defined **on the method**. So any GET, PUT, POST or DELETE routes are declared as an attribute with that keyword, with the parameters required.
+3. **Route Definitions** – The best part of AttributeRouting, routes are defined **on the method**. So any GET, PUT, POST or DELETE routes are declared as an attribute with that keyword, with the parameters required.
 
 There are a couple of things to note when defining routes and combining with the default .NET model binding. First of all, querystring parameters do not need to be defined in the route. So for the route `/person?search={name}`, the route definition would just be `[GET("person")]` with the method `public ActionResult GetPerson(string search = "") { }`.
 
@@ -104,4 +101,4 @@ Finally, if weird stuff is happening or if you are just curious which routes are
 
 ![attributerouting](/images/attributerouting.jpg)
 
-Hopefully, AttributeRouting helps you out a lot on your next project. I&#8217;ve been using to for both the MVC APIs I&#8217;ve been working on AND the client-side MVC applications just for defining normal controller routes. It&#8217;s an incredibly useful and robust extension, and it feels like what Web API should be on its own.
+Hopefully, AttributeRouting helps you out a lot on your next project. I’ve been using to for both the MVC APIs I’ve been working on AND the client-side MVC applications just for defining normal controller routes. It’s an incredibly useful and robust extension, and it feels like what Web API should be on its own.

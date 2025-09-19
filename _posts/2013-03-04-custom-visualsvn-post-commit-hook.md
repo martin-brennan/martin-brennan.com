@@ -6,6 +6,7 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=302
 permalink: /custom-visualsvn-post-commit-hook/
+exclude_from_feed: true
 iconcategory:
   - Tutorial
 dsq_thread_id:
@@ -22,7 +23,10 @@ tags:
   - Visual Studio
   - VisualSVN
 ---
-At work we use [VisualSVN](http://www.visualsvn.com/) for our source control needs, which is great. Their SVN server software is really simple and reliable, and the Visual Studio integration is awesome and works like a charm. VisualSVN comes with [several predefined scripts](http://www.visualsvn.com/support/topic/00018/) that you can attach to your pre- and post-commit and other SVN hooks, but they are quite narrow in scope and not easily customisable. I decided to start searching for a way to make a customisable VisualSVN post-commit hook that I could code myself, and I found that it was much easier than I first anticipated.
+
+{% include deprecated.html message="Who uses SVN anymore? I've used git for over years now at least. Leaving this article as a historical curiosity." cssclass="danger" %}
+
+At work (Film Skills at time of writing) we use [VisualSVN](http://www.visualsvn.com/) for our source control needs, which is great. Their SVN server software is really simple and reliable, and the Visual Studio integration is awesome and works like a charm. VisualSVN comes with [several predefined scripts](http://www.visualsvn.com/support/topic/00018/) that you can attach to your pre- and post-commit and other SVN hooks, but they are quite narrow in scope and not easily customisable. I decided to start searching for a way to make a customisable VisualSVN post-commit hook that I could code myself, and I found that it was much easier than I first anticipated.
 
 <!--more-->
 

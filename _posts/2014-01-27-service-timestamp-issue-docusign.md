@@ -6,6 +6,7 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=403
 permalink: /service-timestamp-issue-docusign/
+exclude_from_feed: true
 iconcategory:
   - development
 dsq_thread_id:
@@ -23,7 +24,10 @@ tags:
   - windows server
   - windows service
 ---
-I ran into this service timestamp issue with our server that sends Envelopes to [DocuSign](http://www.docusign.com/) the e-signature service that we use at work. The Envelopes are sent through a SOAP web service endpoint, which we are sending to via a Window service hosted on an [Amazon EC2](http://aws.amazon.com/ec2/) instance. We got this error out of nowhere, which can occur for any web service, not specifically DocuSign&#8217;s.
+
+{% include deprecated.html message="In 2025, this article is likely out of date. Leaving it up as a historical curiosity." cssclass="danger" %}
+
+I ran into this service timestamp issue with our server that sends Envelopes to [DocuSign](http://www.docusign.com/) the e-signature service that we use at work. The Envelopes are sent through a SOAP web service endpoint, which we are sending to via a Window service hosted on an [Amazon EC2](http://aws.amazon.com/ec2/) instance. We got this error out of nowhere, which can occur for any web service, not specifically DocuSign’s.
 
 ```csharp
 An error was discovered processing the header -- WSE065: Creation time of the timestamp is in the future.
@@ -40,5 +44,4 @@ at Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance
 at DocuSignLibrary.Document.SendToDocuSign(Envelope Document, List`1 Recipients, Object Envelope
 ```
 
-
-I found the solution in the article <a href="http://www.winblogs.net/index.php/2011/09/02/automatic-time-update-in-windows-sync-with-internet-time-a-k-a-ntp-server/" title="Automatic time update in Windows (sync with internet time a.k.a NTP server )" target="_blank">Automatic time update in Windows (sync with internet time a.k.a NTP server )</a>. I checked the server time and it was about 5 minutes ahead of the correct UTC time. I have no idea how it got out of sync, or how it continues to do so, but to fix it all I had to do was right click on the clock, click Adjust Date/Time > Internet Time > Change Settings > Update Now. It fixed the service error and Envelopes continued to send, but we have no idea why the time continues to slip out of sync. If anyone else has experienced this problem let me know in the comments!
+I found the solution in the article [Automatic time update in Windows (sync with internet time a.k.a NTP server )](http://www.winblogs.net/index.php/2011/09/02/automatic-time-update-in-windows-sync-with-internet-time-a-k-a-ntp-server/). I checked the server time and it was about 5 minutes ahead of the correct UTC time. I have no idea how it got out of sync, or how it continues to do so, but to fix it all I had to do was right click on the clock, click Adjust Date/Time > Internet Time > Change Settings > Update Now. It fixed the service error and Envelopes continued to send, but we have no idea why the time continues to slip out of sync. If anyone else has experienced this problem let me know in the comments!

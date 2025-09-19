@@ -6,6 +6,8 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=159
 permalink: /install-ruby-and-rubygems-on-windows/
+exclude_from_feed: true
+exclude_from_archive: true
 dsq_thread_id:
   - 983114859
 iconcategory:

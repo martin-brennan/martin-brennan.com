@@ -6,6 +6,7 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=248
 permalink: /blog-redesign/
+exclude_from_feed: true
 iconcategory:
   - design
 dsq_thread_id:
@@ -20,7 +21,7 @@ tags:
   - Theme
 ---
 
-{% include deprecated.html message="I've redesigned again since this article, though you may find some of the links helpful." cssclass="deprecated" %}
+{% include deprecated.html message="I've redesigned again since this article, though you may find some of the links helpful. Also it's fun to see what this blog used to look like!" cssclass="deprecated" %}
 
 For the past week and a bit I’ve been redesigning martin-brennan.com for a fresh look and feel, and today I’m launching the new design! Let me know what you think on twitter [@mjrbrennan](htttp://twitter.com/mjrbrennan) or in the comments, or take a bit more time to bask in my new design and read about my process in the article!
 

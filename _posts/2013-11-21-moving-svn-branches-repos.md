@@ -6,6 +6,7 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=394
 permalink: /moving-svn-branches-repos/
+exclude_from_feed: true
 iconcategory:
   - development
 dsq_thread_id:
@@ -19,6 +20,9 @@ tags:
   - VisualSVN
   - Windows
 ---
+
+{% include deprecated.html message="Who uses SVN anymore? I've used git for over years now at least. Leaving this article as a historical curiosity." cssclass="danger" %}
+
 Just a quick tip, if you need to move a SVN branch or folder around inside the repository, use the following command:
 
 `svn move https://svn_server/svn/repo/branches/folder https://svn_server/svn/repo/branches-graveyard/folder --message "Moving branch to graveyard"`

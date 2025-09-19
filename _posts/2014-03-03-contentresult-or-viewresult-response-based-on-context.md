@@ -6,6 +6,7 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=416
 permalink: /contentresult-or-viewresult-response-based-on-context/
+exclude_from_feed: true
 iconcategory:
   - development
 dsq_thread_id:
@@ -19,6 +20,9 @@ tags:
   - controller
   - MVC
 ---
+
+{% include deprecated.html message="In 2025 this article is over ten years old and is likely out of date. Leaving it as a historical curiosity." cssclass="danger" %}
+
 In .NET MVC there are times where you may want to return either a `ContentResult` or `ViewResult` depending on the situation. For example you may want to return an `application/json` result for an API request but a structured view with timing information (such as when using MiniProfiler) when visiting the route in the browser.
 
 I had to find out how to construct the different types of results separately first. The main properties that need to be set for a new `ViewResult` object are the ViewName and the ViewData. ViewData has a Model property where you can set the model that you would like to return with the view. The `SimpleResponse` model is a simple model that just has a JSON property that I use to display the JSON output of an API route in a nicely-formatted way.<!--more-->

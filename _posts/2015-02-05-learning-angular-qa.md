@@ -1,6 +1,6 @@
 ---
 id: 590
-title: 'Learning Angular Q&#038;A'
+title: 'Learning Angular Q&A'
 date: 2015-02-05T22:41:50+10:00
 author: Martin Brennan
 layout: post
@@ -19,6 +19,9 @@ tags:
   - SPA
   - template
 ---
+
+{% include deprecated.html message="In 2025 this article is irrelevant, it was written for Angular 1.6. Leaving it up as a historical curiosity," cssclass="danger" %}
+
 While I’ve been learning Angular for the past couple of weeks, I’ve been able to get a pretty good idea of how the framework works as well as a lot of the best practices for it. While reflecting on what I had learned, I came up with several questions for myself to research to get a better understanding of more patterns and what I should use for certain things in Angular. Here are the questions I came up with and the results of my research.
 
 <!--more-->
@@ -109,7 +112,7 @@ Furthermore, your directives should also be handling all of their own validation
 
 ## 4. Do ES6 classes have a place in Angular?
 
-Classes in ES6 are basically syntactic sugar around the normal way that you define constructors in JavaScript. So anything that needs to create an instance using the `new` keyword can use ES6 classes. For example, classes can be used for services, factories and controllers. <del datetime="2015-07-09T12:58:10+10:00">However they shouldn’t really be used for directives</del>. Directives require a return object which contains the [Directive Definition Object](https://docs.angularjs.org/api/ng/service/$compile#directive-definition-object), so they are defined as classes slightly differently. As long as your class&#8217;s `constructor` returns a DDO you can use classes for directives just fine.
+Classes in ES6 are basically syntactic sugar around the normal way that you define constructors in JavaScript. So anything that needs to create an instance using the `new` keyword can use ES6 classes. For example, classes can be used for services, factories and controllers. <del datetime="2015-07-09T12:58:10+10:00">However they shouldn’t really be used for directives</del>. Directives require a return object which contains the [Directive Definition Object](https://docs.angularjs.org/api/ng/service/$compile#directive-definition-object), so they are defined as classes slightly differently. As long as your class’s `constructor` returns a DDO you can use classes for directives just fine.
 
 ## 5. What are some performance issues and considerations to be aware of when working with Angular?
 

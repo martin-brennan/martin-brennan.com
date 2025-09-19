@@ -6,6 +6,7 @@ author: Martin Brennan
 layout: post
 guid: http://www.martin-brennan.com/?p=385
 permalink: /run-aws-elastic-beanstalk-config-commands/
+exclude_from_feed: true
 iconcategory:
   - development
 dsq_thread_id:
@@ -24,7 +25,7 @@ tags:
   - server
 ---
 
-{% include deprecated.html message="This article is likely no longer relevent, follow the instructions at your own risk!" cssclass="deprecated" %}
+{% include deprecated.html message="In 2025, this article is likely no longer relevant, follow the instructions at your own risk!" cssclass="danger" %}
 
 The Elastic Beanstalk on Amazon Web Services is a service used to deploy your application to the cloud. Amazon then handles all of the provisioning of instances, loading assets on S3, configuring load balancers and running your server software such as IIS. Configuring what happens when you deploy using Elastic Beanstalk is fairly straightforward, and for more in-depth commands an Elastic Beanstalk Configuration File can be deployed with the application. The configuration file is YAML-based, and can be used to download and install MSIs and other packages and also run commands on the instance. [You can read more about them here](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/customize-containers.html).<!--more-->
 

@@ -1,6 +1,6 @@
 ---
 id: 108
-title: 'Aha! #1 ASP.NET ASHX Video Streaming for HTML5 Video'
+title: ASP.NET ASHX Video Streaming for HTML5 Video
 date: 2012-08-13T11:24:53+10:00
 author: Martin Brennan
 layout: post
@@ -24,6 +24,9 @@ tags:
   - VB.NET
   - Video
 ---
+
+{% include deprecated.html message="This is over a decade old, older than my first child. I haven't worked with VB.NET in a long, long time. Consider it a historical curiosity." cssclass="danger" %}
+
 I think that solving a programming problem that has haunted you for days, weeks or months is one of the best feelings you can get as a developer. I had one of these moments over the weekend and I thought I’d put it on here as a reminder to me and to help anyone else out who may be having the same problem.<!--more-->
 
 ## The Problem
@@ -55,7 +58,7 @@ If Not context.Request.Headers("Range") Is Nothing Then
     startbyte = Convert.ToInt64(range(1))
 
     'If the start byte is not equal to zero, that means the user is requesting partial content.
-    If startbyte &lt;> 0 Then
+    If startbyte <> 0 Then
         'Set the status code of the response to 206 (Partial Content) and add a content range header.
         context.Response.StatusCode = 206
         context.Response.AddHeader("Content-Range", String.Format(" bytes {0}-{1}/{2}", startbyte, bytearr.Length - 1, bytearr.Length))

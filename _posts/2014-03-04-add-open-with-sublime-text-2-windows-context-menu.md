@@ -14,6 +14,9 @@ dsq_thread_id:
 categories:
   - Tutorial
 ---
+
+{% include deprecated.html message="In 2025 I haven't used Sublime Text 2 in years, there is no guarantee this works with newer versions. Leaving it up for historical curiosity only." cssclass="deprecated" %}
+
 Just a quick tip, you can use this .bat file to add Open with Sublime Text 2 to the Windows right click context menu. I assume that you would need administrator privileges to run this command.
 
 ```shell
