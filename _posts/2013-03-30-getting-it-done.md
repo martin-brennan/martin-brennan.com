@@ -5,8 +5,6 @@ date: 2013-03-30T12:16:52+10:00
 author: Martin Brennan
 layout: post
 permalink: /getting-it-done/
-iconcategory:
-  - Writing
 dsq_thread_id:
   - 1181729057
 categories:

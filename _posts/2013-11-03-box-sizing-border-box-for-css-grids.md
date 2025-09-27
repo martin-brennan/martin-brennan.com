@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /box-sizing-border-box-for-css-grids/
 exclude_from_feed: true
-iconcategory:
-  - design
 dsq_thread_id:
   - 1931230816
 categories:

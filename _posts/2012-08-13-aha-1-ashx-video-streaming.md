@@ -7,8 +7,6 @@ layout: post
 permalink: /aha-1-ashx-video-streaming/
 dsq_thread_id:
   - 969433537
-iconcategory:
-  - aha
 categories:
   - Aha!
   - Development

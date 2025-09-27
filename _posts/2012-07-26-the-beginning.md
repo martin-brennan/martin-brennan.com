@@ -5,8 +5,6 @@ date: 2012-07-26T22:58:21+10:00
 author: Martin Brennan
 layout: post
 permalink: /the-beginning/
-iconcategory:
-  - writing
 dsq_thread_id:
   - 1368142237
 categories:

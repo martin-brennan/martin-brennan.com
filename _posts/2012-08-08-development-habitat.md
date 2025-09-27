@@ -8,8 +8,6 @@ permalink: /development-habitat/
 exclude_from_feed: true
 dsq_thread_id:
   - 970946862
-iconcategory:
-  - writing
 categories:
   - Share
   - Writing

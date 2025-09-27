@@ -7,8 +7,6 @@ layout: post
 permalink: /why-rails-by-claudio-ortolina/
 dsq_thread_id:
   - 
-iconcategory:
-  - share
 categories:
   - Aside
   - Development

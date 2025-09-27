@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /net-mvc-4-model-binding-null-on-post/
 exclude_from_feed: true
-iconcategory:
-  - aha
 dsq_thread_id:
   - 2081204107
 categories:

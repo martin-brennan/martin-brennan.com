@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /enable-gzip-compression-in-iis/
 exclude_from_feed: true
-iconcategory:
-  - development
 dsq_thread_id:
   - 2187514105
 categories:

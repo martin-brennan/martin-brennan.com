@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /run-aws-elastic-beanstalk-config-commands/
 exclude_from_feed: true
-iconcategory:
-  - development
 dsq_thread_id:
   - 1942457448
 categories:

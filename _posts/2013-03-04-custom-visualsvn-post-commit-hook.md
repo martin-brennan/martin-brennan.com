@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /custom-visualsvn-post-commit-hook/
 exclude_from_feed: true
-iconcategory:
-  - Tutorial
 dsq_thread_id:
   - 1116980425
 categories:

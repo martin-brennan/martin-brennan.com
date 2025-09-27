@@ -5,8 +5,6 @@ date: 2013-09-27T08:30:02+10:00
 author: Martin Brennan
 layout: post
 permalink: /auto-generate-property-in-vb-net/
-iconcategory:
-  - development
 dsq_thread_id:
   - 1800279092
 categories:

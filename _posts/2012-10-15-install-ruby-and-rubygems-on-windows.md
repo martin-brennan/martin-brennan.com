@@ -9,8 +9,6 @@ exclude_from_feed: true
 exclude_from_archive: true
 dsq_thread_id:
   - 983114859
-iconcategory:
-  - tutorial
 categories:
   - Development
   - Share

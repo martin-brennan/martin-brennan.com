@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /custom-utc-datetime-model-binding-mvc/
 exclude_from_feed: true
-iconcategory:
-  - development
 dsq_thread_id:
   - 2262733532
 categories:

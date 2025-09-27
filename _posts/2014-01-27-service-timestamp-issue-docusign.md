@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /service-timestamp-issue-docusign/
 exclude_from_feed: true
-iconcategory:
-  - development
 dsq_thread_id:
   - 2197178305
 categories:
