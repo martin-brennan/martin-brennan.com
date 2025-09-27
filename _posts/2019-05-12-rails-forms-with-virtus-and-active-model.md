@@ -141,9 +141,125 @@ end
 
 ### Putting it All Together
 
-Taking our example of the `BookUpsertForm` above we can put everything together and make a form with custom validations that can create or update a book, then enqueue a background long running job. You can see how everything works together in the Gist below:
+Taking our example of the `BookUpsertForm` above we can put everything together and make a form with custom validations that can create or update a book, then enqueue a background long running job. You can see how everything works together in the code below:
 
-<script src="https://gist.github.com/martin-brennan/c6427d7d96c16c9b3d16f4a715ab4227.js"></script>
+```erb
+<% if form.errors.full_messages.length.positive? %>
+  <ul>
+  <% form.errors.full_messages.each do |message| %>
+    <li><%= message %></li>
+  <% end %>
+  </ul>
+<% end %>
+```
+
+```ruby
+class BaseForm
+  include ActiveModel::Model
+  include Virtus.model
+
+  def save
+    return false unless valid?
+
+    # you would just override this method in any class
+    # inheriting from BaseForm
+    save_form
+  end
+end
+```
+
+```erb
+<%= form_for(@facade.form, url: @facade.form.id.present? ? book_path(@facade.form.id) : book_new_path, method: @facade.form.id.present? : :patch : :post) do |f| %>
+  <%= render 'form_errors', form: @facade.form %>
+  <div class="form-group">
+    <%= f.label :title %>
+    <%= f.text_field :title, required: true %>
+  </div>
+  <div class="form-group">
+    <%= f.label :isbn %>
+    <%= f.text_field :isbn, required: true %>
+  </div>
+  <div class="form-group">
+    <%= f.label :author %>
+    <%= f.text_field :author, required: true %>
+  </div>
+  <div class="form-group">
+    <%= f.label :genre %>
+    <%= f.select :genre, options_for_select(@facade.genre_options, @facade.form.genre), { prompt: 'Please Select' }, required: true %>
+  </div>
+  <%= f.hidden_field :id, value: @facade.form.id %>
+  <div class="form-group">
+    <%= f.submit %>
+  </div>
+<% end %>
+```
+
+```ruby
+class BookUpsertForm < BaseForm
+  validates_with ISBNFormatValidator
+  
+  attribute :id, Integer
+  attribute :title, String
+  attribute :isbn, String
+  attribute :author, String
+  
+  validate :title, :isbn, :author, presence: true
+
+  def save_form
+    Book.transaction do
+      commit_book_changes
+      enqueue_background_job
+    end
+  end
+  
+  private
+  
+  def commit_book_changes
+    return Book.update(id, attributes.except(:id)) if id.present?
+    @id = Book.create(attributes).id
+  end
+  
+  def enqueue_background_job
+    Resque.enqueue(BookChangeNotifier, id)
+  end
+end
+```
+
+```ruby
+class BooksController < ApplicationController
+  def new
+    # form logic is inside the facade
+    @facade = BookUpsertFacade.new
+  end
+  
+  def create
+    @facade = BookUpsertFacade.new(params)
+    return redirect_to(book_path(@facade.form.id)) if @facade.form.save
+    flash[:warning] = 'There were validation errors encountered when creating the book'
+    render :new
+  end
+  
+  def edit
+    @facade = BookUpsertFacade.new(params)
+  end
+  
+  def update
+    @facade = BookUpsertFacade.new(params)
+    return redirect_to(book_path(@facade.form.id)) if @facade.form.save
+    flash[:warning] = 'There were validation errors encountered when updating the book'
+    render :edit
+  end
+end
+```
+
+```ruby
+class ISBNFormatValidator < ActiveModel::Validator
+  def validate(record)
+    return if ISBNFormatCheck.format_ok?(isbn)
+    errors.add(:base, 'ISBN is in an invalid format')
+  end
+end
+```
 
 ## Side Note - Data Transfer Objects
 
