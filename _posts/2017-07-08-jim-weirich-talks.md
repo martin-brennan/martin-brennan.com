@@ -1,6 +1,6 @@
 ---
 title: Jim Weirich Ruby talks
-date: 2017-07-08T12:30:00+10:00
+date: 2017-07-08
 author: Martin Brennan
 layout: post
 permalink: /jim-weirich-ruby-talks/

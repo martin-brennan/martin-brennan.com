@@ -1,7 +1,7 @@
 ---
 id: 548
 title: Lessons learned from building Rain
-date: 2014-12-24T17:49:38+10:00
+date: 2014-12-24
 author: Martin Brennan
 layout: post
 permalink: /lessons-learned-building-rain/

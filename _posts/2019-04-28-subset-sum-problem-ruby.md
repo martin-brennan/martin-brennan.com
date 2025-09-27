@@ -1,6 +1,6 @@
 ---
 title: Subset sum problem in Ruby
-date: 2019-04-28T20:14:33+1000
+date: 2019-04-28
 author: Martin Brennan
 layout: post
 permalink: /subset-sum-problem-ruby/

@@ -1,6 +1,6 @@
 ---
 title: Getting nodejs file permissions from fs.stat or fsPromises.stat mode
-date: 2018-06-30T14:35:00+10:00
+date: 2018-06-30
 author: Martin Brennan
 layout: post
 permalink: /nodejs-file-permissions-fstat/

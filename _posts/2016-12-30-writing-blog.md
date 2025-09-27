@@ -1,6 +1,6 @@
 ---
 title: My writing blog
-date: 2016-12-30T20:30:00+10:00
+date: 2016-12-30
 author: Martin Brennan
 layout: post
 permalink: /writing-blog/

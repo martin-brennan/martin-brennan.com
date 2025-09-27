@@ -1,7 +1,7 @@
 ---
 id: 420
 title: Custom UTC DateTime model binding for MVC
-date: 2014-02-14T07:03:24+10:00
+date: 2014-02-14
 author: Martin Brennan
 layout: post
 permalink: /custom-utc-datetime-model-binding-mvc/

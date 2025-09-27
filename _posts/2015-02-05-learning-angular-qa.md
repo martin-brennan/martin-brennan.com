@@ -1,7 +1,7 @@
 ---
 id: 590
 title: 'Learning Angular Q&A'
-date: 2015-02-05T22:41:50+10:00
+date: 2015-02-05
 author: Martin Brennan
 layout: post
 permalink: /learning-angular-qa/

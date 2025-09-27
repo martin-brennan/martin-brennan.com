@@ -1,6 +1,6 @@
 ---
 title: Global rescue_from error in Rails application_controller
-date: 2019-04-28T19:58:06+1000
+date: 2019-04-28
 author: Martin Brennan
 layout: post
 permalink: /rails-global-rescue-from-error-application-controller/

@@ -1,7 +1,7 @@
 ---
 id: 499
 title: DocuSign connect XML schema
-date: 2014-08-31T19:15:06+10:00
+date: 2014-08-31
 author: Martin Brennan
 layout: post
 permalink: /docusign-connect-xml-schema/

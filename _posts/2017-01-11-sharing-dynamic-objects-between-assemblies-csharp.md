@@ -1,6 +1,6 @@
 ---
 title: Sharing dynamic objects between assemblies in C#
-date: 2017-01-11T20:46:00+10:00
+date: 2017-01-11
 author: Martin Brennan
 layout: post
 permalink: /sharing-dynamic-objects-between-assemblies-csharp/

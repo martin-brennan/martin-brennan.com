@@ -1,6 +1,6 @@
 ---
 title: Terminal shortcuts
-date: 2016-12-10T09:30:00+10:00
+date: 2016-12-10
 author: Martin Brennan
 layout: post
 permalink: /terminal-shortcuts/

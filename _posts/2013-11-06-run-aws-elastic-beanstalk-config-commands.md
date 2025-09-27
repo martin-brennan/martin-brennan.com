@@ -1,7 +1,7 @@
 ---
 id: 385
 title: Run AWS elastic beanstalk config commands only once
-date: 2013-11-06T20:35:03+10:00
+date: 2013-11-06
 author: Martin Brennan
 layout: post
 permalink: /run-aws-elastic-beanstalk-config-commands/

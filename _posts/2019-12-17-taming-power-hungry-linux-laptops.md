@@ -1,6 +1,6 @@
 ---
 title: "Taming power-hungry linux laptops"
-date: 2019-12-17T21:00:00+1000
+date: 2019-12-17
 author: Martin Brennan
 layout: post
 permalink: /buying-a-software-development-laptop-in-late-2019/

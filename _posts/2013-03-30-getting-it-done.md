@@ -1,7 +1,7 @@
 ---
 id: 328
 title: Getting it done
-date: 2013-03-30T12:16:52+10:00
+date: 2013-03-30
 author: Martin Brennan
 layout: post
 permalink: /getting-it-done/

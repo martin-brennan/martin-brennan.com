@@ -1,6 +1,6 @@
 ---
 title: The fundamentals of flow in 10-ish minutes
-date: 2017-01-08T09:30:00+10:00
+date: 2017-01-08
 author: Martin Brennan
 layout: post
 permalink: /fundamentals-of-flow-in-10-ish-minutes/

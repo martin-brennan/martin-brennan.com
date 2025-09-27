@@ -1,7 +1,7 @@
 ---
 id: 248
 title: Blog redesign
-date: 2013-01-23T20:31:55+10:00
+date: 2013-01-23
 author: Martin Brennan
 layout: post
 permalink: /blog-redesign/

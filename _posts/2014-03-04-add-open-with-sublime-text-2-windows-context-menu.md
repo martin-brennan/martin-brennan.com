@@ -1,7 +1,7 @@
 ---
 id: 435
 title: Add open with Sublime Text 2 to Windows context menu
-date: 2014-03-04T07:47:30+10:00
+date: 2014-03-04
 author: Martin Brennan
 layout: post
 permalink: /add-open-with-sublime-text-2-windows-context-menu/

@@ -1,6 +1,6 @@
 ---
 title: JSON schema
-date: 2016-12-04T13:30:00+10:00
+date: 2016-12-04
 author: Martin Brennan
 layout: post
 permalink: /json-schema/

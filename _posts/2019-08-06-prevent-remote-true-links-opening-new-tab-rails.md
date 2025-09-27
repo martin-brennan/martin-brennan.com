@@ -1,6 +1,6 @@
 ---
 title: "Prevent remote: true links opening in new tabs or windows in Rails"
-date: 2019-08-06T11:14:00+1000
+date: 2019-08-06
 author: Martin Brennan
 layout: post
 permalink: /prevent-remote-true-links-opening-new-tab-rails/

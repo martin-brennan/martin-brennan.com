@@ -1,7 +1,7 @@
 ---
 id: 411
 title: Enable gzip compression in IIS
-date: 2014-01-29T07:16:07+10:00
+date: 2014-01-29
 author: Martin Brennan
 layout: post
 permalink: /enable-gzip-compression-in-iis/

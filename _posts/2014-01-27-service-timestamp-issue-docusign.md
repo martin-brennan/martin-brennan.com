@@ -1,7 +1,7 @@
 ---
 id: 403
 title: Service timestamp issue for DocuSign
-date: 2014-01-27T14:34:37+10:00
+date: 2014-01-27
 author: Martin Brennan
 layout: post
 permalink: /service-timestamp-issue-docusign/

@@ -1,7 +1,7 @@
 ---
 id: 242
 title: A baseline for frontend developers by Rebecca Murphey
-date: 2013-01-12T20:07:38+10:00
+date: 2013-01-12
 author: Martin Brennan
 layout: post
 permalink: /a-baseline-for-frontend-developers-by-rebecca-murphey/

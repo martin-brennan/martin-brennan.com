@@ -1,6 +1,6 @@
 ---
 title: ImageMagick unable to load module error on AWS Lambda
-date: 2019-07-29T20:20:00+1000
+date: 2019-07-29
 author: Martin Brennan
 layout: post
 permalink: /imagemagick-unable-to-load-module-error-aws-lambda/

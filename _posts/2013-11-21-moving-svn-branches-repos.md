@@ -1,7 +1,7 @@
 ---
 id: 394
 title: Moving SVN branches and repos
-date: 2013-11-21T08:02:51+10:00
+date: 2013-11-21
 author: Martin Brennan
 layout: post
 permalink: /moving-svn-branches-repos/

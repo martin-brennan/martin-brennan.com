@@ -1,6 +1,6 @@
 ---
 title: Why you should not use Medium for your personal blog
-date: 2017-01-09T20:00:00+10:00
+date: 2017-01-09
 author: Martin Brennan
 layout: post
 permalink: /why-you-should-not-use-medium-for-your-personal-blog/

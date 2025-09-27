@@ -1,7 +1,7 @@
 ---
 id: 562
 title: LiveReload with gulp
-date: 2015-01-27T19:39:04+10:00
+date: 2015-01-27
 author: Martin Brennan
 layout: post
 permalink: /livereload-gulp/

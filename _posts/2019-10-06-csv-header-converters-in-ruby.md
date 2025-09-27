@@ -1,6 +1,6 @@
 ---
 title: "CSV header converters in Ruby"
-date: 2019-10-06T12:52:00+1000
+date: 2019-10-06
 author: Martin Brennan
 layout: post
 permalink: /csv-header-converters-in-ruby/

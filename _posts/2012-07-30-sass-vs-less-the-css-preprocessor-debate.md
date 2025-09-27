@@ -1,7 +1,7 @@
 ---
 id: 53
 title: SASS vs. LESS, the CSS preprocessor debate
-date: 2012-07-30T18:58:45+10:00
+date: 2012-07-30
 author: Martin Brennan
 layout: post
 permalink: /sass-vs-less-the-css-preprocessor-debate/

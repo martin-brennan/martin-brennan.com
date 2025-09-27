@@ -1,6 +1,6 @@
 ---
 title: Fast SQL server paging
-date: 2016-06-25T14:30:00+10:00
+date: 2016-06-25
 author: Martin Brennan
 layout: post
 permalink: /fast-sql-server-paging/

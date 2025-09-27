@@ -1,7 +1,7 @@
 ---
 id: 234
 title: Why Rails by Claudio Ortolina
-date: 2012-12-30T13:06:03+10:00
+date: 2012-12-30
 author: Martin Brennan
 layout: post
 permalink: /why-rails-by-claudio-ortolina/

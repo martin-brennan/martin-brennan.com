@@ -1,7 +1,7 @@
 ---
 id: 129
 title: Semantic templates with Mustache.js and Handlebars.js
-date: 2012-09-30T19:03:14+g:00
+date: 2012-09-30
 author: Martin Brennan
 layout: post
 permalink: /semantic-templates-with-mustache-js-and-handlebars-js/

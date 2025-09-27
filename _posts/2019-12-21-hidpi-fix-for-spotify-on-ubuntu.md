@@ -1,6 +1,6 @@
 ---
 title: HiDPI fix for Spotify on Ubuntu
-date: 2019-12-21T11:24:53+10:00
+date: 2019-12-21
 author: Martin Brennan
 layout: post
 exclude_from_feed: true

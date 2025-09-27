@@ -1,7 +1,7 @@
 ---
 id: 637
 title: Using $q.all() to resolve multiple promises
-date: 2015-03-28T09:55:12+10:00
+date: 2015-03-28
 author: Martin Brennan
 layout: post
 permalink: /using-q-all-to-resolve-multiple-promises/

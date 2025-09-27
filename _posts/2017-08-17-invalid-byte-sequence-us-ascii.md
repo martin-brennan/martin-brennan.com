@@ -1,6 +1,6 @@
 ---
 title: Invalid byte sequence in US-ASCII
-date: 2017-08-17T23:45:00+10:00
+date: 2017-08-17
 author: Martin Brennan
 layout: post
 permalink: /invalid-byte-sequence-us-ascii/

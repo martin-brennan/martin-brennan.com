@@ -1,7 +1,7 @@
 ---
 id: 502
 title: Run shell commands from Ruby
-date: 2014-09-05T22:00:09+10:00
+date: 2014-09-05
 author: Martin Brennan
 layout: post
 permalink: /run-shell-commands-from-ruby/

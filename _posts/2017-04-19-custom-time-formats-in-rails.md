@@ -1,6 +1,6 @@
 ---
 title: Custom time formats in Rails
-date: 2017-04-19T07:30:00+10:00
+date: 2017-04-19
 author: Martin Brennan
 layout: post
 permalink: /custom-time-formats-in-rails/

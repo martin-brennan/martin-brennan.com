@@ -1,6 +1,6 @@
 ---
 title: Organising C# using statements in Visual Studio
-date: 2017-01-26T14:30:00+10:00
+date: 2017-01-26
 author: Martin Brennan
 layout: post
 permalink: /organising-csharp-using-statements-in-visual-studio/

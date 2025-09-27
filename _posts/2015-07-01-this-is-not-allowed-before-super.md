@@ -1,7 +1,7 @@
 ---
 id: 641
 title: This is not allowed before super
-date: 2015-07-01T21:14:26+10:00
+date: 2015-07-01
 author: Martin Brennan
 layout: post
 permalink: /this-is-not-allowed-before-super/

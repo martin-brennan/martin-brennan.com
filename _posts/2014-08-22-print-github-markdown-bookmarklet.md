@@ -1,7 +1,7 @@
 ---
 id: 486
 title: Print GitHub markdown bookmarklet
-date: 2014-08-22T11:50:04+10:00
+date: 2014-08-22
 author: Martin Brennan
 layout: post
 permalink: /print-github-markdown-bookmarklet/

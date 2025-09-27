@@ -1,7 +1,7 @@
 ---
 id: 322
 title: Callback hell
-date: 2013-03-18T20:45:45+10:00
+date: 2013-03-18
 author: Martin Brennan
 layout: post
 permalink: /callback-hell/

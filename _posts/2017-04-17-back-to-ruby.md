@@ -1,6 +1,6 @@
 ---
 title: Back to Ruby
-date: 2017-04-17T21:30:00+10:00
+date: 2017-04-17
 author: Martin Brennan
 layout: post
 permalink: /back-to-ruby/

@@ -1,7 +1,7 @@
 ---
 id: 290
 title: Using reserved words as identifiers in VB.NET by Theo Gray
-date: 2013-02-15T18:23:19+10:00
+date: 2013-02-15
 author: Martin Brennan
 layout: post
 permalink: /using-reserved-words-as-identifiers-in-vb-net/

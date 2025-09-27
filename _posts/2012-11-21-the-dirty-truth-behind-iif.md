@@ -1,7 +1,7 @@
 ---
 id: 171
 title: The dirty truth behind IIF()
-date: 2012-11-21T22:14:49+10:00
+date: 2012-11-21
 author: Martin Brennan
 layout: post
 permalink: /the-dirty-truth-behind-iif/

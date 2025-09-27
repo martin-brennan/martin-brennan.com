@@ -1,7 +1,7 @@
 ---
 id: 701
 title: ES7 decorators
-date: 2015-07-21T22:18:06+10:00
+date: 2015-07-21
 author: Martin Brennan
 layout: post
 permalink: /es7-decorators/

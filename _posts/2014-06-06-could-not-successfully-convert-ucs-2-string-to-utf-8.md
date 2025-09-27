@@ -1,7 +1,7 @@
 ---
 id: 479
 title: Could not successfully convert UCS-2 string to UTF-8
-date: 2014-06-06T07:17:24+10:00
+date: 2014-06-06
 author: Martin Brennan
 layout: post
 permalink: /could-not-successfully-convert-ucs-2-string-to-utf-8/

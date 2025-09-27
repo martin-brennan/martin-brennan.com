@@ -1,7 +1,7 @@
 ---
 id: 367
 title: Auto-generate property in VB.NET
-date: 2013-09-27T08:30:02+10:00
+date: 2013-09-27
 author: Martin Brennan
 layout: post
 permalink: /auto-generate-property-in-vb-net/

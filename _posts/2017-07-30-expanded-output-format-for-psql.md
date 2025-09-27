@@ -1,6 +1,6 @@
 ---
 title: Expanded output format for PSQL
-date: 2017-07-30T20:15:00+10:00
+date: 2017-07-30
 author: Martin Brennan
 layout: post
 permalink: /expanded-output-format-psql/

@@ -1,6 +1,6 @@
 ---
 title: field_with_errors changes page appearance in Rails
-date: 2018-04-14T19:20:00+10:00
+date: 2018-04-14
 author: Martin Brennan
 layout: post
 permalink: /field-with-errors-changes-page-appearance-rails/

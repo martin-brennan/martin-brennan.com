@@ -1,7 +1,7 @@
 ---
 id: 416
 title: ContentResult or ViewResult response based on context
-date: 2014-03-03T07:38:44+10:00
+date: 2014-03-03
 author: Martin Brennan
 layout: post
 permalink: /contentresult-or-viewresult-response-based-on-context/

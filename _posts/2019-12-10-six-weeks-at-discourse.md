@@ -1,6 +1,6 @@
 ---
 title: "Six weeks at Discourse"
-date: 2019-12-10T17:00:00+1000
+date: 2019-12-10
 author: Martin Brennan
 layout: post
 permalink: /six-weeks-at-discourse/

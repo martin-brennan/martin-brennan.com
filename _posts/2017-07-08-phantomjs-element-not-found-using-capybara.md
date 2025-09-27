@@ -1,6 +1,6 @@
 ---
 title: PhantomJS element not found using Capybara
-date: 2017-07-08T12:30:00+10:00
+date: 2017-07-08
 author: Martin Brennan
 layout: post
 permalink: /phantomjs-element-not-found-capybara/

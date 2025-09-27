@@ -1,6 +1,6 @@
 ---
 title: Per-page background images using prawn and Ruby
-date: 2019-08-06T12:02:00+1000
+date: 2019-08-06
 author: Martin Brennan
 layout: post
 permalink: /per-page-background-images-using-prawn-ruby/

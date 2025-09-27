@@ -1,6 +1,6 @@
 ---
 title: Git shortcuts with FZF
-date: 2017-04-20T19:30:00+10:00
+date: 2017-04-20
 author: Martin Brennan
 layout: post
 permalink: /git-shortcuts-with-fzf/

@@ -1,7 +1,7 @@
 ---
 id: 26
 title: PHP, mySQL and FTP on an Amazon EC2 instance
-date: 2012-07-28T17:44:31+10:00
+date: 2012-07-28
 author: Martin Brennan
 layout: post
 permalink: /php-mysql-and-ftp-on-an-amazon-ec2-instance/

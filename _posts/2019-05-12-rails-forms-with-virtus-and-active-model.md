@@ -1,6 +1,6 @@
 ---
 title: Rails Forms with Virtus and ActiveModel
-date: 2019-05-12T07:52:00+1000
+date: 2019-05-12
 author: Martin Brennan
 layout: post
 permalink: /rails-forms-with-virtus-and-active-model/

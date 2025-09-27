@@ -1,7 +1,7 @@
 ---
 id: 544
 title: Render an ERB template from a Hash
-date: 2014-12-13T19:00:01+10:00
+date: 2014-12-13
 author: Martin Brennan
 layout: post
 permalink: /render-an-erb-template-from-a-hash/

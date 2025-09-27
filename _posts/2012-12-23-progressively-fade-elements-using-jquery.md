@@ -1,7 +1,7 @@
 ---
 id: 224
 title: Progressively fade elements using jQuery
-date: 2012-12-23T22:06:49+10:00
+date: 2012-12-23
 author: Martin Brennan
 layout: post
 permalink: /progressively-fade-elements-using-jquery/

@@ -1,7 +1,7 @@
 ---
 id: 453
 title: What makes a bad software developer?
-date: 2014-10-29T20:50:41+10:00
+date: 2014-10-29
 author: Martin Brennan
 layout: post
 permalink: /what-makes-a-bad-software-developer/

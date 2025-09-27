@@ -1,6 +1,6 @@
 ---
 title: Find duplicate rows in SQL
-date: 2019-04-28T20:09:57+1000
+date: 2019-04-28
 author: Martin Brennan
 layout: post
 permalink: /find-duplicate-rows-in-sql/

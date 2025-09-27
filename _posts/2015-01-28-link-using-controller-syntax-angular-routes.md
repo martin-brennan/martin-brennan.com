@@ -1,7 +1,7 @@
 ---
 id: 570
 title: 'Using “Controller as” syntax in Angular routes'
-date: 2015-01-28T14:39:23+10:00
+date: 2015-01-28
 author: Martin Brennan
 layout: post
 permalink: /link-using-controller-syntax-angular-routes/
