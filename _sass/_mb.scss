@@ -63,16 +63,23 @@ img, video {
 blockquote {
   font-style: normal;
   padding-left: 30px;
-  font-size: 20px;
+  font-size: 18px;
   border-left: 0;
   position: relative;
   overflow: auto;
+  background-color: #f0efef;
+  border: 1px solid #828282;
+  border-left: 5px solid #828282;
+  padding: 0.5em 1em 0.5em 1.5em;
+
+  p { margin: 0 };
+
   &:before {
     content: "\03bb";
     position: absolute;
-    left: 5px;
+    left: 8px;
     font-size: 120%;
-    top: 5px;
+    top: 9px;
   }
 }
 
@@ -80,6 +87,7 @@ h2, .post-content h2, h3, .post-content h3 {
   position: relative;
   font-size: 160%;
   font-family: $header-font-family;
+  font-weight: 700;
   padding-left: 24px;
 
   &:before {
