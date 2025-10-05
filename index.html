@@ -12,8 +12,22 @@ layout: default
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h1>
           <span class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time> |
-            <a class="share tw" href="https://twitter.com/intent/tweet?text=Check%20out%20{{ post.title }}%20at%20{{ site.url }}{{ post.permalink }}"><span class="icon-twitter"></span></a>
-            <a class="share" href="mailto:?subject={{ post.title }} at martin-brennan.com"><span class="icon-email"></span></a>
+            <a class="share tw" href="https://x.com/intent/tweet?text=Check%20out%20{{ post.title }}%20at%20{{ site.url }}{{ post.permalink }}" aria-label="Share on X">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+            <a class="share" href="javascript:window.location=%22https://news.ycombinator.com/submitlink?u=%22+encodeURIComponent('{{ site.url }}{{ post.permalink }}')+%22&t=%22+encodeURIComponent('{{ post.title }}')" aria-label="Share on Hacker News">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0v24h24V0H0zm12.55 13.182v4.637h-1.1v-4.637L7.636 6.545h1.273l3.545 5.273 3.546-5.273h1.272l-3.818 6.637z"/>
+              </svg>
+            </a>
+            <a class="share" href="mailto:mjrbrennan@gmail.com?subject={{ post.title }} at martin-brennan.com" aria-label="Share via Email">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path d="m2 7 10 7 10-7"/>
+              </svg>
+            </a>
           </span>
           <p>
             {{ post.excerpt }} {% if post.excerpt != post.content %}<a href="{{ post.url | prepend: site.baseurl }}">read more...</a>{% endif %}
