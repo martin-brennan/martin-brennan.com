@@ -9,15 +9,15 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 
 a {
   font-weight: 700;
-  border-bottom: 2px solid $brand-color;
+  border-bottom: 2px solid var(--brand-color);
+  color: var(--brand-color);
 
   &:hover {
-    color: $brand-color;
     text-decoration: none;
   }
 
   &:visited {
-    color: #176115;
+    color: hsl(from var(--brand-color) h s calc(l - 20));
     border-color: #fff;
   }
 
@@ -30,7 +30,7 @@ a {
 h1.post-title, h1.main-site-title {
   font-family: $header-font-family;
   font-weight: 700;
-  font-size: 180%;
+  font-size: 2.2em;
   text-align: center;
   margin-bottom: 5px;
 }
@@ -42,9 +42,12 @@ h1.main-site-title {
 
 h1.post-list-heading {
   margin-bottom: 0;
+  font-family: $header-font-family;
+  font-size: 2.2em;
 
   a {
     border-bottom: 0;
+    color: $text-color;
   }
 }
 
@@ -57,67 +60,56 @@ img, video {
 .post-meta {
   font-weight: 300;
   text-align: center;
-  font-size: 86%;
+  font-size: 0.8em;
 }
 
 blockquote {
   font-style: normal;
-  padding-left: 30px;
-  font-size: 18px;
+  font-size: 1.2em;
+  font-style: italic;
   border-left: 0;
   position: relative;
   overflow: auto;
-  background-color: #f0efef;
-  border: 1px solid #828282;
   border-left: 5px solid #828282;
-  padding: 0.5em 1em 0.5em 1.5em;
+  padding: 0.5em 1em 0.5em 1em;
 
   p { margin: 0 };
-
-  &:before {
-    content: "\03bb";
-    position: absolute;
-    left: 8px;
-    font-size: 120%;
-    top: 9px;
-  }
 }
 
-h2, .post-content h2, h3, .post-content h3 {
+h2, .post-content h2, h3, .post-content h3, h1.post-link-heading  {
   position: relative;
-  font-size: 160%;
+  font-size: 2em;
   font-family: $header-font-family;
   font-weight: 700;
-  padding-left: 24px;
+}
 
-  &:before {
-    content: "\03bb";
-    position: absolute;
-    font-size: 100%;
-    color: #d14;
-    left: 0;
-  }
+h2, .post-content h2 {
+  font-size: 2em;
 }
 
 h3, .post-content h3 {
-  font-size: 130%;
-
-  &:before {
-    font-size: 100%;
-  }
+  font-size: 1.75em;
 }
 
 .site-header {
   border: 0;
   img {
     margin-bottom: 0;
+    align-self: center;
+    margin-right: 1em;
   }
-  margin-top: 45px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+
+  .wrapper {
+    display: flex;
+    justify-content: flex-start;
+  }
 }
 
 .site-title {
   font-family: $header-font-family;
-  font-size: 150%;
+  font-size: 1.5em;
 }
 
 .alert {
@@ -190,4 +182,18 @@ li, a {
   height: 16px;
   display: inline-block;
   vertical-align: middle;
+}
+
+.header-avatar {
+  width: 65px;
+  margin: 0;
+  display: inline;
+  border: 0;
+  border-radius: 70px;
+}
+
+.nav-and-title {
+  svg {
+    width: 14px;
+  }
 }

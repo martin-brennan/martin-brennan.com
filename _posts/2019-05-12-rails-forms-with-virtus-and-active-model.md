@@ -261,7 +261,7 @@ class ISBNFormatValidator < ActiveModel::Validator
 end
 ```
 
-## Side Note - Data Transfer Objects
+### Side Note - Data Transfer Objects
 
 Another neat side effect of using Virtus that we have found is the ability to use it to create Data Transfer Objects (DTOs) or payload classes for other services. For example, if you have a service that fetches the data used to generate a report. You could perform the logic of fetching the data and doing some operations on it to mould it into a format that your report presenter can use. We often just define these DTO classes inside the service class. A Virtus DTO is perfect for that:
 

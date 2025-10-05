@@ -18,9 +18,9 @@ First, after reviewing the articles I had, and considering the long gap I've had
 
 It waffled on a bit, but at the core of it the recommendation was this:
 
-> * Keep & refresh posts with value.
-> * Archive or add disclaimers for posts with historical interest but outdated info.
-> * Delete + redirect/410 those with no value, no traffic, no links.
+* Keep & refresh posts with value
+* Archive or add disclaimers for posts with historical interest but outdated info
+* Delete and redirect or respond with 410 Gone for those with no value, no traffic, no links
 
 I had already been doing this a little with a "deprecation" warning on extremely old and irrelevant posts like [this one I wrote in 2012](/php-mysql-and-ftp-on-an-amazon-ec2-instance/), but this time I wanted to do this for a lot more of my articles. I then asked ChatGPT for a recommendation on the process behind this to see if we were on the same page, and we were. I don't need to paste in what it said here, it was quite long but pretty much repeated the above.
 

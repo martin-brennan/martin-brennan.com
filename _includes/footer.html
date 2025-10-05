@@ -2,12 +2,12 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
+    <h3 class="footer-heading">{{ site.title }}</h3>
         <ul class="contact-list">
-          <li>Contact</li>
+          <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">Subscribe via RSS</a></li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           <li>
             {% include icon-github.html username=site.github_username %}
@@ -15,7 +15,7 @@
         </ul>
       </div>
 
-      <div class="footer-col footer-col-4">
+      <div class="footer-col footer-col-4 footer-col-description">
         <p>I’m Martin Brennan, and I’m a full stack staff software engineer based in Australia, currently working for <a href="https://discourse.org">Discourse</a>. I primarily enjoy working with Ruby, Rails, and JavaScript, with a focus on product engineering. I’m always seeking ways to expand my knowledge and learn about new tools, languages and frameworks.</p>
 
         <p>When I'm not writing software, I enjoy writing and I have a writing blog at <a href="https://writing.martin-brennan.com">https://writing.martin-brennan.com</a>. I also enjoy reading, music, gaming, getting outdoors, and spending time with my family and pets.</p>

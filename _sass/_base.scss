@@ -14,7 +14,10 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    font-weight: $base-font-weight;
+    font-size: #{$base-font-size};
+    line-height: #{$base-line-height};
+    font-family: $base-font-family;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -92,11 +95,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: var(--brand-color);
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+    color: hsl(from var(--brand-color) h s calc(l - 20));
     }
 
     &:hover {
@@ -111,7 +114,7 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
+    color: $text-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
@@ -130,7 +133,7 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
+    font-size: 1em;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
 }
