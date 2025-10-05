@@ -154,22 +154,6 @@ h3, .post-content h3 {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-email:before {
-    content: "\e945";
-}
-.icon-facebook:before {
-    content: "\ea90";
-}
-.icon-twitter:before {
-    content: "\ea96";
-}
-.icon-comment:before {
-    content: "\e96b";
-}
-.icon-info:before {
-    content: "\ea0c";
-}
-
 .share, .share:visited {
   border-bottom: 0px !important;
   color: $text-color;
