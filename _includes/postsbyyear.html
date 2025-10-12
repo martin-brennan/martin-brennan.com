@@ -1,10 +1,12 @@
+<ul class="posts-by-year">
 {% for post in site.posts %}
   {% unless post.exclude_from_archive %}
     {% assign currentdate = post.date | date: "%Y" %}
     {% if currentdate != date %}
-      <li id="y{{currentdate}}" style="font-size: 130%; list-style-type: none; margin: 10px 0;">{{ currentdate }}</li>
+      <li id="y{{currentdate}}" class="posts-by-year__year">{{ currentdate }}</li>
       {% assign date = currentdate %}
     {% endif %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li class="posts-by-year__post"><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endunless %}
 {% endfor %}
+</ul>

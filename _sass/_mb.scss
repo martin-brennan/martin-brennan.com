@@ -7,6 +7,10 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
   margin-top: 5px;
 }
 
+ul {
+  list-style-type: disc;
+}
+
 a {
   font-weight: 700;
   border-bottom: 2px solid var(--brand-color);
@@ -44,6 +48,7 @@ h1.post-list-heading {
   margin-bottom: 0;
   font-family: $header-font-family;
   font-size: 2.2em;
+  line-height: 1.2em;
 
   a {
     border-bottom: 0;
@@ -202,5 +207,144 @@ li, a {
 .nav-and-title {
   svg {
     width: 14px;
+  }
+}
+
+.header-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em 0;
+  align-items: center;
+
+  .nav-group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &:not(:last-child)::after {
+      content: '|';
+      margin: 0 0.5em;
+      color: $grey-color;
+    }
+  }
+
+  .nav-item {
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: 0.35em;
+
+    &:not(:last-child)::after {
+      content: '|';
+      margin: 0 0.25em;
+      color: $grey-color;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    font-size: 0.85em;
+    gap: 0.25em 0;
+
+    .nav-group {
+      &.primary {
+        flex-basis: auto;
+      }
+
+      &.secondary {
+        flex-basis: auto;
+
+        .nav-item:nth-child(n+2) {
+          display: none;
+        }
+
+        .nav-item:first-child::after {
+          display: none;
+        }
+      }
+
+      &:not(:last-child)::after {
+        margin: 0 0.5em;
+      }
+    }
+
+    .nav-item {
+      a {
+        font-size: 1rem;
+      }
+
+      &:not(:last-child)::after {
+        margin: 0 0.25em;
+        font-size: 1rem;
+      }
+
+      svg {
+        display: none;
+      }
+    }
+  }
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+    border-bottom: 1px solid #eef;
+  }
+}
+
+.post-header {
+  margin-bottom: 15px;
+}
+
+.post-title {
+  letter-spacing: -1px;
+  line-height: 1;
+
+  @include media-query($on-laptop) {
+    font-size: 36px;
+  }
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h2 {
+    font-size: 32px;
+
+    @include media-query($on-laptop) {
+      font-size: 28px;
+    }
+  }
+
+  h3 {
+    font-size: 26px;
+
+    @include media-query($on-laptop) {
+      font-size: 22px;
+    }
+  }
+
+  h4 {
+    font-size: 20px;
+
+    @include media-query($on-laptop) {
+      font-size: 18px;
+    }
+  }
+}
+
+.posts-by-year {
+  margin-left: 0;
+
+  &__year {
+    font-size: 130%;
+    list-style-type: none;
+    margin: 10px 0;
+  }
+
+  &__post {
+    margin-left: 1em;
   }
 }

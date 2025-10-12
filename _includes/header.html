@@ -4,7 +4,17 @@
 
     <div class="nav-and-title">
     <h1 class="main-site-title">{{ site.title }}</h1>
-    <span>🏡 <a href="/">latest</a> | 👋 <a href="/about">about</a> | 📜 <a href="/archive">archive</a> | {% include icon-github.svg %} <a href="https://github.com/martin-brennan">github</a> | ✍️ <a href="https://writing.martin-brennan.com">fiction</a></span>
+    <nav class="header-nav">
+      <div class="nav-group primary">
+        <span class="nav-item">🏡 <a href="/">latest</a></span>
+        <span class="nav-item">👋 <a href="/about">about</a></span>
+      </div>
+      <div class="nav-group secondary">
+        <span class="nav-item">📜 <a href="/archive">archive</a></span>
+        <span class="nav-item">{% include icon-github.svg %} <a href="https://github.com/martin-brennan">github</a></span>
+        <span class="nav-item">✍️ <a href="https://writing.martin-brennan.com">fiction</a></span>
+      </div>
+    </nav>
     </div>
 
   </div>
