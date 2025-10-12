@@ -1,37 +1,36 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
 
 // Our variables
-$base-font-family: "Open Sans",  sans-serif;
+$base-font-family: "Open Sans", sans-serif;
 // $base-font-family: "Source Code Pro", "Monaco", "Inconsolata", "Consolas", monospace;
 $header-font-family: "EB Garamond", serif;
-$base-font-size:   18px;
+$base-font-size: 18px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size: $base-font-size * 0.875;
 $base-line-height: 2em;
 
-$spacing-unit:     30px;
+$spacing-unit: 30px;
 
-$text-color:       #000;
+$text-color: #000;
 $background-color: #fff;
 
 :root {
-  --brand-color:      #435bd3;
+  --brand-color: #435bd3;
 }
 
-$grey-color:       #828282;
+$grey-color: #828282;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark: darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    900px;
+$content-width: 900px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
+$on-palm: 600px;
+$on-laptop: 800px;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -41,17 +40,10 @@ $on-laptop:        800px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting",
-        "mb"
-;
+@import "base", "layout", "syntax-highlighting", "mb";

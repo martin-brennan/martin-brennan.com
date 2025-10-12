@@ -2,7 +2,20 @@
  * Overrides for jekyll default styles and custom styling.
  */
 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
+.highlight {
   margin-bottom: 20px;
   margin-top: 5px;
 }
@@ -26,12 +39,12 @@ a {
   }
 
   &.no-underline {
-    border-bottom: 0px !important;
+    border-bottom: 0 !important;
   }
 }
 
-
-h1.post-title, h1.main-site-title {
+h1.post-title,
+h1.main-site-title {
   font-family: $header-font-family;
   font-weight: 700;
   font-size: 2.2em;
@@ -56,7 +69,8 @@ h1.post-list-heading {
   }
 }
 
-img, video {
+img,
+video {
   margin: 15px auto;
   display: block;
   max-width: 100%;
@@ -76,40 +90,48 @@ img, video {
 }
 
 blockquote {
-  font-style: normal;
   font-size: 1.2em;
   font-style: italic;
-  border-left: 0;
   position: relative;
   overflow: auto;
   border-left: 5px solid #828282;
-  padding: 0.5em 1em 0.5em 1em;
+  padding: 0.5em 1em;
 
-  p { margin: 0 };
+  p {
+    margin: 0;
+  }
 }
 
-h2, .post-content h2, h3, .post-content h3, h1.post-link-heading  {
+h2,
+.post-content h2,
+h3,
+.post-content h3,
+h1.post-link-heading {
   position: relative;
   font-size: 2em;
   font-family: $header-font-family;
   font-weight: 700;
 }
 
-h2, .post-content h2 {
+h2,
+.post-content h2 {
   font-size: 2em;
 }
 
-h3, .post-content h3 {
+h3,
+.post-content h3 {
   font-size: 1.75em;
 }
 
 .site-header {
   border: 0;
+
   img {
     margin-bottom: 0;
     align-self: center;
     margin-right: 1em;
   }
+
   margin-top: 25px;
   margin-bottom: 10px;
 
@@ -133,41 +155,47 @@ h3, .post-content h3 {
     color: #ff9100;
     background-color: rgb(255 233 179 / 31%);
   }
+
   &.danger {
     border: 1px solid #ca1717;
     color: #d60000;
-    background-color: rgba(255, 143, 143, 0.31);
+    background-color: rgb(255 143 143 / 31%);
   }
+
   &.info {
     border: 1px solid #0f80ab;
     color: #0f80ab;
-    background-color: rgba(143, 172, 255, 0.31);
+    background-color: rgb(143 172 255 / 31%);
   }
 }
 
-[class^="icon-"], [class*=" icon-"] {
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
+[class^="icon-"],
+[class*=" icon-"] {
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.share, .share:visited {
-  border-bottom: 0px !important;
+.share,
+.share:visited {
+  border-bottom: 0 !important;
   color: $text-color;
 
   &.fb {
     color: #3b5998;
   }
+
   &.tw {
     color: #00aced;
   }
+
   &.cm {
     color: #ef71dd;
   }
@@ -179,13 +207,15 @@ h3, .post-content h3 {
 
 .inline-image-wrap {
   text-align: center;
+
   img {
     display: inline-block;
   }
 }
 
-li, a {
-  word-wrap: break-word;
+li,
+a {
+  overflow-wrap: break-word;
 }
 
 .share .icon {
@@ -222,7 +252,7 @@ li, a {
     flex-wrap: wrap;
 
     &:not(:last-child)::after {
-      content: '|';
+      content: "|";
       margin: 0 0.5em;
       color: $grey-color;
     }
@@ -235,13 +265,13 @@ li, a {
     gap: 0.35em;
 
     &:not(:last-child)::after {
-      content: '|';
+      content: "|";
       margin: 0 0.25em;
       color: $grey-color;
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (width <= 600px) {
     font-size: 0.85em;
     gap: 0.25em 0;
 
@@ -253,7 +283,7 @@ li, a {
       &.secondary {
         flex-basis: auto;
 
-        .nav-item:nth-child(n+2) {
+        .nav-item:nth-child(n + 2) {
           display: none;
         }
 
