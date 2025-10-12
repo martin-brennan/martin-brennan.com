@@ -60,7 +60,14 @@ img, video {
 .post-meta {
   font-weight: 300;
   text-align: center;
-  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  font-size: $small-font-size;
+  color: $grey-color-dark;
+
+  a {
+    margin-right: 0.5em;
+  }
 }
 
 blockquote {
