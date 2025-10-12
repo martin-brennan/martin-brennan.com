@@ -1,0 +1,36 @@
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+env:
+  # Use the same ssh-agent socket value across all jobs
+  # Useful when a GH action is using SSH behind-the-scenes
+  SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+
+jobs:
+  run_pull:
+    name: publish to website
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: "0"
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          known_hosts: unnecessary
+          name: id_rsa
+      - name: Adding Known Hosts
+        run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+      - name: git add droplet
+        run: |
+          cd $GITHUB_WORKSPACE
+          git remote add droplet ${{ secrets.SSH_DROPLET_REMOTE }}
+      - name: git push
+        run: |
+          cd $GITHUB_WORKSPACE
+          git push droplet master
