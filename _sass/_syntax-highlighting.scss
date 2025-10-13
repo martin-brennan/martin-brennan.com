@@ -1,3 +1,4 @@
+// Kanagawa Wave color scheme for syntax highlighting
 .highlight table td {
   padding: 5px;
 }
@@ -7,18 +8,21 @@
   margin: 0;
 }
 
+// Default foreground and background
 .highlight,
 .highlight .w {
-  color: #fbf1c7;
-  background-color: #282828;
+  color: #dcd7ba; // fujiWhite
+  background-color: #1f1f28; // sumiInk1
 }
 
+// Errors
 .highlight .err {
-  color: #fb4934;
-  background-color: #282828;
+  color: #e82424; // samuraiRed
+  background-color: #1f1f28;
   font-weight: bold;
 }
 
+// Comments
 .highlight .c,
 .highlight .ch,
 .highlight .cd,
@@ -26,63 +30,75 @@
 .highlight .cpf,
 .highlight .c1,
 .highlight .cs {
-  color: #928374;
+  color: #727169; // fujiGray
   font-style: italic;
 }
 
+// Preprocessor
 .highlight .cp {
-  color: #8ec07c;
+  color: #7aa89f; // waveAqua2
 }
 
+// Tags
 .highlight .nt {
-  color: #fb4934;
+  color: #957fb8; // oniViolet
 }
 
+// Operators
 .highlight .o,
 .highlight .ow {
-  color: #fbf1c7;
+  color: #c0a36e; // boatYellow2
 }
 
+// Punctuation
 .highlight .p,
 .highlight .pi {
-  color: #fbf1c7;
+  color: #9cabca; // springViolet2
 }
 
+// Git inserted
 .highlight .gi {
-  color: #b8bb26;
-  background-color: #282828;
+  color: #98bb6c; // springGreen
+  background-color: #1f1f28;
 }
 
+// Git deleted
 .highlight .gd {
-  color: #fb4934;
-  background-color: #282828;
+  color: #e82424; // samuraiRed
+  background-color: #1f1f28;
 }
 
+// Git header
 .highlight .gh {
-  color: #b8bb26;
+  color: #98bb6c; // springGreen
   font-weight: bold;
 }
 
+// Keywords
 .highlight .k,
 .highlight .kn,
 .highlight .kp,
 .highlight .kr,
 .highlight .kv {
-  color: #fb4934;
+  color: #957fb8; // oniViolet
 }
 
+// Keyword constants
 .highlight .kc {
-  color: #d3869b;
+  color: #ffa066; // surimiOrange
 }
 
+// Keyword types
 .highlight .kt {
-  color: #fabd2f;
+  color: #7aa89f; // waveAqua2
 }
 
+// Keyword declarations
 .highlight .kd {
-  color: #fe8019;
+  color: #957fb8; // oniViolet
 }
 
+// Strings
 .highlight .s,
 .highlight .sa,
 .highlight .sb,
@@ -93,40 +109,48 @@
 .highlight .sh,
 .highlight .sx,
 .highlight .s1 {
-  color: #b8bb26;
+  color: #98bb6c; // springGreen
   font-style: italic;
 }
 
+// String interpolation
 .highlight .si {
-  color: #b8bb26;
+  color: #7fb4ca; // springBlue
   font-style: italic;
 }
 
+// String regex
 .highlight .sr {
-  color: #b8bb26;
+  color: #98bb6c; // springGreen
   font-style: italic;
 }
 
+// String escape
 .highlight .se {
-  color: #fe8019;
+  color: #ffa066; // surimiOrange
 }
 
+// Namespaces
 .highlight .nn {
-  color: #8ec07c;
+  color: #7fb4ca; // springBlue
 }
 
+// Classes
 .highlight .nc {
-  color: #8ec07c;
+  color: #7fb4ca; // springBlue
 }
 
+// Constants
 .highlight .no {
-  color: #d3869b;
+  color: #ffa066; // surimiOrange
 }
 
+// Attributes
 .highlight .na {
-  color: #b8bb26;
+  color: #e6c384; // carpYellow
 }
 
+// Numbers
 .highlight .m,
 .highlight .mb,
 .highlight .mf,
@@ -135,9 +159,10 @@
 .highlight .il,
 .highlight .mo,
 .highlight .mx {
-  color: #d3869b;
+  color: #d27e99; // sakuraPink
 }
 
+// Symbols
 .highlight .ss {
-  color: #83a598;
+  color: #7fb4ca; // springBlue
 }
