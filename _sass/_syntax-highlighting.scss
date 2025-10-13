@@ -1,6 +1,71 @@
 // Kanagawa Wave color scheme for syntax highlighting
-.highlight table td {
-  padding: 5px;
+
+// Code block header with language label and copy button
+.highlighter-rouge {
+  position: relative;
+  margin: 1.5em 0;
+}
+
+.code-block-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #16161d; // sumiInk0 - slightly darker than code background
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  padding: 0.5em 1em;
+  border-bottom: 1px solid #363646; // sumiInk3
+}
+
+.code-block-language {
+  font-family: $base-font-family;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #7fb4ca; // springBlue
+}
+
+.code-copy-button {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  background: transparent;
+  border: 1px solid #54546d; // sumiInk4
+  border-radius: 4px;
+  padding: 0.3em 0.6em;
+  color: #c8c093; // oldWhite
+  font-size: 0.75em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: #2a2a37; // sumiInk2
+    border-color: #7fb4ca; // springBlue
+    color: #dcd7ba; // fujiWhite
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+
+  .copy-icon {
+    width: 14px;
+    height: 14px;
+  }
+
+  .copy-text,
+  .copied-text {
+    font-weight: 500;
+  }
+}
+
+// Default foreground and background
+.highlighter-rouge .highlight,
+.highlighter-rouge .highlight .w {
+  color: #dcd7ba; // fujiWhite
+  background-color: #1f1f28; // sumiInk1
+  border-radius: 0 0 6px 6px;
+  margin: 0;
 }
 
 .highlight table pre {
@@ -8,11 +73,19 @@
   margin: 0;
 }
 
-// Default foreground and background
-.highlight,
-.highlight .w {
-  color: #dcd7ba; // fujiWhite
-  background-color: #1f1f28; // sumiInk1
+// Remove extra padding from pre and code wrapper elements
+.highlighter-rouge .highlight pre.highlight {
+  margin: 0;
+  padding: 0;
+}
+
+.highlighter-rouge .highlight pre.highlight code {
+  display: block;
+  padding: 0;
+}
+
+.highlight table td {
+  padding: 10px 5px;
 }
 
 // Errors

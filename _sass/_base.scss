@@ -68,8 +68,10 @@ img {
 /**
  * Figures
  */
-figure > img {
-  display: block;
+figure {
+  img {
+    display: block;
+  }
 }
 
 figcaption {
@@ -85,8 +87,8 @@ ol {
 }
 
 li {
-  > ul,
-  > ol {
+  ul,
+  ol {
     margin-bottom: 20px;
   }
 }
@@ -131,7 +133,7 @@ blockquote {
   letter-spacing: -1px;
   font-style: italic;
 
-  > :last-child {
+  :last-child {
     margin-bottom: 0;
   }
 }
@@ -148,6 +150,7 @@ code {
 .rouge-table {
   border: 0;
   border-spacing: 0;
+  color: #dcd7ba; // fujiWhite
 }
 
 .highlight table td.rouge-gutter {
@@ -163,7 +166,7 @@ code {
 pre {
   overflow-x: auto;
 
-  > code {
+  code {
     border: 0;
     padding-right: 0;
     padding-left: 0;
@@ -204,7 +207,7 @@ pre {
  * Icons
  */
 .icon {
-  > svg {
+  svg {
     display: inline-block;
     width: 16px;
     height: 16px;

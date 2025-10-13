@@ -89,6 +89,12 @@ video {
   }
 }
 
+.post {
+  .post-meta {
+    justify-content: center;
+  }
+}
+
 blockquote {
   font-size: 1.2em;
   font-style: italic;
@@ -318,7 +324,7 @@ a {
   margin-left: 0;
   list-style: none;
 
-  > li {
+  li {
     margin-bottom: $spacing-unit;
     border-bottom: 1px solid #eef;
   }
