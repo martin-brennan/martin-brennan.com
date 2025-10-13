@@ -21,3 +21,10 @@ excerpt_separator: <!--more-->
 paginate: 10
 future: true
 redirects: yes
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
