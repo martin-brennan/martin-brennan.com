@@ -10,7 +10,11 @@ redirects:
 
 {% include deprecated.html message="This may no longer be relevant in 2025, but it was critical back in 2019. Leaving it as a historical curiosity." cssclass="deprecated" %}
 
-Last Friday (July 2019) we started seeing an elevated error rate in our AWS Lambda function that converted single page PDFs into images using ImageMagick. We had been seeing the same error crop up randomly in around a two week period before Friday, but we were busy with other things and didn't look too deeply into it. This was a mistake in retrospect. Below is the error in question:
+Last Friday (July 2019) we started seeing an elevated error rate in our AWS Lambda function that converted single page PDFs into images using ImageMagick. We had been seeing the same error crop up randomly in around a two week period before Friday, but we were busy with other things and didn't look too deeply into it. This was a mistake in retrospect.
+
+<!--more-->
+
+Below is the error in question:
 
 ```
 Error: Command failed: identify: unable to load module `/usr/lib64/ImageMagick-6.7.8/modules-Q16/coders/pdf.la': file not found @ error/module.c/OpenModule/1278.

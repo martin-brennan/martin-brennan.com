@@ -6,7 +6,11 @@ layout: post
 permalink: /per-page-background-images-using-prawn-ruby/
 ---
 
-[Prawn](https://github.com/prawnpdf/prawn) is an excellent PDF generation library for ruby, and we use it for all our PDF needs at work (Webbernet at time of writing). [Their manual](http://prawnpdf.org/manual.pdf) is some of the best documentation I have read. Recently, I needed to set a different background image on every page of a PDF I was generating. The prawn documentation, while good, only shows how to use a background image for the whole PDF:
+[Prawn](https://github.com/prawnpdf/prawn) is an excellent PDF generation library for ruby, and we use it for all our PDF needs at work (Webbernet at time of writing). [Their manual](http://prawnpdf.org/manual.pdf) is some of the best documentation I have read. Recently, I needed to set a different background image on every page of a PDF I was generating.
+
+<!--more-->
+
+The prawn documentation, while good, only shows how to use a background image for the whole PDF:
 
 ```ruby
 img = "some/image/path.jpg"
