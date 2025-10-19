@@ -53,7 +53,7 @@ ol,
 dl,
 figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: $spacing-unit * 0.5;
 }
 
 /**
@@ -128,7 +128,7 @@ a {
 blockquote {
   color: $text-color;
   border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit / 2;
+  padding-left: $spacing-unit * 0.5;
   font-size: 18px;
   letter-spacing: -1px;
   font-style: italic;
@@ -177,7 +177,7 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width: calc($content-width - ($spacing-unit * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit;
@@ -186,9 +186,9 @@ pre {
   @extend %clearfix;
 
   @include media-query($on-laptop) {
-    max-width: calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    max-width: calc($content-width - ($spacing-unit));
+    padding-right: $spacing-unit * 0.5;
+    padding-left: $spacing-unit * 0.5;
   }
 }
 

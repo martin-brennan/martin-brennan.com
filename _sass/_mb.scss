@@ -277,29 +277,22 @@ a {
     }
   }
 
-  @media screen and (width <= 600px) {
+  @media screen and (max-width: 600px) {
     font-size: 0.85em;
     gap: 0.25em 0;
 
     .nav-group {
       &.primary {
-        flex-basis: auto;
+        flex-basis: 100%;
+        flex-wrap: nowrap;
       }
 
       &.secondary {
-        flex-basis: auto;
-
-        .nav-item:nth-child(n + 2) {
-          display: none;
-        }
-
-        .nav-item:first-child::after {
-          display: none;
-        }
+        display: none;
       }
 
       &:not(:last-child)::after {
-        margin: 0 0.5em;
+        display: none;
       }
     }
 
