@@ -5,3 +5,4 @@ gem "jekyll-paginate"
 gem "jekyll-redirect-from"
 gem "jekyll-compose", group: [:jekyll_plugins]
 gem "nokogiri"
+gem "jekyll-feed"
