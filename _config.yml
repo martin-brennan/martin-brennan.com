@@ -13,6 +13,7 @@ permalink: /:title
 plugins:
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-feed
 twitter:
   username: mjrbrennan
 author: mjrbrennan
