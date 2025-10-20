@@ -1,18 +1,15 @@
+# _plugins/code_block_enhancer.rb
 require "nokogiri"
 
 module Jekyll
   module CodeBlockEnhancer
     def self.language_display_name(lang_class)
-      # Extract language from class like "language-ruby" or "language-javascript"
       return nil unless lang_class
-
       match = lang_class.match(/language-(\w+)/)
       return nil unless match
-
       lang = match[1]
 
-      # Map language codes to display names
-      language_map = {
+      {
         "js" => "JavaScript",
         "javascript" => "JavaScript",
         "rb" => "Ruby",
@@ -51,34 +48,37 @@ module Jekyll
         "lua" => "Lua",
         "r" => "R",
         "scala" => "Scala"
-      }
-
-      language_map[lang.downcase] || lang.capitalize
+      }[
+        lang.downcase
+      ] || lang.capitalize
     end
 
     def self.enhance_code_blocks(content)
-      doc = Nokogiri::HTML::DocumentFragment.parse(content)
+      # Fast bail-out: only bother if the marker class appears
+      return content unless content.include?("highlighter-rouge")
 
-      doc
+      # Prefer HTML5 parser if available; fall back to HTML
+      fragment =
+        if defined?(Nokogiri::HTML5)
+          Nokogiri::HTML5.fragment(content)
+        else
+          Nokogiri::HTML::DocumentFragment.parse(content)
+        end
+
+      fragment
         .css("div.highlighter-rouge")
         .each do |highlighter_div|
-          # Get the language from the class
           lang_class =
-            highlighter_div["class"]
-              .split(" ")
-              .find { |c| c.start_with?("language-") }
-          next unless lang_class
-
-          display_name = language_display_name(lang_class)
-          next unless display_name
-
+            highlighter_div["class"]&.split&.find do |c|
+              c.start_with?("language-")
+            end
+          next unless (display_name = language_display_name(lang_class))
           if highlighter_div.children.any? { |child|
                child["class"]&.include?("code-block-header")
              }
             next
           end
 
-          # Create the header with language name and copy button
           header_html = <<~HTML
           <div class="code-block-header">
             <span class="code-block-language">#{display_name}</span>
@@ -93,17 +93,34 @@ module Jekyll
           </div>
         HTML
 
-          # Insert the header before the highlight div
           highlighter_div.prepend_child(
-            Nokogiri::HTML::DocumentFragment.parse(header_html)
+            (
+              if defined?(Nokogiri::HTML5)
+                Nokogiri::HTML5.fragment(header_html)
+              else
+                Nokogiri::HTML::DocumentFragment.parse(header_html)
+              end
+            )
           )
         end
 
-      doc.to_html
+      # Serialize as HTML (only used for .html pages due to the guard below)
+      fragment.to_html
     end
   end
 end
 
 Jekyll::Hooks.register %i[posts pages documents], :post_render do |doc|
-  doc.output = Jekyll::CodeBlockEnhancer.enhance_code_blocks(doc.output)
+  # Only touch HTML outputs; leave XML/JSON/etc. alone
+  next unless doc.output_ext == ".html"
+
+  # Optional per-page opt-out: add `code_block_enhancer: false` in front matter
+  next if doc.data["code_block_enhancer"] == false
+
+  begin
+    doc.output = Jekyll::CodeBlockEnhancer.enhance_code_blocks(doc.output)
+  rescue => e
+    Jekyll.logger.warn "CodeBlockEnhancer:",
+                       "skipping #{doc.relative_path} (#{e.class}: #{e.message})"
+  end
 end
