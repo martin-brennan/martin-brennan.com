@@ -7,8 +7,6 @@ layout: post
 permalink: /callback-hell/
 exclude_from_feed: true
 exclude_from_archive: true
-dsq_thread_id:
-  - 1188674306
 categories:
   - Development
   - Share

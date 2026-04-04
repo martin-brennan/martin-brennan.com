@@ -7,8 +7,6 @@ layout: post
 permalink: /visual-studio-2013-avoid-copying-blank-lines-dirk-strauss/
 exclude_from_feed: true
 exclude_from_archive: true
-dsq_thread_id:
-  - 1952555147
 categories:
   - Development
   - Share

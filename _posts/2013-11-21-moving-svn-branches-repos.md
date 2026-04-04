@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /moving-svn-branches-repos/
 exclude_from_feed: true
-dsq_thread_id:
-  - 1983821127
 categories:
   - Development
 tags:

@@ -5,8 +5,6 @@ date: 2014-08-31
 author: Martin Brennan
 layout: post
 permalink: /docusign-connect-xml-schema/
-dsq_thread_id:
-  - 2974578894
 categories:
   - Development
 tags:

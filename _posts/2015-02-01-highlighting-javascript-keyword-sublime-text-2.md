@@ -5,8 +5,6 @@ date: 2015-02-01
 author: Martin Brennan
 layout: post
 permalink: /highlighting-javascript-keyword-sublime-text-2/
-dsq_thread_id:
-  - 3474766458
 categories:
   - Development
 tags:

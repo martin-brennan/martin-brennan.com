@@ -7,8 +7,6 @@ layout: post
 permalink: /run-shell-commands-from-ruby/
 exclude_from_feed: true
 exclude_from_archive: true
-dsq_thread_id:
-  - 3044736686
 categories:
   - Development
 tags:

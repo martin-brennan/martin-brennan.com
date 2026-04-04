@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /another-year-another-redesign/
 exclude_from_feed: true
-dsq_thread_id:
-  - 2620672094
 categories:
   - Design
 ---

@@ -7,8 +7,6 @@ layout: post
 permalink: /php-mysql-and-ftp-on-an-amazon-ec2-instance/
 exclude_from_feed: true
 comments: true
-dsq_thread_id:
-  - 965518167
 categories:
   - Development
   - Tutorial

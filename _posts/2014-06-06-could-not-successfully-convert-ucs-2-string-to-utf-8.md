@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /could-not-successfully-convert-ucs-2-string-to-utf-8/
 exclude_from_feed: true
-dsq_thread_id:
-  - 2760240867
 categories:
   - Aha!
   - Development

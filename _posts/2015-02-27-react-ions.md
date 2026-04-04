@@ -7,8 +7,6 @@ layout: post
 permalink: /react-ions/
 exclude_from_feed: true
 exclude_from_archive: true
-dsq_thread_id:
-  - 3552794272
 categories:
   - Development
 tags:

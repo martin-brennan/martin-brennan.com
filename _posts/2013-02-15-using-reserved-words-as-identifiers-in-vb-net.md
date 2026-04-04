@@ -5,8 +5,6 @@ date: 2013-02-15
 author: Martin Brennan
 layout: post
 permalink: /using-reserved-words-as-identifiers-in-vb-net/
-dsq_thread_id:
-  - 1084293286
 categories:
   - Development
 tags:

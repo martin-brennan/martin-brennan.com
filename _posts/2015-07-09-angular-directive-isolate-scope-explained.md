@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /angular-directive-isolate-scope-explained/
 exclude_from_feed: true
-dsq_thread_id:
-  - 3918419830
 categories:
   - Development
 tags:

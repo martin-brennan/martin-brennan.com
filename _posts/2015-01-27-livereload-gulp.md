@@ -7,8 +7,6 @@ layout: post
 permalink: /livereload-gulp/
 exclude_from_feed: true
 exclude_from_archive: true
-dsq_thread_id:
-  - 3461865805
 categories:
   - Development
 tags:

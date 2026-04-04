@@ -7,8 +7,6 @@ layout: post
 permalink: /on-being-a-junior-developer-matt-sencenbaugh/
 exclude_from_feed: true
 exclude_from_archive: true
-dsq_thread_id:
-  - 975808358
 categories:
   - Aside
   - Share

@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /gulp-watch-high-cpu-usage/
 exclude_from_feed: true
-dsq_thread_id:
-  - 4704449882
 categories:
   - Development
 tags:

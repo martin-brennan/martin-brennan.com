@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /using-q-all-to-resolve-multiple-promises/
 exclude_from_feed: true
-dsq_thread_id:
-  - 3632983258
 dsq_needs_sync:
   - 1
 categories:

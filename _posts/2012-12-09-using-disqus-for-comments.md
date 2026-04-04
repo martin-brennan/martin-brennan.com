@@ -7,8 +7,6 @@ layout: post
 permalink: /using-disqus-for-comments/
 exclude_from_feed: true
 exclude_from_archive: true
-dsq_thread_id:
-  - 965596529
 categories:
   - Development
   - Observation

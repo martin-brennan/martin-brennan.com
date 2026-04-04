@@ -5,8 +5,6 @@ date: 2013-10-31
 author: Martin Brennan
 layout: post
 permalink: /extension-methods-in-net/
-dsq_thread_id:
-  - 1939019343
 categories:
   - Development
 ---

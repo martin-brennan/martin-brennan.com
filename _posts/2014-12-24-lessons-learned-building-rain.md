@@ -5,8 +5,6 @@ date: 2014-12-24
 author: Martin Brennan
 layout: post
 permalink: /lessons-learned-building-rain/
-dsq_thread_id:
-  - 3355080545
 categories:
   - Development
 tags:

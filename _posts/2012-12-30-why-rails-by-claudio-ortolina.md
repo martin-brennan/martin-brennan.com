@@ -5,8 +5,6 @@ date: 2012-12-30
 author: Martin Brennan
 layout: post
 permalink: /why-rails-by-claudio-ortolina/
-dsq_thread_id:
-  - 
 categories:
   - Aside
   - Development

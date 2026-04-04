@@ -5,8 +5,6 @@ date: 2012-11-23
 author: Martin Brennan
 layout: post
 permalink: /change-a-two-faced-devil-anthony-ferrara/
-dsq_thread_id:
-  - 965575687
 categories:
   - Aside
   - Development

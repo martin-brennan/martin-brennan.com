@@ -7,8 +7,6 @@ layout: post
 permalink: /es7-decorators/
 exclude_from_feed: true
 comments: true
-dsq_thread_id:
-  - 3955867361
 categories:
   - Development
 ---

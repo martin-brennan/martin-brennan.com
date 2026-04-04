@@ -7,8 +7,6 @@ layout: post
 permalink: /a-baseline-for-frontend-developers-by-rebecca-murphey/
 exclude_from_feed: true
 exclude_from_archive: true
-dsq_thread_id:
-  - 1030923065
 categories:
   - Aside
   - Development

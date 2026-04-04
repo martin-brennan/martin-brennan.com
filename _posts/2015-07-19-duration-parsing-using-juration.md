@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /duration-parsing-using-juration/
 exclude_from_feed: true
-dsq_thread_id:
-  - 3948324658
 categories:
   - Development
 tags:

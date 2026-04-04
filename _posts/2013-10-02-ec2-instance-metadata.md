@@ -5,8 +5,6 @@ date: 2013-10-02
 author: Martin Brennan
 layout: post
 permalink: /ec2-instance-metadata/
-dsq_thread_id:
-  - 1817009485
 categories:
   - Development
 tags:

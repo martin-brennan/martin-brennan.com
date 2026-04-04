@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /print-github-markdown-bookmarklet/
 exclude_from_feed: true
-dsq_thread_id:
-  - 2948494688
 categories:
   - Development
   - Share

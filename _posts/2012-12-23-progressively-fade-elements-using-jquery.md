@@ -7,8 +7,6 @@ layout: post
 permalink: /progressively-fade-elements-using-jquery/
 exclude_from_feed: true
 exclude_from_archive: true
-dsq_thread_id:
-  - 990830653
 categories:
   - Algorithm
   - Development

@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /semantic-templates-with-mustache-js-and-handlebars-js/
 exclude_from_feed: true
-dsq_thread_id:
-  - 966254376
 categories:
   - Development
 tags:

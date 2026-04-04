@@ -5,8 +5,6 @@ date: 2014-05-27
 author: Martin Brennan
 layout: post
 permalink: /the-sms-that-started-it-all/
-dsq_thread_id:
-  - 2714461047
 categories:
   - Development
   - Share

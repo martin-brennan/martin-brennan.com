@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /contentresult-or-viewresult-response-based-on-context/
 exclude_from_feed: true
-dsq_thread_id:
-  - 2347758256
 categories:
   - Development
 tags:

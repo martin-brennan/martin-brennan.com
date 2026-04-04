@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /mocks-stubs-and-injections-unit-testing-in-angular-js/
 exclude_from_feed: true
-dsq_thread_id:
-  - 3599306703
 categories:
   - Development
   - Testing

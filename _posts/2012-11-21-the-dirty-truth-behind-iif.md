@@ -7,8 +7,6 @@ layout: post
 permalink: /the-dirty-truth-behind-iif/
 exclude_from_feed: true
 exclude_from_archive: true
-dsq_thread_id:
-  - 965382822
 categories:
   - Development
   - Share

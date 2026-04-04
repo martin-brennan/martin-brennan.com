@@ -7,8 +7,6 @@ layout: post
 permalink: /sass-vs-less-the-css-preprocessor-debate/
 exclude_from_feed: true
 exclude_from_archive: true
-dsq_thread_id:
-  - 966085234
 categories:
   - Design
   - Development

@@ -5,8 +5,6 @@ date: 2015-01-12
 author: Martin Brennan
 layout: post
 permalink: /writing-programming-crafts-worth-honing/
-dsq_thread_id:
-  - 3413079859
 categories:
   - Development
   - Writing

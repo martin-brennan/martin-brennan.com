@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /blog-redesign/
 exclude_from_feed: true
-dsq_thread_id:
-  - 1042977533
 categories:
   - Design
   - Writing

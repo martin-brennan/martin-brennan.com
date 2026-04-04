@@ -7,8 +7,6 @@ layout: post
 permalink: /install-ruby-and-rubygems-on-windows/
 exclude_from_feed: true
 exclude_from_archive: true
-dsq_thread_id:
-  - 983114859
 categories:
   - Development
   - Share

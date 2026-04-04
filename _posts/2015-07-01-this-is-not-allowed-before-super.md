@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /this-is-not-allowed-before-super/
 exclude_from_feed: true
-dsq_thread_id:
-  - 3894802270
 categories:
   - Development
 tags:

@@ -5,8 +5,6 @@ date: 2014-03-04
 author: Martin Brennan
 layout: post
 permalink: /add-open-with-sublime-text-2-windows-context-menu/
-dsq_thread_id:
-  - 2355069826
 categories:
   - Tutorial
 ---

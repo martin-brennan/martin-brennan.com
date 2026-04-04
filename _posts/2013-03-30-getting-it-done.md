@@ -5,8 +5,6 @@ date: 2013-03-30
 author: Martin Brennan
 layout: post
 permalink: /getting-it-done/
-dsq_thread_id:
-  - 1181729057
 categories:
   - Productivity
 ---

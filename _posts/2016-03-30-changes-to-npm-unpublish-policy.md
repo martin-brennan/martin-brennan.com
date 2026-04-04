@@ -5,8 +5,6 @@ date: 2016-03-30
 author: Martin Brennan
 layout: post
 permalink: /changes-to-npm-unpublish-policy/
-dsq_thread_id:
-  - 4703852249
 categories:
   - Development
   - News

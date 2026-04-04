@@ -5,8 +5,6 @@ date: 2015-01-28
 author: Martin Brennan
 layout: post
 permalink: /link-using-controller-syntax-angular-routes/
-dsq_thread_id:
-  - 3611811615
 categories:
   - Development
   - Share

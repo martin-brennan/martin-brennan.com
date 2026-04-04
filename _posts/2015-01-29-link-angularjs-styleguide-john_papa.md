@@ -5,8 +5,6 @@ date: 2015-01-29
 author: Martin Brennan
 layout: post
 permalink: /link-angularjs-styleguide-john_papa/
-dsq_thread_id:
-  - 3465041333
 categories:
   - Development
 tags:

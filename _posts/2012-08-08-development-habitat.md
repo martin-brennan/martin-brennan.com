@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /development-habitat/
 exclude_from_feed: true
-dsq_thread_id:
-  - 970946862
 categories:
   - Share
   - Writing

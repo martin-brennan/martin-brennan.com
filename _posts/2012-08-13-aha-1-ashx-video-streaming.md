@@ -5,8 +5,6 @@ date: 2012-08-13
 author: Martin Brennan
 layout: post
 permalink: /aha-1-ashx-video-streaming/
-dsq_thread_id:
-  - 969433537
 categories:
   - Aha!
   - Development

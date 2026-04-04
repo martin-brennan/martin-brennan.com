@@ -6,8 +6,6 @@ author: Martin Brennan
 layout: post
 permalink: /failed-to-build-gem-native-extension-osx-mavericks/
 exclude_from_feed: true
-dsq_thread_id:
-  - 2703691032
 categories:
   - Development
 tags:
