@@ -8,7 +8,7 @@ permalink: /my-ai-appetites/
 
 I’d say my overall attitude to using AI for software engineering is still in the “cautious” phase (it gives me the ick when people say _bullish_ and _bearish_), but more and more I am integrating it into my day-to-day work and responsibilities at Discourse. 
 
-In this article, I will go into some things that I am finding AI tooling useful for, and some areas where I wish it would improve, or that I am still finding my feet on. I will also cover how the prevalence of AI affects me as a tech lead and how it impacts our workflows on a product development team. So we are on the same page, I spent most of my time writing Ruby, Rails, JavaScript, Ember, and SQL code.
+In this article, I will go into some things that I am finding AI tooling useful for, and some areas where I wish it would improve, or that I am still finding my feet on. I will also cover how the prevalence of AI affects me as a tech lead and how it impacts our workflows on a product development team. So we are on the same page, I spend most of my time writing Ruby, Rails, JavaScript, Ember, and SQL code.
 
 <!--more-->
 
