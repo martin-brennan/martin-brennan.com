@@ -35,7 +35,7 @@ a {
 
   &:visited {
     color: hsl(from var(--brand-color) h s calc(l - 20));
-    border-color: #fff;
+    border-color: hsl(from var(--brand-color) h s calc(l - 20));
   }
 
   &.no-underline {
@@ -269,6 +269,7 @@ a {
     align-items: center;
     white-space: nowrap;
     gap: 0.35em;
+    line-height: 1.2rem;
 
     &:not(:last-child)::after {
       content: "|";
@@ -277,7 +278,7 @@ a {
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (width <= 600px) {
     font-size: 0.85em;
     gap: 0.25em 0;
 
@@ -299,6 +300,7 @@ a {
     .nav-item {
       a {
         font-size: 1rem;
+        line-height: 1.2rem;
       }
 
       &:not(:last-child)::after {
